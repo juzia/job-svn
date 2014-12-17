@@ -4,7 +4,7 @@ span, a , div{ color: #000;  }
 ul,li{ list-style: none;}
 a{ text-decoration: none;}
 em,i{ font-style: normal;}
-h2 { font-size: 20px; font-weight: bold; color: #333; font-family: 'microsoft yahei'}
+.main-c2 h2 { font-size: 20px; font-weight: bold; color: #333; font-family: 'microsoft yahei'}
 h3{font-size: 14px; color: #3c3c3c}
 img{ border:0;}
 html{ background: #fff;}
@@ -19,6 +19,8 @@ html{ background: #fff;}
 .icon-tit{ float: left; background-position: 0  -56px ; width: 8px; height: 8px;  margin: 8px 5px 0 0}
 .icon-list{ float: left; width: 7px; height: 7px; margin: 15px 5px 0 0; background-position: 0 -72px;}
 .icon-dott{ float: left; width: 4px; height: 4px; background-position: -40px 0; margin: 8px 4px 0 0}
+.icon-dott2{  display: inline-block; *display: inline; *zoom:1; width: 8px; height: 8px; background-position:0 -168px; overflow: hidden;  }
+.icon-local{ float: left;}
 .con-in{ width: 1000px; margin: 0 auto; overflow: hidden; *zoom:1;}
 .mt20{ margin-top: 20px;}
 
@@ -100,8 +102,6 @@ html{ background: #fff;}
 .focus-num .current{ background-color:#a793e5}
 
 
-
-
 /*轮播*/
 
 /*lazeo 微整形中心*/
@@ -121,7 +121,7 @@ html{ background: #fff;}
 .pro-box .img{ border: 1px solid #f4f1f0; padding:9px; width: 320px; height: 140px; position: relative; border-radius: 10px;}
 .pro-box .img .type{ position: absolute; left: 7px; bottom: 22px; padding: 7px 20px; background: #d1af53; color: #fff;}
 .main-c2 .hd, .env-box .hd{ height: 42px; line-height: 42px; border-bottom: 1px solid #f4f1f0;}
-h2{ border-bottom: 1px solid #000; height: 42px; float: left;}
+.main-c2 h2{ border-bottom: 1px solid #000; height: 42px; float: left;}
 .main-c2 .bd{ padding: 20px 0}
 
 .pro-list{ padding: 10px;}
@@ -193,9 +193,9 @@ h2{ border-bottom: 1px solid #000; height: 42px; float: left;}
 .btn-yuyue{display: block; width: 120px; float: left; height: 40px;   background: url(../img/yuyue.jpg) no-repeat;}
 
 /*about us*/
-.crumbs{ background: #fdfdff;padding: 14px 0; border-top: 1px solid #e1e1ee}
-.crumbs-in{width: 1000px; color: #313241; font-size: 12px; margin: 0 auto; }
-.crumbs a, .crumbs span{color: #313241; font-size: 12px; }
+.crumbs{ padding: 14px 0; border-bottom: 1px solid #f2f2f6}
+.crumbs-in{width: 1000px; color: #737488; font-size: 12px; margin: 0 auto; }
+.crumbs a, .crumbs span{color: #737488; font-size: 12px; }
 .banner-box{ width: 100%; height: 300px; background: url(../img/page2-banner.jpg) no-repeat;}
 .banner img{width: 100%;}
 
@@ -208,7 +208,32 @@ h2{ border-bottom: 1px solid #000; height: 42px; float: left;}
 .describe{ width: 1000px; padding: 40px 0; font-size: 14px; margin: 0 auto;}
 .describe p{ font-size: 14px; margin-bottom:30px ; color: #313241 ; text-indent: 20px; line-height: 24px;}
 
+.about-box{ background: #fefeff; padding: 20px;}
+.menu-left { width: 250px; background: #fff;}
+.detail-box{width: 620px; background: #fff; padding: 0 25px;}
+.detail-box h2{ font-size: 25px; font-family: 'microsoft yahei'; color: #333; text-align: center; line-height: 75px;}
+.detail-box .hd{ text-align: center; border-bottom: 1px solid #f2f2f6; padding: 20px 0}
+.detail-box .hd span{color: #737488; padding: 0 25px;}
+.detail-box .bd { /*padding: 25px 0;*/}
+.detail-box .bd img{width: 100%; }
+.detail-box .bd p{ font-size: 14px; line-height: 24px; color: #737488; margin: 25px 0; }
 
+.project-list .item1{background: url(../img/page2-line.jpg) bottom left no-repeat;}
+.project-list .level1 { padding-left:13px; height: 40px ; line-height: 40px; display: block; }
+.project-list .level1 span{color: #737488; font-size: 16px; font-family: 'microsoft yahei'; padding-left: 10px;}
+.project-list .current, .project-list .level1:hover{ background: url(../img/page2-hd.jpg) no-repeat; }
+.project-list .current span, .project-list .level1:hover span{color: #ffffff;}
+.project-list .current .icon-dott2, .project-list .level1:hover .icon-dott2{ background-position:0 -184px; }
+.sub-list{padding-left: 30px; display: none;}
+.sub-list li{ height: 26px; line-height: 26px;}
+.sub-list a{display:block;height: 26px; border-bottom: 1px solid #fff; }
+.sub-list a:hover{ color: #4c367b; font-weight: bold; border-color: #e2dfea}
+
+.menu-left .bd{ padding: 0 23px 0 7px;}
+
+.yuyue-box{ background: url(../img/page2-bg.jpg) no-repeat; padding: 25px 0;}
+.yuyue-box .phone2{ display: inline-block; *display: inline; *zoom:1; font-family: 'microsoft yahei';  padding: 5px 10px; background: #6c488b; color: #fff; border-radius: 10px;}
+.ad-box1 img{ width: 212px; height: 212px; border: 3px solid #000}
 /*news final*/
 .news-box{ width: 1000px; margin: 20px auto}
 
