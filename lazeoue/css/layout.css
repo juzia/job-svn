@@ -1,0 +1,219 @@
+/*common reset*/
+span, a , div{ color: #000;  }
+*{padding: 0; margin: 0; font-family: '宋体' ;font-size: 12px;}
+ul,li{ list-style: none;}
+a{ text-decoration: none;}
+em,i{ font-style: normal;}
+h2 { font-size: 20px; font-weight: bold; color: #333; font-family: 'microsoft yahei'}
+h3{font-size: 14px; color: #3c3c3c}
+img{ border:0;}
+html{ background: #fff;}
+.c4{ color: #999}
+.oz{ overflow: hidden; *zoom:1;}
+.fr{float: right;}
+.fl{ float: left;}
+.icon{ background: url(../img/icon.png) no-repeat; display: inline-block; *display: inline; *zoom:1;}
+.icon-slash{position: absolute; right: 0; width: 10px; top: 0; height: 23px; background-position:0 -24px; }
+.icon-phone{ width: 36px; height: 25px; float: left; margin: 3px 10px 0 0; background-position: 0 -112px;}
+.icon-search{ width:17px; height: 17px;  }
+.icon-tit{ float: left; background-position: 0  -56px ; width: 8px; height: 8px;  margin: 8px 5px 0 0}
+.icon-list{ float: left; width: 7px; height: 7px; margin: 15px 5px 0 0; background-position: 0 -72px;}
+.icon-dott{ float: left; width: 4px; height: 4px; background-position: -40px 0; margin: 8px 4px 0 0}
+.con-in{ width: 1000px; margin: 0 auto; overflow: hidden; *zoom:1;}
+.mt20{ margin-top: 20px;}
+
+
+
+.header{ width: 1000px; margin: 0 auto; overflow: hidden; position: relative; height: 103px; background: url(../img/top1.jpg) left top no-repeat; }
+.logo{float: left; margin-top: 15px;}
+.navigation{ height: 60px; background: url(../img/navbg.jpg) center top no-repeat;  line-height: 60px}
+.menu-list li{ float: left; padding: 0 20px; position: relative;}
+.menu-list a{ font-size: 18px; color: #fff; font-family: 'microsoft yahei'}
+.menu-list .gep{ color: #917bc1; position: absolute; right: 0; top: 0px; height: 20px; font-size: 20px;}
+.menu-list a:hover, .menu-list .current,.page-aboutus .menu5 a ,.page-index .menu1 a{color: #592c7f; font-weight: bold;} 
+.work-time{ display: inline-block; padding: 0 10px; color: #4c367b; font-size: 16px; height: 27px; line-height: 27px; background: #f4f4f4; margin-top: 10px; border-radius: 8px;}
+.info-box{ margin-top: 20px; width: 276px}
+.serve-info{ text-align: right;}
+.serve-info p{color: #737488; font-size: 14px;}
+.phonenum{color: #737488;  font-size: 30px; font-weight: bold; float: left; width: 224px; height: 30px; background: url(../img/phone1.jpg) no-repeat;  font-family: 'Times New Roman';}
+
+.search-box{ width: 244px; margin: 12px 0 0 0; height: 30px; border:1px solid #7c7fbf; background: #fff; position: relative; }
+.keyword-input{ border: 0;height: 30px; width:195px; padding: 0 5px; line-height: 30px; font-size: 14px; color: #5a5c7b; float: left; }
+.btn-search{ width: 30px; height: 30px; border: 0; background: #fff; cursor: pointer; position: absolute; right: 0; top: 0}
+
+
+/*brocast*/
+.broadcast-box{ position: relative; padding:4px 0 0 20px; width: 1000px; overflow: hidden;}
+.broadcast-box .icon-broadcast{ position: absolute; left:0; top:13px;  background-position: -24px 0; width: 10px; height: 10px;}
+.broadcast-in{ width: 1000em; overflow: hidden;}
+.broadcast-con{ float: left; color:#333; height: 39px; line-height: 39px; margin-right:30px; position: relative; }
+.broadcast-con a{ color:#737488;  padding-left: 13px; font-family: '宋体'}
+.broadcast-con a:hover{ color:#4f6db3; text-decoration: underline; }
+
+
+/*big eye*/
+.carousel-box{ width: 100%; height: 500px;  z-index: -1}
+.carousel { width:100%; max-width: 1920px; height: auto; max-height: 500px; position:relative; }
+.carousel .scroll-a {position:absolute; top:35%; z-index: 8;  overflow:hidden; width:40px; height:80px; background:url(../img/icon.png) no-repeat; cursor:pointer }
+.carousel .bt-prev { left:14px; background-position:-40px -24px }
+.carousel .bt-next { right:14px; background-position:0  -24px }
+.carousel .banner-list { width:100%;  height: auto; height: 500px}
+.carousel .banner-list li { float:left; width: 100%;   height: 100%} 
+
+
+/*bigeye end*/
+
+.c1{ color: #4c367b}
+.c2{ color: #737488}
+.c3{ color: #f4f1f0}
+
+/*menu*/
+.beauty-menu{ height: 121px; background: url(../img/menu-bg.jpg) center top no-repeat; border-bottom: 1px solid #dfe0f3}
+.beauty-menu dl{ float: left; width: 235px; padding: 5px 0 0 15px;}
+.beauty-menu  dl dt{ font-size: 18px; font-weight: bold;  text-align: center; line-height: 38px; }
+.beauty-menu  dl dd {float: left;  width: 33.3%; text-align:left; line-height: 22px;}
+.beauty-menu  dl dd a{ color: #737488; font-family: '宋体'}
+/*end*/
+
+
+/*main */
+
+.main{ width: 730px;}
+.sider{width: 250px;}
+
+/*轮播*/
+.focus-w{ overflow:hidden; zoom:1; width:240px; height:270px; border-radius: 10px; position: relative;}
+.focus-con{position: relative;}
+.focus-con,.focus-item,.focus-item .img{ width: 240px; height: 270px;}
+.focus-item img{ width:100%; height:100%}
+.focus-item .txt{ overflow:hidden; white-space:nowrap}
+.focus-item .txt:hover .tit{ text-decoration: none;}
+
+.focus-item  span{text-align: center; position: absolute; padding:4px 2%; left: 0; bottom: 0; width: 96%; height: 42px; background-color:#000; bottom: 0; opacity: 0.7; cursor: pointer;  filter:alpha(opacity:70); color:#fff}
+.focus-item .tit{     font:normal 14px/32px "宋体"; }
+.focus-item .s-tit{  font-size: 12px;}
+.focus-item a:hover .tit{ text-decoration:underline}
+.focus-item .bg{ display:block; position:absolute; z-index:-1; top:0; left:0; width:1000px; height:1000px; background:#1f0806; filter:alpha(opacity:70); opacity:.7}
+.focus-num{ position: absolute; bottom: 8px; left: 0; width: 100%;   overflow:hidden;  height:14px; text-align: center;}
+.focus-num a{ display:inline-block;  *display: inline; *zoom:1;  margin-right: 2px; width:30px; height:4px;  background-color: #fff }
+.focus-num a:hover{ text-decoration:none}
+.focus-num .current{ background-color:#a793e5}
+
+
+
+
+/*轮播*/
+
+/*lazeo 微整形中心*/
+.main-c1-c2 { width: 470px; }
+.main-c1-c2 .hd{height: 72px; background: url(../img/h1.jpg) no-repeat;}
+.main-c1-c2 .bd{ margin-top: 10px;}
+.main-c1-c2 .img{ width:140px; height: 140px; background: url(../img/imgb1.jpg) no-repeat;  padding:15px 7px }
+.main-c1-c2 .img img{width:140px; height: 140px; border-radius: 50%;}
+
+.main-c1-c2 .text, .main-c1-c2 .text a{ color: #737488; font-size: 12px; line-height: 22px; padding:0 0 0 10px;}
+/*lazeo 微整形中心*/
+
+
+/*prolist*/
+.pro-box{ float: left; width: 49.9%; margin-top: 10px}
+.pro-box .img img{width: 320px; height: 140px;}
+.pro-box .img{ border: 1px solid #f4f1f0; padding:9px; width: 320px; height: 140px; position: relative; border-radius: 10px;}
+.pro-box .img .type{ position: absolute; left: 7px; bottom: 22px; padding: 7px 20px; background: #d1af53; color: #fff;}
+.main-c2 .hd, .env-box .hd{ height: 42px; line-height: 42px; border-bottom: 1px solid #f4f1f0;}
+h2{ border-bottom: 1px solid #000; height: 42px; float: left;}
+.main-c2 .bd{ padding: 20px 0}
+
+.pro-list{ padding: 10px;}
+.pro-list li{ line-height: 24px;}
+.pro-list a{ color: #737488; font-size: 14px; }
+
+
+
+.pic-list { margin-left: -20px; padding: 20px 0; }
+.pic-list li{ float: left;  margin-left: 20px; }
+.pic-list img{ width: 230px; height: 129px;}
+
+
+/**/
+
+.beauty-box{ width: 1000px; margin: 50px auto;}
+.beauty-left{ width: 550px;}
+.beauty-right{ width: 360px;}
+.beauty-right .hd{ border-bottom: 1px solid #dfdfee; height: 40px; line-height: 40px;}
+.beauty-right .bd{ padding: 10px; height: 200px; }
+
+.news-list a{color: #737488; font-size: 14px; }
+.news-list li{ line-height: 24px;}
+
+.pic-list2 .con{ padding-left: 27px;}
+.pic-list2 li{ border-bottom: 1px solid #e7e7f3; overflow: hidden; *zoom:1; padding: 10px 57px 10px 13px;}
+
+
+
+/*sider*/
+.sider-c2 .hd{ height: 49px; background: url(../img/hd2.jpg) no-repeat; }
+.hot-tb{ width: 100%; background: #dbd4e1}
+.hot-tb td{ text-align: center; height: 49px; background: #ebe9ec}
+.hot-tb td a{ color: #6c488b; font-size: 14px; display: inline-block; *display: inline; *zoom:1; width: 100%; height: 49px; line-height: 49px; font-weight: bold;}
+.hot-tb td a:hover{ background: #f3f3f3}
+/*footer */
+.footer{ width: 100%; background: url(../img/bg1.jpg) bottom left repeat-x; margin-top: 30px; }
+.footer-in{ width: 1000px; margin: 0 auto; padding: 10px 0 0;  border-top: 1px solid #f0eff1}
+.copyright{ text-align: center;}
+.copyright p{ line-height: 26px;}
+.copyright a{ color: #313241;}
+
+.footer .logo2{ margin: 0 ;}
+.contact-b { position: relative; height: 50px; padding-top: 15px; padding-bottom: 2px;}
+.phone-b { width: 450px; margin-left: 30px; background: url(../img/phone-b.jpg) no-repeat; height:  41px;}
+.phone-b .txt{ width: 175px;}
+.phone-b .txt span{ display: block;}
+.phone-b .phone2 {color: #663370; font-size: 40px; font-family: 'impact' }
+.consult{ width: 220px; height: 100px; position: absolute; background: url(../img/consult.jpg) no-repeat; right: 0; bottom: 3px}
+
+
+
+.float{ position: fixed; z-index: 10}
+.float-ewm{right: 0;bottom: 64px; padding: 10px 0; text-align: center; width: 250px; height: 261px; background: url(../img/float1.jpg) no-repeat;}
+.float-ewm .p1{ color: #fff883;}
+.float-ewm p{color: #fff; line-height: 24px; font-size: 14px}
+.float-ewm .p2{ margin-top: 46px; color: #dfb54d; font-size: 30px; font-weight: bold; font-family: 'Times New Roman'}
+
+/*share*/
+
+.bdshare-slide-button-box{ z-index: 99}
+/*double ad*/
+.yuyue-double{position: absolute; left: 0; top:759px; width: 100%; }
+.yuyue-double .left-ad{position: absolute; left: 50%; margin-left: -640px; top: 0; }
+.yuyue-double .right-ad{position: absolute; left: 50%; margin-left: 520px; top: 0; }
+
+.ad-box{ width: 120px; height: 340px;}
+.ad-box img{ float: left;}
+.btn-yuyue{display: block; width: 120px; float: left; height: 40px;   background: url(../img/yuyue.jpg) no-repeat;}
+
+/*about us*/
+.crumbs{ background: #fdfdff;padding: 14px 0; border-top: 1px solid #e1e1ee}
+.crumbs-in{width: 1000px; color: #313241; font-size: 12px; margin: 0 auto; }
+.crumbs a, .crumbs span{color: #313241; font-size: 12px; }
+.banner-box{ width: 100%; height: 300px; background: url(../img/page2-banner.jpg) no-repeat;}
+.banner img{width: 100%;}
+
+.content{ width: 100%; background: url(../img/page2-bg3.jpg) center top no-repeat; height: 1000px;}
+.banner-box span{ display: block;font-family: 'microsoft yahei'}
+.banner-box .banner-about{ padding: 70px 20px;}
+.banner-box .s1{ font-size: 40px; color: #1b5364;  }
+.banner-box .s2{font-size: 16px; color: #7e9ca5; }
+.banner-box .s3{ font-size: 45px; color: #e2eaed; padding-left: 50px; }
+.describe{ width: 1000px; padding: 40px 0; font-size: 14px; margin: 0 auto;}
+.describe p{ font-size: 14px; margin-bottom:30px ; color: #313241 ; text-indent: 20px; line-height: 24px;}
+
+
+/*news final*/
+.news-box{ width: 1000px; margin: 20px auto}
+
+.sider-list li{ line-height: 39px; height: 39px; border-top: 1px solid #e1e1ee}
+.sider-list a{ font-size:14px; font-weight: bold; color: #313241; display: block; padding-left: 10px;}
+.sider-list a:hover{ background: #592c7f; color: #fff;}
+
+
