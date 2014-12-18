@@ -1,5 +1,5 @@
 ﻿/*CSS Reset*/
-body { background: #000; word-break: break-all; word-wrap: break-word; font: normal 14px/1.8 "Microsoft YaHei", \5b8b\4f53, "Simsun", "Arial", "tahoma"; color: #fff; }
+body { background: #000; min-width: 1490px; word-break: break-all; word-wrap: break-word; font: normal 14px/1.8 "Microsoft YaHei", \5b8b\4f53, "Simsun", "Arial", "tahoma"; color: #fff; }
 textarea { resize: none; }
 a { color: #333; text-decoration: none; }
 a:hover { text-decoration: underline }
@@ -11,10 +11,14 @@ a:hover { text-decoration: underline }
 .wrapper-in{width: 1490px ; margin: 0 auto;}
 .header{ width: 265px; margin: 0 auto;}
 
-.logo-box{ height: 178px;}
+.logo-box{ height: 178px; position: relative;}
+.t-hide{ text-indent: -9999px;}
+.logo{ position: absolute; }
+.act-logo{ top: 43px; width: 130px; height: 78px;  right: 0}
+.game-logo{ top: 15px; left: 0; width: 93px; height: 108px;}
 
-
-.register-box{ height: 360px;}
+.register-box{ height: 360px;  position: relative;}
+.register-box .bul-txt{position: absolute;  right: 10px; top: 0; width: 54px; color: #fff }
 .btn-box{ padding: 0 29px;}
 .btn-box a{ display: inline-block; width: 153px; height: 41px; *display: inline; *zoom:1; }
 .btn-box p{ line-height: 26px;}
@@ -23,11 +27,13 @@ a:hover { text-decoration: underline }
 .btn-prize{ background-position: -160px -144px;}
 .btn-download{ background-position:0 -48px; }
 .btn-zan{ background-position:0  -96px; margin-left: 50px; }
+.btn-zan2{width: 222px; height: 67px; display: block; background-position: -216px -202px; margin: 50px 0  0 300px;}
+
 .icon-fl{width: 46px; height: 43px; background-position:-152px -208px;font-style: normal;  padding: 2px 6px; position: absolute; left: -5px; top: 0; font-size: 16px; line-height: 18px;}
 .icon-bg{ float: left; width: 18px; margin: 3px 2px 0 0; height: 19px; background-position: -400px 0; color: #fff; text-align: center; line-height:19px;  font-style: normal;}
 .btn-list em{ font-size: 50px; margin-right: 7px; font-family: 'Haettenschweiler', 'Microsoft YaHei'; color: #fff; float: left; margin-top: 4px; }
-.btn-list li{ padding: 10px 0;  position: relative;}
-
+.btn-list li{ padding: 15px 0;  position: relative;}
+.icon-bubble{position: absolute; width: 117px; height: 46px; background-position: -272px 0; left: 40px; top: -46px; line-height:  36px; text-align: center;  color: #fff;}
 
 .container{ width: 1088px; float: left;}
 .nav-box { text-align: right; padding-right: 128px}
@@ -67,7 +73,7 @@ a:hover { text-decoration: underline }
 .game .move { background: url(../img/fly.png) no-repeat; width: 108px; height: 91px; position: absolute; left: 7px; top: 8px; display: block; z-index: 1 }
 .box-num { width: 297px; height: 154px; position: absolute; cursor: pointer; left: 176px; top: 135px; }
 .box-num span { display: block; }
-.box-num .touzi {  width: 100px; height: 160px; position: absolute; left: 8px; top: 15px; background: url(../img/touzi.gif) no-repeat 0 0; cursor: pointer; }
+.box-num .touzi {  width: 100px; height: 160px; position: absolute; left: 8px; top: 15px; /*background: url(../img/touzi.gif) no-repeat 0 0; */cursor: pointer; }
 .box-num .rolling { background: url(../img/touzi.gif) no-repeat -100px 0; }
 .box-num .touzi-1 { background: url(../img/1.png) no-repeat 25px 102px; }
 .box-num .touzi-2 { background: url(../img/2.png) no-repeat 25px 102px; }
@@ -77,7 +83,7 @@ a:hover { text-decoration: underline }
 .box-num .touzi-6 { background: url(../img/6.png) no-repeat 25px 102px; }
 
 
-.hd2{ background: url(../img/btn.png) 0 -318px  no-repeat; height: 40px;}
+.hd2{ background: url(../img/btn.png) 0 -318px  no-repeat; height: 40px; margin-left: 93px;}
 
 
 .act-rule{ background: url(../img/bg1.jpg) no-repeat; width: 616px; height: 266px; margin: 60px 0 0 60px; padding: 25px 15px; }
@@ -91,7 +97,7 @@ a:hover { text-decoration: underline }
 h3{ font-size: 24px; color: #fff; border-left: 4px solid #ff000b; height: 24px; line-height: 24px; padding-left: 5px; }
 
 .btn-zan1{ width: 279px; height: 100px; display: block; margin:30px 0 0  250px;  background-position: 0 -368px; }
-.pn-scroll{ *zoom:1; position:relative; margin:0 auto; width: 651px; height: 348px; border: 4px solid #e14a1e; border-radius: 2px;}
+.pn-scroll{ *zoom:1; position:relative; margin-left: 80px; width: 651px; height: 348px; border: 4px solid #e14a1e; border-radius: 2px;}
 .pn-scroll .scroll-box{ position:relative; overflow:hidden; width: 651px; height: 348px;}
 .pn-scroll .scroll-con{white-space:nowrap; font-size:0; vertical-align:top; position: relative; overflow:visible; width: 651px; height: 348px;}
 .pn-scroll .scroll-item{display:inline-block; float:none; *display:inline; *zoom:1; width:100%; vertical-align:top; position:relative;}
