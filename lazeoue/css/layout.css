@@ -259,8 +259,11 @@ html{ background: #fff;}
 /*news final*/
 
 .news-table{ border-top:3px solid #6c488b; width: 100%}
-.news-table thead tr th{ border-bottom: 1px solid #6c488b; height: 35px; line-height: 35px;}
+.news-table .icon-dott{ margin: 6px 4px 0 0}
+.news-table thead tr th{ border-bottom: 1px solid #6c488b; height: 35px; line-height: 35px; color: #737488; font-size: 12px; text-align:  left; font-weight: normal;}
 .news-table  tr td{ height: 43px; border-bottom: 1px solid #eef2f4; font-size: 14px ; color: #737488}
 .news-table  a{font-size: 14px ; color: #737488}
-.news-table .date, .news-table .hits{ text-align: center;}
-
+.news-table .date, .news-table .hits{ }
+.btn-box { text-align: center; margin: 40px 0}
+.btn-box a{ display: inline-block; *display: inline; *zoom:1; margin: 0 18px; font-size: 14px; padding: 5px 25px; border:2px solid #6c488b; border-radius: 14px; color: #737488 }
+.btn-box a i{ color: #6c488b; font-weight: bold; padding: 0 5px ;   }
