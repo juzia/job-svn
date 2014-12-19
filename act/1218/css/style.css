@@ -42,15 +42,11 @@ a:hover { text-decoration: underline }
 
 
 .focus-w{ margin-top: 280px;}
+.focus-w{ overflow:hidden; zoom:1; width:1088px; height:670px}
+.focus-con{/*position: relative;*/width: 900px; height: 545px;}
+.focus-item{ width: 900px; height: 545px; overflow: hidden; position: relative; }
+/*.focus-item img{ width:100%; height:100%}*/
 
-.focus-w,.focus-in{ overflow:hidden; zoom:1; width:1088px; height:670px}
-.focus-con{position: relative;width: 900px; height: 545px;}
-.focus-item{ width: 900px; height: 545px; overflow: hidden;}
-.focus-item img{ width:100%; height:100%}
-.focus-item .txt{ overflow:hidden; white-space:nowrap}
-.focus-item .txt:hover .tit{ text-decoration: none;}
-
-.focus-item .bg{ display:block; position:absolute; z-index:-1; top:0; left:0; width:1000px; height:1000px; background:#1f0806; filter:alpha(opacity:70); opacity:.7}
 .focus-num{ overflow:hidden;  height:124px; margin-top:40px; }
 .focus-num a{  display: inline-block; *display: inline; text-align: center; *zoom:1; width: 252px; position: relative; }
 .focus-num a .txt{ display: block; color: #fff; font-size: 16px;}
@@ -99,35 +95,37 @@ h3{ font-size: 24px; color: #fff; border-left: 4px solid #ff000b; height: 24px; 
 .btn-zan1{ width: 279px; height: 100px; display: block; margin:30px 0 0  250px;  background-position: 0 -368px; }
 .pn-scroll{ *zoom:1; position:relative; margin-left: 80px; width: 651px; height: 348px; border: 4px solid #e14a1e; border-radius: 2px;}
 .pn-scroll .scroll-box{ position:relative; overflow:hidden; width: 651px; height: 348px;}
-.pn-scroll .scroll-con{white-space:nowrap; font-size:0; vertical-align:top; position: relative; overflow:visible; width: 651px; height: 348px;}
-.pn-scroll .scroll-item{display:inline-block; float:none; *display:inline; *zoom:1; width:100%; vertical-align:top; position:relative;}
+.pn-scroll .scroll-con{white-space:nowrap; font-size:0; vertical-align:top; position: relative;  overflow:visible; width: 651px; height: 348px;}
+.pn-scroll .scroll-item{display:inline-block; float:none; *display:inline; *zoom:1; width: 651px; height: 348px; vertical-align:top; position:relative;}
 .pn-scroll .scroll-btn{ width: 50px; height: 45px; top: 138px;  left: 0; color: #000; background: url(../img/btn.png ) -368px -72px no-repeat;   position: absolute; z-index:8; overflow:hidden;}
 .pn-scroll .scroll-box{  margin: 0 auto;}
 .pn-scroll .scroll-box img{ width: 651px; height: 348px}
-.pn-scroll .scroll-bt-next{right: 0; left: auto; background-position: -424px -72px;}
+.pn-scroll .scroll-bt-next{ right: 0; left: auto; background-position: -424px -72px;}
 .pn-scroll .scroll-btn:hover{ color: #ff5e5e}
 
 
-.rule { width: 621px; }
-.rule h4 { height: 90px; }
-.rule .con { padding: 0 32px 0 65px; }
-.rule p { margin-bottom: 15px; font: 16px/18px "Microsoft YaHei"; color: #000; }
-.list { width: 359px; }
-.list h4 { height: 71px; }
-.screenshot { width: 479px; padding: 0 0 0 14px; }
-.screenshot h4 { height: 80px; }
-.ss-list { position: relative; width: 463px; height: 270px; overflow: hidden; }
-.ss-handle { position: absolute; bottom: 5px; left: 0; width: 463px; line-height: 20px; text-align: center; }
-.ss-handle a { display: block; background: url(../img/ico-handle.png) no-repeat -20px 0; width: 20px; height: 20px; display: inline-block; outline: none; }
-.ss-handle a.on { background-position: 0 0; }
-.video { width: 486px; }
-.video h4 { height: 79px; }
-.video-handle { width: 115px; }
-.video-handle li { float: left; width: 115px; height: 89px; border-bottom: 2px solid #fff; background: #ffd77d; cursor: pointer; text-align: center; font-size: 16px; color: #000; }
-.video-handle li b { display: block; margin: 11px 0 0; font-weight: normal; font-size: 22px; }
-.video-handle li.on { float: left; width: 115px; height: 89px; background: #fd5300; color: #fff; }
-.video-handle li.last { border: none; }
-.video-list { }
+.carousel{position:relative ; margin-left: 80px; width: 651px; border: 4px solid #e14a1e; border-radius: 2px; }
+.carousel .scroll-a{width: 50px; height: 45px; top: 138px;  left: 0; color: #000; background: url(../img/btn.png ) -368px -72px no-repeat;   position: absolute; z-index:8; overflow:hidden}
+.carousel .bt-next{right: 0; left: auto; background-position: -424px -72px;}
+/*.carousel .bt-next:hover{background-position:-312px -168px}
+*/
+.pic-list1{ width: 651px; height: 348px;}
+.pic-list1 li{ float: left;width: 651px; height: 348px;}
+.pic-list1 a{position:relative;width:1000px;height:500px; float: left;}
+.pic-list1 img{width: 651px; height: 348px;}
+
+/*.pn-scroll{ *zoom:1; position:relative; margin:0 auto; width: 46.9%;}
+.pn-scroll .scroll-box{ position:relative; overflow:hidden;}
+.pn-scroll .scroll-con{white-space:nowrap; font-size:0; vertical-align:top; position: relative; overflow:visible;}
+.pn-scroll .scroll-item{display:inline-block; float:none; *display:inline; *zoom:1; width:100%; vertical-align:top; position:relative;}
+.pn-scroll .scroll-btn{top: 74px;  left: 0; font-size: 100px; color: #000;  font-family: 'import';  position: absolute; z-index:8; overflow:hidden;}
+.pn-scroll .scroll-box{ width: 230px; height: 310px; margin: 0 auto;}
+.pn-scroll .scroll-bt-next{right: 0; left: auto;}
+.pn-scroll .scroll-btn:hover{ color: #ff5e5e}
+
+.pn-scroll  { background: url(../img/bg4.jpg) bottom center no-repeat; padding-bottom: 37px;}*/
+
+
 /*footer*/
 .footer { padding: 60px 0; background: url(../img/bg-footer.jpg) no-repeat center 0; }
 .footer a { display: inline-block; margin: 0 3px; }
@@ -136,3 +134,26 @@ h3{ font-size: 24px; color: #fff; border-left: 4px solid #ff000b; height: 24px; 
 .vd-ct { display: none; position: absolute; z-index: 9999; width: 800px; height: 540px; border: 2px solid #000; background: #000000; }
 .vd-ct .btn-closepop { position: absolute; top: 0; right: 0; height: 39px; width: 41px; background: url(../img/btn-closepop.jpg) no-repeat; cursor: pointer; }
 .vd-ct .vd-con { margin: 40px 0 0; }
+
+
+
+.pic-screen{ /*border:1px solid #c4daf0; */clear:both}
+.pic-screen .hd{ background:url(http://ue2.yeyou.itc.cn/images/www/2012/tpyl-con-bg.png) 0 -240px repeat-x; height:37px; border-bottom:1px solid #d9e9f9; line-height:37px;}
+.pic-screen .bd{/* height:156px;*/ overflow:hidden; padding:0 10px;}
+
+a.browse {width: 50px; height: 45px; top: 138px;  left: 0; color: #000; background: url(../img/btn.png ) -368px -72px no-repeat;   position: absolute; z-index:8; overflow:hidden;}
+a.right {right: 0; left: auto; background-position: -424px -72px;}
+a.left { }
+.scrollable { float: left; position:relative;overflow:hidden;width: 651px; height: 348px;   }
+.scrollable .items {width: 20000em;position: absolute;clear: both;}
+.items div { float:left;width: 651px;}
+/* single scrollable item */
+.scrollable .pic{ width: 651px; height: 348px; display:block; float:left;  overflow:hidden;  }
+.scrollable .pic img {width: 651px; height: 348px}
+/* active item */
+.scrollable .active {border:2px solid #000; position:relative;cursor:default;
+}
+
+.scrollable .pic .title{ display:block; font-size:14px; color:#333333; cursor:pointer; width:98%; text-align:center; margin-top:5px;}
+.scrollable .pic:hover { text-decoration:none; color:#000}
+.scrollable .pic:hover img{ border: 1px solid #000;}
