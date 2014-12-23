@@ -1,4 +1,7 @@
 $(document).ready(function(){
+
+	if($('.carousel').length > 0) {
+
 	$(".carousel-box").jCarouselLite({
 	btnNext: ".bt-next",//下一个按钮的选择器
 	btnPrev: ".bt-prev",//上一个按钮的选择器
@@ -10,8 +13,11 @@ $(document).ready(function(){
 	start: 0, //第几个开始
 	scroll: 1 //设置滚动的个数
 	});
-	});
 
+		
+	}
+
+	});
 
 
 
@@ -58,3 +64,20 @@ $(function() {
 	});
 
 })
+
+
+function focusHeight(){
+	var fh = $('.carousel-box').width()*500/1920;
+	console.log(fh)
+	$('ul.banner-list').height(fh);
+	$('.carousel .banner-list li').height(fh);
+	$('.carousel-box').height(fh)
+}
+if($('.carousel-box').length) {
+
+	focusHeight();
+	$(window).resize(function(){
+		focusHeight();
+	});
+}
+

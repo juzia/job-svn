@@ -10,7 +10,7 @@
 <body>
 <div class="wrap">
 	<div class="header oz">
-		<h1 class="logo"><a href="#" > <img src="img/logo1.jpg" alt="" /></a> </h1>
+		<h1 class="logo"><a href="#" > <img src="img/logo.png" alt="" /></a> </h1>
 		<div class="navigation">
 			<ul class="menu-list">
 				<li class="menu1"><a href="/" >首页</a>
@@ -31,7 +31,13 @@
 			</ul>
 		</div>
 		<div class="share-box fr">
-			
+			<ul class="share-list">
+				<li><a href="http://v.t.sina.com.cn/share/share.php?title=你好 hello world" target="_blank"><i class="icon icon-sina"></i></a>
+				</li>
+
+				<li><a href="javascript:void(0)" onclick="postToWb();" class="tmblog"> <i class="icon icon-tx"></i></a> 
+				</li>
+			</ul>	
 		</div>
 	</div>
 	<div class="container oz">
@@ -43,9 +49,8 @@
 					<div class="hd"><h2><span class="c1">联系</span>方式  <span class="en">contact</span></h2>
 					</div>
 					<div class="bd">
-						<p><i class="icon icon-phone"></i></p>
-
-
+						<p><i class="icon icon-phone"></i><em>0591-88173399</em></p>
+						<p><i class="icon icon-location "></i> <span class="oz">福建省福州市五一北路新都会花园广场29顶层</span></p>
 					</div>
 					
 				</div>
@@ -72,11 +77,7 @@
 						福建一品互通文化传媒有限公司成长于竞争时代，2014年扎根福建省会——福州，布局中国桌上广告发展。南方桌面采用专利广告牌产品融合国外“无线服务呼叫系统”先进技术、结合国内特色的管理理念、传播理念，为客户量身定制全方位的桌上传媒广告。
 					</div>
 				</div>
-
 			</div>
-			
-
-			
 		</div>
 
 		<!-- 合作伙伴 -->
@@ -107,6 +108,7 @@
 		</div>
 		<!-- 合作伙伴 end-->
 
+
 		<div class="friendlink-box">
 			<div class="con-in">
 				<div class="hd">
@@ -133,20 +135,37 @@
 
 	<div class="footer">
 		<div class="footer-in">
-
-
 			<div class="copyright fr">
 				<p><a href="#" target="_blank">首页</a> | <a href="#" target="_blank">关于我们</a> | <a href="#" target="_blank">新闻动态</a> | <a href="#" target="_blank">产品介绍</a>| <a href="#" target="_blank">联系我们</a></p>
-
 				<p>福建省福州市五一北路171号新都汇花园广场29层  Copyright © 2013 LAZEO. All Rights Reserved. </p>
-
 			</div>
 			<a href="/" > <img src="img/logo2.jpg" alt="logo"></a>
-
 		</div>
-		
 	</div>
 
 </div>
+
+
+<script type="text/javascript">
+ 
+function postToWb(){
+ 
+var _t = encodeURI(document.title);
+ 
+var _url = encodeURI(document.location);
+ 
+var _appkey = encodeURI("appkey");//你从腾讯获得的appkey
+ 
+var _pic = encodeURI('');//（列如：var _pic='图片url1|图片url2|图片url3....）
+ 
+var _site = '';//你的网站地址
+ 
+var _u = 'http://v.t.qq.com/share/share.php?title='+_t+'&url='+_url+'&appkey='+_appkey+'&site='+_site+'&pic='+_pic;
+ 
+window.open( _u,'转播到腾讯微博', 'width=700, height=680, top=0, left=0, toolbar=no, menubar=no, scrollbars=no, location=yes, resizable=no, status=no' );
+ 
+}
+ 
+</script>
 </body>
 </html>

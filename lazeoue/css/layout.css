@@ -4,7 +4,7 @@ span, a , div{ color: #000;  }
 ul,li{ list-style: none;}
 a{ text-decoration: none;}
 em,i{ font-style: normal;}
-.main-c2 h2 { font-size: 20px; font-weight: bold; color: #333; font-family: 'microsoft yahei'}
+.main-c2 h2, .env-box h2 { font-size: 20px; font-weight: bold; color: #333; font-family: 'microsoft yahei'}
 h3{font-size: 14px; color: #3c3c3c}
 img{ border:0;}
 html{ background: #fff;}
@@ -13,6 +13,7 @@ html{ background: #fff;}
 .fr{float: right;}
 .fl{ float: left;}
 .tl{ text-align: left;}
+
 .icon{ background: url(../img/icon.png) no-repeat; display: inline-block; *display: inline; *zoom:1; overflow: hidden;}
 .icon-slash{position: absolute; right: 0; width: 10px; top: 0; height: 23px; background-position:0 -24px; }
 .icon-phone{ width: 36px; height: 25px; float: left; margin: 3px 10px 0 0; background-position: 0 -112px;}
@@ -26,8 +27,10 @@ html{ background: #fff;}
 .con-in{ width: 1000px; margin: 0 auto; overflow: hidden; *zoom:1;}
 .mt20{ margin-top: 20px;}
 .mt10{margin-top: 10px;}
+.mt40{ margin-top: 40px;}
 
 
+.slogan{ color: #715994; font-size: 22px; font-family: 'microsoft yahei'; float: left; margin: 38px 0 0 132px}
 
 .header{ width: 1000px; margin: 0 auto; overflow: hidden; position: relative; height: 103px; background: url(../img/top1.jpg) left top no-repeat; }
 .logo{float: left; margin-top: 15px;}
@@ -71,7 +74,6 @@ html{ background: #fff;}
 .c1{ color: #4c367b}
 .c2{ color: #737488}
 .c3{ color: #f4f1f0}
-
 /*menu*/
 .beauty-menu{ height: 121px; background: url(../img/menu-bg.jpg) center top no-repeat; border-bottom: 1px solid #dfe0f3}
 .beauty-menu dl{ float: left; width: 235px; padding: 5px 0 0 15px;}
@@ -124,7 +126,7 @@ html{ background: #fff;}
 .pro-box .img{ border: 1px solid #f4f1f0; padding:9px; width: 320px; height: 140px; position: relative; border-radius: 10px;}
 .pro-box .img .type{ position: absolute; left: 7px; bottom: 22px; padding: 7px 20px; background: #d1af53; color: #fff;}
 .main-c2 .hd, .env-box .hd{ height: 42px; line-height: 42px; border-bottom: 1px solid #f4f1f0;}
-.main-c2 h2{ border-bottom: 1px solid #000; height: 42px; float: left;}
+.main-c2 h2, .env-box h2{ border-bottom: 1px solid #000; height: 42px; float: left;}
 .main-c2 .bd{ padding: 20px 0}
 
 .pro-list{ padding: 10px;}
@@ -137,7 +139,43 @@ html{ background: #fff;}
 .pic-list li{ float: left;  margin-left: 20px; }
 .pic-list img{ width: 230px; height: 129px;}
 
+.pic-list1{padding: 10px;}
+.pic-list1 li{ float: left; width: 49.9%; text-align: center; height: 125px; overflow: hidden;}
+.pic-list1 .txt{ font-size: 14px; display: block; text-align: center; line-height: 34px; color: #737488; }
+.pic-list1 .img {display: inline-block; *display: inline; *zoom:1; width: 80px; height: 80px;}
 
+.pic-list1 .item1  .img{ background: url(../img/p1.jpg) no-repeat;}
+.pic-list1 .item1 a:hover .img{ background: url(../img/p1hover.jpg) no-repeat; }
+
+
+.pic-list1 .item2  .img{ background: url(../img/p2.jpg) no-repeat;}
+.pic-list1 .item2 a:hover .img{ background: url(../img/p2hover.jpg) no-repeat; }
+
+
+.pic-list1 .item3  .img{ background: url(../img/p3.jpg) no-repeat;}
+.pic-list1 .item3 a:hover .img{ background: url(../img/p3hover.jpg) no-repeat; }
+
+
+.pic-list1 .item4  .img{ background: url(../img/p4.jpg) no-repeat;}
+.pic-list1 .item4 a:hover .img{ background: url(../img/p4hover.jpg) no-repeat; }
+
+
+.pic-list1 .item5  .img{ background: url(../img/p5.jpg) no-repeat;}
+.pic-list1 .item5 a:hover .img{ background: url(../img/p5hover.jpg) no-repeat; }
+
+.pic-list1 .item6  .img{ background: url(../img/p6.jpg) no-repeat;}
+.pic-list1 .item6 a:hover .img{ background: url(../img/p6hover.jpg) no-repeat; }
+
+.pic-list1 .item7  .img{ background: url(../img/p7.jpg) no-repeat;}
+.pic-list1 .item7 a:hover .img{ background: url(../img/p7hover.jpg) no-repeat; }
+
+.pic-list1 .item8  .img{ background: url(../img/p8.jpg) no-repeat;}
+.pic-list1 .item8 a:hover .img{ background: url(../img/p8hover.jpg) no-repeat; }
+
+.sider-c3 .yuyue-box{ padding: 10px ;}
+.sider-c4 .bd{ margin-top: 8px;}
+
+.pic-list3 li{margin-top: 3px;}
 /**/
 
 .beauty-box{ width: 1000px; margin: 50px auto;}
@@ -160,6 +198,9 @@ html{ background: #fff;}
 .hot-tb td{ text-align: center; height: 49px; background: #ebe9ec}
 .hot-tb td a{ color: #6c488b; font-size: 14px; display: inline-block; *display: inline; *zoom:1; width: 100%; height: 49px; line-height: 49px; font-weight: bold;}
 .hot-tb td a:hover{ background: #f3f3f3}
+
+
+.sider-c3{ border: 1px solid #e9deef; border-radius: 8px;}
 /*footer */
 .footer{ width: 100%; background: url(../img/bg1.jpg) bottom left repeat-x; margin-top: 30px; }
 .footer-in{ width: 1000px; margin: 0 auto; padding: 10px 0 0;  border-top: 1px solid #f0eff1}
@@ -201,11 +242,14 @@ html{ background: #fff;}
 .crumbs a, .crumbs span{color: #737488; font-size: 12px; }
 .banner-box{ width: 100%; height: 300px; background: url(../img/page2-banner.jpg) no-repeat;}
 .project-banner{ background: url(../img/project-banner.jpg) no-repeat;}
+.contact-banner { background: url(../img/contactbanner.jpg) no-repeat;}
 .banner img{width: 100%;}
 
 .content{ width: 100%; background: url(../img/page2-bg3.jpg) center top no-repeat; }
 .banner-box span{ display: block;font-family: 'microsoft yahei'}
 .banner-box .banner-about{ padding: 70px 20px;}
+
+
 .banner-box .s1{ font-size: 40px; color: #1b5364;  }
 .banner-box .s2{font-size: 16px; color: #7e9ca5; }
 .banner-box .s3{ font-size: 45px; color: #e2eaed; padding-left: 50px; }
@@ -228,9 +272,9 @@ html{ background: #fff;}
 .project-list .item1{background: url(../img/page2-line.jpg) bottom left no-repeat;}
 .project-list .level1 { padding-left:13px; height: 40px ; line-height: 40px; display: block; }
 .project-list .level1 span{color: #737488; font-size: 16px; font-family: 'microsoft yahei'; padding-left: 10px;}
-.project-list .current, .project-list .level1:hover{ background: url(../img/page2-hd.jpg) no-repeat; }
-.project-list .current span, .project-list .level1:hover span{color: #ffffff; }
-.project-list .current .icon-dott2, .project-list .level1:hover .icon-dott2{ background-position:0 -184px; }
+.project-list .current, .project-list .level1:hover{ background: url(../img/page2-hd.jpg) no-repeat; text-decoration: none }
+.project-list .current span, .project-list .level1:hover span{color: #ffffff; text-decoration: none;}
+.project-list .current .icon-dott2, .project-list .level1:hover .icon-dott2{ background-position:0 -184px; text-decoration: none;}
 .sub-list{padding-left: 30px; display: none;}
 .sub-list li{ height: 26px; line-height: 26px;}
 .sub-list a{display:block;height: 26px; border-bottom: 1px solid #fff; font-weight: bold; }
@@ -267,3 +311,27 @@ html{ background: #fff;}
 .btn-box { text-align: center; margin: 40px 0}
 .btn-box a{ display: inline-block; *display: inline; *zoom:1; margin: 0 18px; font-size: 14px; padding: 5px 25px; border:2px solid #6c488b; border-radius: 14px; color: #737488 }
 .btn-box a i{ color: #6c488b; font-weight: bold; padding: 0 5px ;   }
+.btn-box a:hover{ text-decoration: none;}
+
+/*contact us*/
+
+.contact-box{ width: 616px; padding-right: 18px; border-right: 1px solid #e6e6f4; margin-top: 20px;}
+.contact-box h2, .user-info h2{ font-size: 20px; font-weight: bold; color: #313241; line-height: 40px; font-family: 'microsoft yahei'}
+.map-box { width: 610px; height: 360px}
+
+.pay-info{ border-top: 1px solid #e6e6f4; padding: 10px 0}
+.pay-list li{ float: left; margin-right: 15px;}
+
+.contact-info{padding: 10px 15px;}
+.contact-info p{ font-size: 14px; content: #737488; line-height: 24px;}
+.net-tool{ margin-top: 20px;}
+.net-tool a{ display: inline-block; *display: inline; *zoom:1; margin-right: 10px}
+.pay-info .bd{ padding: 10px 0}
+
+.user-box{ width: 280px; margin-top: 20px}
+.user-info label{ padding-right: 10px;}
+.user-info p,.user-info label{font-size:14px; color: #313241; font-family: 'microsoft yahei'; line-height: 30px}
+.user-info .input1, .input2{ width: 278px; height: 29px; border: 1px solid #d3d3e1; line-height: 29px;}
+
+.btn-sb{ width: 105px; height: 35px; line-height: 35px; display: block; text-align: center; border: 0; margin: 20px auto; background: #4a4a6f;  color: #fff; font-size: 14px; font-weight: bold;}
+.input2{ height: 83px; }

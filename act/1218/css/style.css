@@ -19,10 +19,16 @@ a:hover { text-decoration: underline }
 
 .register-box{ height: 360px;  position: relative;}
 .register-box .bul-txt{position: absolute;  right: 10px; top: 0; width: 54px; color: #fff }
+<<<<<<< Updated upstream
 .btn-box{ padding: 0 22px 0 29px;}
 .btn-box a{ width: 153px; height: 41px;  float: right; }
 .btn-box .txt{width: 153px; height: 41px;  text-align: center;}
 .btn-box p{ line-height: 41px; height: 41px; overflow: hidden; *zoom:1;}
+=======
+.btn-box{ padding: 0 29px;}
+.btn-box a{ display: inline-block; width: 153px; height: 41px; *display: inline; *zoom:1; }
+.btn-box p{ line-height: 41px;}
+>>>>>>> Stashed changes
 .btn-box .p1{ color: #d34e08; font-size: 16px;  text-align: center; line-height: 26px;}
 .btn-get{ background-position: -160px -96px;}
 .btn-prize{ background-position: -160px -144px;}
@@ -32,8 +38,13 @@ a:hover { text-decoration: underline }
 
 .icon-fl{width: 46px; height: 43px; background-position:-152px -208px;font-style: normal;  padding: 2px 6px; position: absolute; left: -5px; top: 14px; font-size: 16px; line-height: 18px;}
 .icon-bg{ float: left; width: 18px; margin: 3px 2px 0 0; height: 19px; background-position: -400px 0; color: #fff; text-align: center; line-height:19px;  font-style: normal;}
+<<<<<<< Updated upstream
 .btn-list em{ font-size: 50px;  font-family: 'Haettenschweiler','impact', 'Microsoft YaHei'; color: #fff; float: left; }
 .btn-list li{ padding: 15px 0 0;  position: relative;}
+=======
+.btn-list em{ font-size: 50px; margin-right: 7px; font-family: 'Haettenschweiler', 'Microsoft YaHei'; color: #fff; float: left; margin-top: 4px; }
+.btn-list li{ padding: 15px 0;  position: relative;}
+>>>>>>> Stashed changes
 .icon-bubble{position: absolute; width: 117px; font-style: normal; ; height: 46px; background-position: -272px 0; left: 40px; top: -46px; line-height:  36px; text-align: center;  color: #fff;}
 
 .container{ width: 1088px; float: left;}
@@ -94,6 +105,10 @@ a:hover { text-decoration: underline }
 h3{ font-size: 24px; color: #fff; border-left: 4px solid #ff000b; height: 24px; line-height: 24px; padding-left: 5px; }
 
 .btn-zan1{ width: 279px; height: 100px; display: block; margin:30px 0 0  250px;  background-position: 0 -368px; }
+<<<<<<< Updated upstream
+=======
+.pn-scroll{ *zoom:1; position:relative; margin-left: 80px;  width: 646px; height: 343px; border: 4px solid #e14a1e; border-radius: 2px;}
+>>>>>>> Stashed changes
 .pn-scroll .scroll-box{ position:relative; overflow:hidden; width: 646px; height: 343px;}
 .pn-scroll .scroll-con{white-space:nowrap; font-size:0; vertical-align:top; position: relative;  overflow:visible; width: 646px; height: 343px;}
 .pn-scroll .scroll-item{   display:inline-block; float:none; *display:inline; *zoom:1; width: 646px; height: 343px; vertical-align:top; position:relative;}
@@ -145,9 +160,15 @@ h3{ font-size: 24px; color: #fff; border-left: 4px solid #ff000b; height: 24px; 
 a.browse {width: 50px; height: 45px; top: 138px;  left: 10px; color: #000; background: url(../img/btn.png ) -368px -72px no-repeat;  _background: url(../img/btn-ie6.png ) -368px -72px no-repeat;   position: absolute; z-index:118; overflow:hidden;}
 a.right {right: 10px; left: auto; background-position: -424px -72px;}
 a.left { }
+<<<<<<< Updated upstream
 .scrollable { background:#000; position:relative;overflow:hidden;width: 646px; height: 343px;  z-index: 2; }
 .scrollable .items {width: 20000em;position: absolute;clear: both; z-index: 1}
 .items div { float:left;width: 646px;}
+=======
+.scrollable { background:#000; position:relative;overflow:hidden;width: 651px; height: 348px;  z-index: 2; }
+.scrollable .items {width: 20000em;position: absolute;clear: both; z-index: 1}
+.items div { float:left;width: 651px;}
+>>>>>>> Stashed changes
 /* single scrollable item */
 .scrollable .pic{ width: 646px; height: 343px; display:block; float:left;  overflow:hidden;  }
 .scrollable .pic img {width: 646px; height: 343px}
