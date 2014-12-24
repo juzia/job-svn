@@ -27,7 +27,7 @@ h2 .en{ font-size: 14px; font-family: 'Times New Roman'}
 /*header*/
 .header{ width: 1000px; margin: 0 auto; position: relative; height: 84px; }
 .logo{float: left; margin-top: 15px;}
-.navigation{float: left; margin: 30px 10px}
+.navigation{float: left; margin: 25px 10px}
 .menu-list li{ float: left; padding: 0 20px; position: relative; line-height: 22px;}
 .menu-list a{ font-size: 16px; color: #313241 ; display: block; }
 .menu-list .en{ display: block; color: #bcbcbb; font-size: 8px; font-family: 'arial'}
@@ -36,6 +36,10 @@ h2 .en{ font-size: 14px; font-family: 'Times New Roman'}
 .share-box{ width: 142px; height: 84px; background: #fe4d4d}
 .share-list li{ float: left; width: 70px; border-right: 1px solid #e43f3f; text-align: center; padding: 15px 0}
 .share-list { height: 60px; padding: 11px 0}
+
+.des{position: absolute;  bottom: 117px; right: 100px; padding:  10px; z-index: 2}
+.des .txt{ font-size: 35px; font-weight: bold; color: #fff}
+.des .cover{position: absolute; left: 0; top: 0;  background: #000; opacity: 0.3; z-index: -1; filter:alpha(opacity=30); width: 100%; height: 100%;}
 /*footer */
 .footer{ height: 80px; width: 100%; background: #2c2c2c; margin-top: 60px;}
 .footer-in{  width: 1000px; margin: 0 auto; padding: 20px 0;}
@@ -47,8 +51,13 @@ h2 .en{ font-size: 14px; font-family: 'Times New Roman'}
 /*commons end*/
 .wrap{ background: url(../img/banner.jpg) top center no-repeat; }
 .page-about .wrap{ background: url(../img/aboutbanner.jpg) top center no-repeat;}
-.con-in{width: 1000px; margin: 0 auto;}
+.page-contact .wrap{ background: url(../img/con-1920-380.jpg) top center no-repeat;}
+.page-desk .wrap{ background: url(../img/desk.jpg) top center no-repeat;}
+
+.con-in{width: 1000px; margin: 0 auto; position: relative; overflow: hidden; *zoom:1;}
 .banner{ height: 441px;}
+.page-desk  .banner{ height: 300px;}
+.page-desk  .banner .con-in{ height: 300px;}
 
 .company-box{ height: 300px;}
 .com-c1 { width: 290px; margin-top: 55px; padding-right: 20px; border-right: 1px solid #ececec; }
@@ -113,6 +122,9 @@ h2 .en{ font-size: 14px; font-family: 'Times New Roman'}
 .service-c1 .bd p{ font-size: 14px; color: #666; line-height: 24px; margin-bottom: 15px;}
 .service-c1 .bd{ padding: 25px 0}
 
+
+.prof-box {width: 546px}
+.prof-box .hd{ text-align: center;}
 
 
 .crumbs{ background: #fdfdff;padding: 14px 0; border-top: 1px solid #e1e1ee}
