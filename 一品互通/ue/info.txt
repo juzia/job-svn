@@ -1,5 +1,4 @@
-http://www.jq-school.com/Preview.aspx?id=300
-
-http://www.17sucai.com/pins/demoshow/4857
-
-http://www.17sucai.com/preview/27774/2014-04-11/jQuery%E5%AE%BD%E5%B1%8F%E6%BB%A1%E5%B1%8F%E7%84%A6%E7%82%B9%E5%9B%BE%E5%88%87%E6%8D%A2%E7%89%B9%E6%95%88touchSlider%E6%8F%92%E4%BB%B6/index.html
+首页： index.html
+关于我们: about.html
+联系我们:contactus.html
+桌面广告: desk.html  final.html outdoor.html

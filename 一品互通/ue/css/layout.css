@@ -85,20 +85,20 @@ h2 .en{ font-size: 14px; font-family: 'Times New Roman'}
 
 .production-box{ background: url(../img/bg1.jpg) top center no-repeat; height: 415px; padding: 20px 0}
 .production-box .hd{ text-align: center;}
-.pro-list { margin-left: -35px;}
+.pro-list { margin-left: -35px; overflow: hidden; *zoom: 1;}
 .pro-list li{ float: left; margin:40px 0 0 35px;}
 .pro-list img{width: 170px; height: 96px;}
 
 
 
 /*friendlink*/
-.link-list{ border-left: 1px solid #ececec; border-bottom: 1px solid #ececec;}
+.link-list{ border-left: 1px solid #ececec; border-bottom: 1px solid #ececec; overflow: hidden; *zoom: 1;}
 .link-list a{ display: inline-block; *display: inline; *zoom:1;}
-.link-list li{float: left; border-top:1px solid #ececec; border-right: 1px solid #ececec; height: 81px; overflow: hidden;}
+.link-list li{float: left; border-top:1px solid #ececec; border-right: 1px solid #ececec; height: 81px; overflow: hidden; white-space: nowrap; width: 198px; }
 .link-list img{ width: 198px; height:81px; }
 .friendlink-box .hd{ line-height: 40px;}
 
-
+.friendlink-box{margin-bottom: 50px;}
 
 
 
@@ -172,9 +172,9 @@ h4{font-size: 40px; color: #fff; font-weight: bold; line-height: 80px; text-alig
 .desk-box h3{ border-bottom: 5px solid #fef44d; float: left; height: 48px;}
 .desk-box .bd{ padding: 20px 0}
 
-.pic-list li{position: relative; width: 280px; height: 160px; float: left; margin-left: 45px; margin-bottom: 38px;}
+.pic-list li{position: relative; width: 280px; height: 160px; float: left; margin-left: 45px; margin-bottom: 38px; }
 .pic-list img{ width: 270px; height: 150px; border: 5px solid #f3f3f3}
-.pic-list a:hover .cover{ position: absolute; left: 0; top: 0; width: 280px; height: 160px; background: #fe4d4d; opacity: 0.8; filter: alpha(opacity=80);}
+.pic-list a:hover .cover{ position: absolute; cursor: pointer; left: 0; top: 0; width: 280px; height: 160px; background: #fe4d4d; opacity: 0.8; filter: alpha(opacity=80);}
 
 .pic-list .cover span{ display: block; color: #fff; text-align: center; line-height: 30px;}
 .pic-list .cover .txt1{ font-size: 20px;  font-family: 'impact'}
