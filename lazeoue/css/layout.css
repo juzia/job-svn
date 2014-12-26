@@ -270,12 +270,28 @@ html{ background: #fff;}
 .detail-box li{list-style: disc; font-size: 14px; line-height: 24px; color: #737488}
 
 .detail-box p .name {color: #babbc1}
+.detail-box1 { width: 672px}
+.detail-box1 .pro-box{ width: 310px}
+.detail-box1 .pro-box img{ width: 210px ; height: 92px;}
+.detail-box1 .pro-box .img{ width: 210px ; height: 92px; padding: 4px;}
+.detail-box1  .pro-box li{ list-style: none}
+.detail-box1  .pro-box .type{display: block; width: 210px; text-align: center; font-size: 18px; font-family: 'microsoft yahei' ;color: #313241; margin-top: 8px;}
+.detail-box1  .icon-dott{ background-position: 0 -208px;}
 .project-list .item1{background: url(../img/page2-line.jpg) bottom left no-repeat;}
 .project-list .level1 { padding-left:13px; height: 40px ; line-height: 40px; display: block; }
 .project-list .level1 span{color: #737488; font-size: 16px; font-family: 'microsoft yahei'; padding-left: 10px;}
 .project-list .current, .project-list .level1:hover{ background: url(../img/page2-hd.jpg) no-repeat; text-decoration: none }
 .project-list .current span, .project-list .level1:hover span{color: #ffffff; text-decoration: none;}
 .project-list .current .icon-dott2, .project-list .level1:hover .icon-dott2{ background-position:0 -184px; text-decoration: none;}
+
+.pro-c1{ padding: 20px 25px;}
+.pro-news-box{ background: url(../img/pro-bg.jpg) center top no-repeat;}
+.pro-news-box .hd{ height: 75px;}
+.pro-news-box .bd{ }
+.pro-news-list { float: left; width: 23%;  padding:0 1.4%  0  0.6%}
+.pro-news-list  .tit{ text-align: center; color: #313241; font-size: 14px; border-bottom: 1px solid #e9e5f5; height: 24px; line-height: 24px; }
+.pro-list1 li{white-space: nowrap; overflow: hidden; text-overflow:ellipsis; }
+
 .sub-list{padding-left: 30px; display: none;}
 .sub-list li{ height: 26px; line-height: 26px;}
 .sub-list a{display:block;height: 26px; border-bottom: 1px solid #fff; font-weight: bold; }
@@ -340,3 +356,28 @@ html{ background: #fff;}
 
 .youshi-box img{ width: 219px; height: 160px; border-radius: 6px;}
 .youshi-box .bd{ padding: 18px 0 0}
+
+
+
+
+/*project-list*/
+.pic-con-list{ padding: 20px 0}
+.pic-con-list .tit{ font-size: 18px; color: #313241;  font-family: 'microsoft yahei' ; line-height: 30px;}
+.pic-con-list li{ padding: 17px 0; overflow: hidden; *zoom: 1; border-bottom: 1px solid #eef2f4}
+.pic-con-list .summary{font-size: 12px; color: #737488; line-height: 22px;}
+.pic-con-list .img img{width: 210px; height: 92px}
+.pic-con-list .img{ width: 210px; height: 92px; padding: 5px; border: 1px solid #f4f1f0; border-radius: 10px;}
+.pic-con-list .con{ padding:0 15px;}
+.pic-con-list .seeall{color: #592c7f; line-height: 22px;}
+
+
+.pro-zt-box{ background: url(../img/pro-bg2.jpg) top center no-repeat;}
+.pro-zt-box .hd{ height: 75px;}
+.news-left{width: 246px; padding-left: 20px}
+.renwu-box{width: 320px; margin-right: 50px;}
+
+.pro-zt-box .tit{ line-height: 40px; color: #313241; font-size: 16px; font-family: 'microsoft yahei'}
+.renwu-bd{ padding: 15px 0}
+.renwu-bd img{ padding: 0 20px 0 10px;}
+.renwu-bd .name{ font-size: 18px ; color: #737488; font-family: 'microsoft yahei'; line-height: 28px; text-indent: 0}
+.renwu-bd p{color: #737488 ; line-height: 22px; margin-bottom: 10px; text-indent: 10px;}
