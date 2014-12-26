@@ -33,13 +33,14 @@ html{ background: #fff;}
 .slogan{ color: #715994; font-size: 22px; font-family: 'microsoft yahei'; float: left; margin: 38px 0 0 132px}
 
 .header{ width: 1000px; margin: 0 auto; overflow: hidden; position: relative; height: 103px; background: url(../img/top1.jpg) left top no-repeat; }
-.logo{float: left; margin-top: 15px;}
+.logo{float: left; margin-top: 8px;}
 .navigation{ height: 60px; background: url(../img/navbg.jpg) center top no-repeat;  line-height: 60px}
 .menu-list li{ float: left; padding: 0 20px; position: relative;}
 .menu-list a{ font-size: 18px; color: #fff; font-family: 'microsoft yahei'}
+.menu-list .menu2{ width: 100px;}
 .menu-list .gep{ color: #917bc1; position: absolute; right: 0; top: 0px; height: 20px; font-size: 20px;}
-.menu-list a:hover, .menu-list .current,.page-aboutus .menu5 a ,.page-index .menu1 a{color: #592c7f; font-weight: bold;} 
-.work-time{ display: inline-block; padding: 0 10px; color: #4c367b; font-size: 16px; height: 27px; line-height: 27px; background: #f4f4f4; margin-top: 10px; border-radius: 8px;}
+.menu-list a:hover, .menu-list .current,.page-aboutus .menu5 a ,.page-index .menu1 a{ font-weight: bold;} 
+.work-time{ display: inline-block; padding: 0 10px; color: #4c367b; font-size: 16px; font-family: 'microsoft yahei'; height: 27px; line-height: 27px; background: #f4f4f4; margin-top: 10px; border-radius: 8px;}
 .info-box{ margin-top: 20px; width: 276px}
 .serve-info{ text-align: right;}
 .serve-info p{color: #737488; font-size: 14px;}
@@ -228,7 +229,7 @@ html{ background: #fff;}
 
 .bdshare-slide-button-box{ z-index: 99}
 /*double ad*/
-.yuyue-double{position: absolute; left: 0; top:759px; width: 100%; }
+.yuyue-double{position: fixed; left: 0; top:309px; width: 100%; }
 .yuyue-double .left-ad{position: absolute; left: 50%; margin-left: -640px; top: 0; }
 .yuyue-double .right-ad{position: absolute; left: 50%; margin-left: 520px; top: 0; }
 
@@ -335,3 +336,7 @@ html{ background: #fff;}
 
 .btn-sb{ width: 105px; height: 35px; line-height: 35px; display: block; text-align: center; border: 0; margin: 20px auto; background: #4a4a6f;  color: #fff; font-size: 14px; font-weight: bold;}
 .input2{ height: 83px; }
+
+
+.youshi-box img{ width: 219px; height: 160px; border-radius: 6px;}
+.youshi-box .bd{ padding: 18px 0 0}

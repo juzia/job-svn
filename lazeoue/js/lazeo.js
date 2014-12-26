@@ -68,7 +68,6 @@ $(function() {
 
 function focusHeight(){
 	var fh = $('.carousel-box').width()*500/1920;
-	console.log(fh)
 	$('ul.banner-list').height(fh);
 	$('.carousel .banner-list li').height(fh);
 	$('.carousel-box').height(fh)
