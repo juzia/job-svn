@@ -47,7 +47,7 @@ h2 .en{ font-size: 14px; font-family: 'Times New Roman'}
 .footer-in{  width: 1000px; margin: 0 auto; padding: 20px 0;}
 .copyright{ text-align: right;}
 .copyright p{ line-height: 24px; color: #696969; font-family: 'Tahoma'; font-size: 12px; line-height: 28px;}
-.copyright p a{ color: #fff; font-family: 'microsoft Yahei'; padding: 0 8px;}
+.copyright p a{ color: #ebebeb; font-family: 'microsoft Yahei'; padding: 0 8px;}
 
 
 /*commons end*/
@@ -98,7 +98,11 @@ h2 .en{ font-size: 14px; font-family: 'Times New Roman'}
 .link-list img{ width: 198px; height:81px; }
 .friendlink-box .hd{ line-height: 40px;}
 
+<<<<<<< Updated upstream
 .friendlink-box{margin-bottom: 50px;}
+=======
+.friendlink-box { margin-bottom: 40px}
+>>>>>>> Stashed changes
 
 
 
