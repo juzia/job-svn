@@ -17,7 +17,7 @@ html{ background: #fff; font-size: 12px; line-height: 1.2}
 .icon{ background: url(../img/icon.png) no-repeat; overflow: hidden; display: inline-block; *display: inline; *zoom:1;}
 .icon-local{width:13px;  height: 17px; background-position:-83px 0; float: left; margin: 12px 5px 0 0}
 .icon-dott{ float: left; width:3px; height: 3px; background-position: -146px 0; margin: 8px 4px 0 0; }
-
+.icon-tit{ float: left; width: 12px; height: 12px ; background-position: 0 -31px; }
 
 /*header*/
 .mt25{ margin-top: 25px;}
@@ -26,7 +26,7 @@ html{ background: #fff; font-size: 12px; line-height: 1.2}
 
 .header{border-bottom: 3px solid #5ba74a; position: relative; height: 145px; padding-top: 13px;}
 .header .con-in{position: relative; height: 145px;}
-.logo{float: left; margin-top: 15px;}
+.logo{float: left; }
 .main .hd{ height: 40px;line-height: 40px}
 .banner{ width: 640px; height: 70px; background: #000}
 .navigation{ height: 63px; position: absolute; bottom: -3px; left: 0; width: 1000px; z-index: 10}
@@ -40,6 +40,7 @@ html{ background: #fff; font-size: 12px; line-height: 1.2}
 
 
 .crumb-box{ background: #f6faf5; height: 40px; line-height: 40px}
+.crumb-in .curr{ padding: 0 0 0 10px;}
 .crumb-box .home{ color: #5ba74a; font-weight: bold; font-size: 16px; padding-right: 8px; border-right: 2px solid #5ba74a}
 .search-box {width: 264px; margin-top: 6px;}
 .search-box .keyword{float: left; width:200px; padding: 0 5px; height: 24px; line-height: 24px; border: 1px solid #d6e0d4 }
@@ -79,7 +80,7 @@ html{ background: #fff; font-size: 12px; line-height: 1.2}
 .news-list a{ color: #000}
 .news-list .date{ color: #999}
 
-.news-tab { height: 39px; border-bottom: 2px solid #5ba74a; }
+.news-tab { height: 39px; border-bottom: 2px solid #5ba74a; padding-left: 38px}
 
 .news-tab li{ float: left; line-height: 39px; padding: 0 10px;position: relative;}
 .news-tab .gep{position: absolute;top: 10px; right: 0;  height: 21px; width: 1px  ; color: #999; background: #e3e7e2}
@@ -110,16 +111,20 @@ html{ background: #fff; font-size: 12px; line-height: 1.2}
 .con1-c3-c2 .bd{ padding: 10px 0}
 
 
-
-.content2 .bd{ padding: 10px 5px;}
-.school-list li{ float: left;  width: 19.9% }
-
+.content2 .hd{background: #f0f5ef; padding-left: 165px; line-height: 35px; height: 35px; border-bottom: 1px solid #5ba74a; position: relative;}
+.content2 .icon-hd{ text-align: center; color: #fff; font-size: 18px; font-weight: bold; position: absolute; width: 135px; height: 42px;  background-position: -56px -22px; left: 15px; top: -7px;}
+.content2 .tips{ color: #333; font-size: 14px;}
+.content2 .bd{ padding: 10px 5px; }
+.school-list li{ float: left;  width: 19.9%; line-height: 24px; }
+.school-list .red{ color: #ff6600}
 
 
 
 .con3-c1{ width: 760px;}
 .con3-c2{ width: 240px}
-.con3-c1-c1 { width: 360px; margin-right: 20px;}
+.con3-c2-c1 .m-hd{ height:  40px ; line-height: 40px; text-align: center; background: #5ba74a;}
+.con3-c2-c1 .m-hd .tit{ font-size: 20px; color: #fff; font-family: 'microsoft yahei'; font-weight: bold;}
+.con3-c1-c1 { width: 360px; margin-right: 20px; margin-top: 10px;}
 .icon-book{ float: left; width: 13px; height: 12px; margin: 7px 3px 0 0}
 .m-hd{ height: 28px;  border-bottom: 1px solid #efefef; line-height: 28px;}
 .m-hd h3{ border-bottom:1px solid  #5ba74a; height: 28px;}
@@ -128,25 +133,41 @@ html{ background: #fff; font-size: 12px; line-height: 1.2}
 .m-bd .news-list li{line-height: 24px;}
 .m-bd .news-list .date{font-size: 14px;}
 
- 
+
+.info-list em{ float: left; width: 35px; font-family: 'Impact'; font-size: 20px; color: #5ba74a; height: 35px; background: #d1e6cd; text-align: center; font-size: }
+.info-list li{ background: #f1f8f0; overflow: hidden; *zoom:1; height: 35px; border-bottom: 1px solid #fff; line-height: 35px;}
+.con3-c2-c1 .m-bd{ padding: 0}
+.info-list .tit{ padding: 0 0 0 15px; font-size: 14px; color: #333}
+.con3-c2-c2{ margin-top: 10px;}
+.con3-c2-c2 .m-bd{ padding: 10px 0 7px}
+.con3-c2-c2 a{display: block; margin-bottom: 3px;}
+
+.contact-box {padding: 10px; background: #f1f8f0}
+.contact-box p{ line-height: 24px; color: #333; }
+.schedule-tb td{ line-height: 25px; background: #f1f8f0; border-bottom: 1px solid #fff; padding: 0 2%; width: 46%; color: #333;}
+.con3-c2 .tips{ background: #f1f8f0; line-height: 39px; text-align: center; color: #ed4040}
+
 .comm-con{ background: url(../img/hdbg.jpg) repeat-x;}
 .comm-con .hd{ height: 40px; line-height: 40px;}
 .comm-con .hd .tit{ height: 18px; font-size: 18px; margin-top: 10px; padding-left: 10px; line-height: 18px; color: #5ba74a; font-weight: bold; font-family: 'microsoft yahei'; border-left: 5px solid #5ba74a}
 
 
-.question-list li{overflow: hidden; *zoom:1; padding: 14px 0 8px; border-bottom: 1px solid #efefef;}
+.question-list li{overflow: hidden;  *zoom:1; padding: 14px 15px 8px 0; border-bottom: 1px solid #efefef;}
 .question-list p{font-size: 14px; line-height: 20px; margin-bottom: 6px;  overflow: hidden; *zoom:1;}
 .question-list .icon{margin-right: 5px; float: left; width: 20px; height: 20px; color: #fff; text-align: center; line-height: 20px;}
 .icon-q{ background-position: -100px 0;}
 
 .icon-a{  background-position: -122px 0;}
 
-
+.content5 .bd{ height: 300px; overflow-y: scroll; }
+.content5 .hd{ padding-right: 10px;}
+.content5 .hd .more {line-height: 18px;}
+.content5 .hd .more a{ color: #5ba74a }
 /*freind link*/
 .friendlink{ background: #fafafa; padding: 10px 0}
 .friendlink .hd { line-height: 40px;}
 .friendlink .hd .tit{color: #333; font-size: 18px; font-family: 'microsoft yahei' }
-.friendlink .bd a{ color: #333}
+.friendlink .bd a{ color: #333; padding: 0 5px;}
 .friendlink .bd{ line-height: 22px;}
 /*footer*/
 
@@ -157,16 +178,49 @@ html{ background: #fff; font-size: 12px; line-height: 1.2}
 
 
 
+/*list*/
+.sider{ width: 197px; border-right: 3px solid #5ba74a; height: 862px;}
+.main{ width: 760px;}
+
+.mt35{margin-top: 35px;}
+.category-list li{ height: 34px; border-bottom: 1px solid #5ba74a; line-height: 34px;  }
+.category-list a{ color: #333; font-size: 14px; display: block;}
+.icon-tit{ margin: 10px 5px 0 }
+.category-list a:hover,.category-list .current{ background: #5ba74a; color: #f0ff00}
+.category-list a:hover .tit,.category-list .current .tit{ color: #f0ff00}
+.category-list a:hover .icon-tit, .category-list .current .icon-tit{background-position: 0 -14px;}
+.main .news-list1 li{ line-height: 29px; height: 29px; border-bottom: 1px solid #f4f4f4; padding: 0 5px;}
+
+.main .news-list1 .icon-dott{ margin: 11px 8px 0 0}
+
+.page-box{ text-align: center; margin-top: 30px;}
+.page-box a{ font-family: 'microsoft yahei'; display: inline-block; *display: inline; *zoom:1; margin: 0 2px; font-size: 14px; height:27px; line-height: 27px; padding: 0  10px; border: 1px solid #e3e3e3; border-radius: 3px; box-shadow: 1px 1px #f5f5f5  }
+.page-box .current ,.page-box a:hover{ background: #5acfa7; border-color: #38b07c; color: #fff;  }
 
 
 
 
 
+/*final */
+.icon-share{ float: left; width: 13px; height: 14px; background-position:0 -47px; margin: 6px 2px  0 0}
+.content{ margin-top: 30px;}
+.content .bd{ padding: 30px 50px 0; } 
+.content .hd {border-bottom: 1px solid #efefef; text-align: center; padding: 12px 0}
+.content .hd p span{ padding-right: 30px; color: #999 }
+.content .tit{ font-size: 26px; line-height: 56px; font-family: 'microsoft yahei' ; font-weight: bold;}
+.detail-box p{ text-indent: 30px; font-size: 16px; font-family: 'microsoft yahei'; margin-bottom: 40px; line-height: 26px;}
+.detail-box  img{ display: block; margin: 0 auto}
 
+.share-box{ height: 28px; line-height: 28px;}
+.share-box span{color: #999}
 
+.recomm-box{ margin: 35px 0;}
+.recomm-box .m-hd h3{ font-size: 18px; height: 32px; line-height: 32px;}
+.recomm-box .m-hd {height: 32px;}
 
-
-
+.recomm-box  .news-list li{ width: 49.5%;float: left; line-height: 24px;}
+.recomm-box  .news-list .date{ font-size: 12px; padding-left: 15px;}
+.recomm-box  .news-list a{font-size: 14px;}
 
 
 

@@ -14,3 +14,15 @@ if($('.focus-num').length>0){
 $(".js-tab").each(function(){
 		$(".gb-tab:eq(0)",$(this)).tabs($(".gb-tab-pn:eq(0) > div",$(this)),{event:'mouseover'});
 	});	
+
+if($('.query-list').length ){
+	$('.query-list li').hover(function(){
+		$(this).addClass('current')
+	},function(){
+
+		$(this).removeClass('current')
+
+	})
+
+
+}
