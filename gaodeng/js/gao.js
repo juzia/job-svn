@@ -23,6 +23,15 @@ if($('.query-list').length ){
 		$(this).removeClass('current')
 
 	})
+}
 
+if($('.info-list').length) {
 
+	$('.info-list li').hover(function(){
+		$(this).addClass('hover')
+	},function(){
+
+		$(this).removeClass('hover')
+
+	})
 }

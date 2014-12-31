@@ -8,16 +8,18 @@ h3{font-size: 14px; color: #333; font-weight: bold; float: left; }
 
 
 img{ border:0;}
+
 html{ background: #fff; font-size: 12px; line-height: 1.2}
 .c1{ color: #fe4d4d;}
 .c2{ color: #333}
 .fm1{ font-family: 'microsoft yahei'}
 /*common*/
 
+
 .icon{ background: url(../img/icon.png) no-repeat; overflow: hidden; display: inline-block; *display: inline; *zoom:1;}
 .icon-local{width:13px;  height: 17px; background-position:-83px 0; float: left; margin: 12px 5px 0 0}
 .icon-dott{ float: left; width:3px; height: 3px; background-position: -146px 0; margin: 8px 4px 0 0; }
-.icon-tit{ float: left; width: 12px; height: 12px ; background-position: 0 -31px; }
+
 
 /*header*/
 .mt25{ margin-top: 25px;}
@@ -29,14 +31,14 @@ html{ background: #fff; font-size: 12px; line-height: 1.2}
 .logo{float: left; }
 .main .hd{ height: 40px;line-height: 40px}
 .banner{ width: 640px; height: 70px; background: #000}
-.navigation{ height: 63px; position: absolute; bottom: -3px; left: 0; width: 1000px; z-index: 10}
+.navigation{ height: 63px; position: absolute; bottom: -3px; left: 0; width: 1000px; z-index: 10; overflow: hidden; *zoom: 1;}
 .nav-bg{position: absolute; height: 60px;background: #5ba74a;  width: 1000px; bottom: 0; left: 0; z-index: -1}
 .navigation .home{ float: left; width: 65px; text-align: center; color: #fff; font-size: 18px; line-height: 70px;}
 .navigation dt{ width: 19px; font-weight: bold; left: -5px;top:0;   position: absolute; text-align: center; line-height: 18px; color: #fff; height: 33px; background: url(../img/icon.png) -21px 0 no-repeat; padding: 15px 5px;}
 .navigation dl{float: left; width: 194px; padding-left: 34px; height: 53px; padding-top: 10px; position: relative;}
 .navigation dd{ float: left; width: 29%; line-height: 24px; }
 .navigation dd a{ color: #cdfac3}
-
+.navigation dd a:hover{ text-decoration: underline; color: #fff}
 
 
 .crumb-box{ background: #f6faf5; height: 40px; line-height: 40px}
@@ -44,18 +46,19 @@ html{ background: #fff; font-size: 12px; line-height: 1.2}
 .crumb-box .home{ color: #5ba74a; font-weight: bold; font-size: 16px; padding-right: 8px; border-right: 2px solid #5ba74a}
 .search-box {width: 264px; margin-top: 6px;}
 .search-box .keyword{float: left; width:200px; padding: 0 5px; height: 24px; line-height: 24px; border: 1px solid #d6e0d4 }
-.search-box .btn-search{float: left; width: 52px; height: 26px; background: #d6e0d4; border: 0; color: #000; font-weight: bold;}
+.search-box .btn-search{ line-height: 26px; float: left; width: 52px; height: 26px; background: #d6e0d4; border: 0; color: #000; font-weight: bold;}
 
 .container{ width: 1000px; margin: 0 auto}
-.content1{}
+.content1{ height: 464px;}
 .con1-c1{width: 250px; }
 .con1-c1-c2{margin-top: 10px;}
 .con1-c1-c2 .hd, .con1-c3-c2 .hd{ height: 28px; line-height: 28px; border-bottom: 1px solid #efefef}
 .con1-c1-c2 .hd .tit, .con1-c3-c2 .hd .tit{ float: left; height: 28px; border-bottom: 1px solid #5ba74a}
-.con1-c1-c2 .bd{ padding: 10px 5px}
+.con1-c1-c2 .bd{ padding: 10px 5px 0}
 
 .con1-c2{ width: 470px; margin: 0 20px;}
-.con1-c2 .bd{ padding: 10px 0}
+.con1-c2 .hd{ height: 39px; border-bottom: 2px solid #5ba74a; position: relative;}
+.con1-c2 .bd{ padding: 10px 0 0}
 
 .focus-w{ overflow:hidden; zoom:1; width:250px; height:220px;position: relative;}
 .focus-con{position: relative;}
@@ -69,8 +72,8 @@ html{ background: #fff; font-size: 12px; line-height: 1.2}
 .focus-item .s-tit{  font-size: 12px;}
 .focus-item a:hover .tit{ text-decoration:underline}
 .focus-item .bg{ display:block; position:absolute; z-index:-1; top:0; left:0; width:1000px; height:1000px; }
-.focus-num{ position: absolute; bottom: 3px; left: 0; width: 100%;   overflow:hidden;  height:14px; text-align: center;}
-.focus-num a{ display:inline-block;  *display: inline; *zoom:1;  margin-right: 2px; width:30px; height:4px;  background-color: #fff }
+.focus-num{ position: absolute; bottom: 3px; left: 0; width: 100%;   overflow:hidden;  height:4px; text-align: center;}
+.focus-num a{ display:inline-block;  *display: inline; *zoom:1;  margin-right: 1px; width:25px; height:4px; overflow: hidden;  background-color: #fff }
 .focus-num a:hover{ text-decoration:none}
 .focus-num .current{ background-color:#8cf774}
 
@@ -78,9 +81,10 @@ html{ background: #fff; font-size: 12px; line-height: 1.2}
 
 .news-list li{ line-height: 22px;}
 .news-list a{ color: #000}
+.news-list a:hover{ text-decoration: underline; color: #e30f2d}
 .news-list .date{ color: #999}
 
-.news-tab { height: 39px; border-bottom: 2px solid #5ba74a; padding-left: 38px}
+.news-tab {  padding-left: 38px; position: absolute;bottom: -2px;  _bottom: -3px; left: 0; height: 41px;}
 
 .news-tab li{ float: left; line-height: 39px; padding: 0 10px;position: relative;}
 .news-tab .gep{position: absolute;top: 10px; right: 0;  height: 21px; width: 1px  ; color: #999; background: #e3e7e2}
@@ -108,34 +112,43 @@ html{ background: #fff; font-size: 12px; line-height: 1.2}
 .query-list .current{ background: #f6faf5}
 
 .con1-c3-c2{ margin-top: 20px;}
-.con1-c3-c2 .bd{ padding: 10px 0}
+.con1-c3-c2 .bd{ padding: 10px 0 0}
 
 
 .content2 .hd{background: #f0f5ef; padding-left: 165px; line-height: 35px; height: 35px; border-bottom: 1px solid #5ba74a; position: relative;}
-.content2 .icon-hd{ text-align: center; color: #fff; font-size: 18px; font-weight: bold; position: absolute; width: 135px; height: 42px;  background-position: -56px -22px; left: 15px; top: -7px;}
+.content2 .icon-hd{ text-align: center; color: #fff; font-size: 18px; font-weight: bold; position: absolute; width: 135px; height: 42px; line-height: 42px;  background-position: -56px -22px; left: 15px; top: -7px;}
 .content2 .tips{ color: #333; font-size: 14px;}
 .content2 .bd{ padding: 10px 5px; }
 .school-list li{ float: left;  width: 19.9%; line-height: 24px; }
 .school-list .red{ color: #ff6600}
+.school-list a:hover{ text-decoration: underline; color: #e30f2d}
+
 
 
 
 .con3-c1{ width: 760px;}
+.content3 .con3-c1{ height: 777px;}
 .con3-c2{ width: 240px}
 .con3-c2-c1 .m-hd{ height:  40px ; line-height: 40px; text-align: center; background: #5ba74a;}
 .con3-c2-c1 .m-hd .tit{ font-size: 20px; color: #fff; font-family: 'microsoft yahei'; font-weight: bold;}
-.con3-c1-c1 { width: 360px; margin-right: 20px; margin-top: 10px;}
+.con3-c1-c1 { width: 360px; margin-right: 20px; margin-top: 10px; overflow: hidden; *zoom:1;}
 .icon-book{ float: left; width: 13px; height: 12px; margin: 7px 3px 0 0}
 .m-hd{ height: 28px;  border-bottom: 1px solid #efefef; line-height: 28px;}
 .m-hd h3{ border-bottom:1px solid  #5ba74a; height: 28px;}
 .m-bd{ padding: 10px 5px; }
 .m-bd .news-list a{ color: #333; font-size: 14px;}
+.m-bd .news-list a:hover{ color: #e30f2d}
+
 .m-bd .news-list li{line-height: 24px;}
 .m-bd .news-list .date{font-size: 14px;}
 
 
 .info-list em{ float: left; width: 35px; font-family: 'Impact'; font-size: 20px; color: #5ba74a; height: 35px; background: #d1e6cd; text-align: center; font-size: }
 .info-list li{ background: #f1f8f0; overflow: hidden; *zoom:1; height: 35px; border-bottom: 1px solid #fff; line-height: 35px;}
+.info-list .hover{ background: #e4eee4}
+.info-list .hover a{color: #5aa74a}
+
+
 .con3-c2-c1 .m-bd{ padding: 0}
 .info-list .tit{ padding: 0 0 0 15px; font-size: 14px; color: #333}
 .con3-c2-c2{ margin-top: 10px;}
@@ -144,12 +157,12 @@ html{ background: #fff; font-size: 12px; line-height: 1.2}
 
 .contact-box {padding: 10px; background: #f1f8f0}
 .contact-box p{ line-height: 24px; color: #333; }
-.schedule-tb td{ line-height: 25px; background: #f1f8f0; border-bottom: 1px solid #fff; padding: 0 2%; width: 46%; color: #333;}
+.schedule-tb td{ line-height: 25px; background: #f1f8f0; border-bottom: 1px solid #fff; padding: 0 1% 0 3%; width: 46%; color: #333;}
 .con3-c2 .tips{ background: #f1f8f0; line-height: 39px; text-align: center; color: #ed4040}
 
 .comm-con{ background: url(../img/hdbg.jpg) repeat-x;}
-.comm-con .hd{ height: 40px; line-height: 40px;}
-.comm-con .hd .tit{ height: 18px; font-size: 18px; margin-top: 10px; padding-left: 10px; line-height: 18px; color: #5ba74a; font-weight: bold; font-family: 'microsoft yahei'; border-left: 5px solid #5ba74a}
+.comm-con .hd{ height: 40px;padding-top: 10px; }
+.comm-con .hd .tit{ height: 18px; font-size: 18px; /* margin-top: 10px;  */padding-left: 10px; line-height: 18px; color: #5ba74a; font-weight: bold; font-family: 'microsoft yahei'; border-left: 5px solid #5ba74a}
 
 
 .question-list li{overflow: hidden;  *zoom:1; padding: 14px 15px 8px 0; border-bottom: 1px solid #efefef;}
@@ -160,14 +173,18 @@ html{ background: #fff; font-size: 12px; line-height: 1.2}
 .icon-a{  background-position: -122px 0;}
 
 .content5 .bd{ height: 300px; overflow-y: scroll; }
-.content5 .hd{ padding-right: 10px;}
+.content5 .hd{ padding-right: 10px; }
 .content5 .hd .more {line-height: 18px;}
 .content5 .hd .more a{ color: #5ba74a }
+.content5 .hd .more a:hover{ text-decoration: underline;}
+
 /*freind link*/
 .friendlink{ background: #fafafa; padding: 10px 0}
 .friendlink .hd { line-height: 40px;}
 .friendlink .hd .tit{color: #333; font-size: 18px; font-family: 'microsoft yahei' }
 .friendlink .bd a{ color: #333; padding: 0 5px;}
+.friendlink .bd a:hover{color: #e30f2d}
+
 .friendlink .bd{ line-height: 22px;}
 /*footer*/
 
@@ -184,7 +201,9 @@ html{ background: #fff; font-size: 12px; line-height: 1.2}
 
 .mt35{margin-top: 35px;}
 .category-list li{ height: 34px; border-bottom: 1px solid #5ba74a; line-height: 34px;  }
-.category-list a{ color: #333; font-size: 14px; display: block;}
+.category-list a{ color: #333; font-size: 14px; display: block; height: 34px;}
+.icon-tit{ float: left; width: 12px; height: 12px ; background-position: 0 -31px; }
+
 .icon-tit{ margin: 10px 5px 0 }
 .category-list a:hover,.category-list .current{ background: #5ba74a; color: #f0ff00}
 .category-list a:hover .tit,.category-list .current .tit{ color: #f0ff00}
@@ -207,6 +226,7 @@ html{ background: #fff; font-size: 12px; line-height: 1.2}
 .content .bd{ padding: 30px 50px 0; } 
 .content .hd {border-bottom: 1px solid #efefef; text-align: center; padding: 12px 0}
 .content .hd p span{ padding-right: 30px; color: #999 }
+.content .hd p span em{color: #999}
 .content .tit{ font-size: 26px; line-height: 56px; font-family: 'microsoft yahei' ; font-weight: bold;}
 .detail-box p{ text-indent: 30px; font-size: 16px; font-family: 'microsoft yahei'; margin-bottom: 40px; line-height: 26px;}
 .detail-box  img{ display: block; margin: 0 auto}
@@ -215,12 +235,23 @@ html{ background: #fff; font-size: 12px; line-height: 1.2}
 .share-box span{color: #999}
 
 .recomm-box{ margin: 35px 0;}
-.recomm-box .m-hd h3{ font-size: 18px; height: 32px; line-height: 32px;}
+.recomm-box .m-hd h3{ font-size: 18px; height: 32px; line-height: 32px; font-weight: normal;}
 .recomm-box .m-hd {height: 32px;}
 
 .recomm-box  .news-list li{ width: 49.5%;float: left; line-height: 24px;}
 .recomm-box  .news-list .date{ font-size: 12px; padding-left: 15px;}
 .recomm-box  .news-list a{font-size: 14px;}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
