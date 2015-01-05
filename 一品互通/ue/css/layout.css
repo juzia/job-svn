@@ -24,20 +24,33 @@ h2 .en{ font-size: 14px; font-family: 'Times New Roman'}
 .icon-tx{width: 35px; height: 35px; background-position: -40px 0; display: inline-block; *display: inline; *zoom:1; }
 .icon-location{ width: 17px; height: 23px; background-position: -112px 0; float: left;}
 .icon-search{ display: block; width: 56px; height: 56px;  background-position: 0 -48px; margin: 20px auto 10px;}
-
+.icon-ewm{ display: inline-block; *display: inline; *zoom:1; width: 27px; height: 27px; background-position: -59px -44px;}
 
 /*header*/
 .header{ width: 1000px; margin: 0 auto; position: relative; height: 84px; }
 .logo{float: left; margin-top: 15px;}
-.navigation{float: left; margin: 25px 10px}
-.menu-list li{ float: left; padding: 0 24px; position: relative; line-height: 22px;}
-.menu-list a{ font-size: 16px; color: #313241 ; display: block; }
-.menu-list .en{ display: block; color: #bcbcbb; font-size: 8px; font-family: 'arial'}
+.navigation{float: left; margin: 23px 10px 0}
+.menu-list li{ float: left; position: relative; line-height: 22px; width: 100px;text-align: center; }
+.menu-list .menu1{ width: 70px;}
+.menu-list .menu2{ width: 90px;}
 
+.menu-list .menu3{ width: 110px;}
+
+.menu-list .menu4{ width: 132px;}
+.menu-list .menu5{ width: 110px;}
+
+
+.menu-list a{ font-size: 16px; color: #313241 ; display: block; }
+.menu-list .en{ display: block; color: #bcbcbb; font-size: 8px;  font-family: 'arial'; text-transform:Uppercase;}
+.logo  img{width: 252px;}
 .menu-list a:hover, .menu-list .current,.page-aboutus .menu5 a ,.page-index .menu1 a{color: #fe4d4d; } 
-.share-box{ width: 142px; height: 84px; background: #fe4d4d}
-.share-list li{ float: left; width: 70px; border-right: 1px solid #e43f3f; text-align: center; padding: 15px 0}
+.share-box{ width: 200px; height: 84px; background: #fe4d4d}
+.share-list li{ float: left; width: 65px; height: 42px; position: relative; border-right: 1px solid #e43f3f; text-align: center; padding: 15px 0 0}
 .share-list { height: 60px; padding: 11px 0}
+
+
+.ewm-box{position: absolute; display: none; background: #fff; text-align: center; padding: 16px 0 0 0; width: 158px; height: 163px; border: 1px solid #ececec; right: -160px; top: -11px;}
+.ewm-box .txt{ text-align: center; display: block; color: #999; font-size: 12px;}
 
 .des{position: absolute;  bottom: 117px; right: 100px; padding:  10px; z-index: 2}
 .des .txt{ font-size: 35px; font-weight: bold; color: #fff}
@@ -65,6 +78,7 @@ h2 .en{ font-size: 14px; font-family: 'Times New Roman'}
 
 .company-box{ height: 300px;}
 .com-c1 { width: 290px; margin-top: 55px; padding-right: 20px; border-right: 1px solid #ececec; }
+.com-c1 .more{ font-size: 12px; font-family: 'microsoft Yahei'; color: #333}
 .com-c1 .hd ,.com-c3 .hd{ border-bottom: 1px solid #303030; line-height: 32px; height: 33px; }
 .com-c2 {width: 332px; padding: 0 20px 0  28px; }
 .com-c2 .hd h2{ padding: 0 0 0 50px}
@@ -98,11 +112,7 @@ h2 .en{ font-size: 14px; font-family: 'Times New Roman'}
 .link-list img{ width: 198px; height:81px; }
 .friendlink-box .hd{ line-height: 40px;}
 
-<<<<<<< Updated upstream
 .friendlink-box{margin-bottom: 50px;}
-=======
-.friendlink-box { margin-bottom: 40px}
->>>>>>> Stashed changes
 
 
 
@@ -207,3 +217,48 @@ h5 p{ text-align: center; line-height: 50px;}
 
 .main .bd{ border-top:1px solid #e1e1ee; padding: 10px 0}
 .main .hd{ height: 40px;line-height: 40px}
+
+
+
+
+/*page-news*/
+
+.page-news .wrap { background: url(../img/page-news.jpg) center top no-repeat;}
+.page-news .banner{ height: 300px;}
+.news-box h2{ font-size: 30px; color: #333; line-height: 60px; font-family: 'microsoft Yahei'; text-align: center; font-weight: normal;}
+.news-box .hd { text-align: center; width: 800px; margin: 0 auto; border-bottom: 1px solid #eef2f4; padding-bottom: 30px;}
+.news-box .hd p{ color: #999; font-size: 12px; }
+.news-box .con-in{width: 850px;}
+.news-box .bd{ padding: 30px 0}
+.news-box .bd p{ margin-bottom: 30px; font-size: 14px; color: #333; line-height: 24px;}
+.news-box .bd img{ display: block; margin:  0 auto;}
+.news-table{ border-top:3px solid #2c2c2c; width: 100%; margin-top: 70px;}
+.news-table .icon-dott{ margin: 18px 4px 0 0}
+.news-table thead tr th{font-family: 'simsun' ;border-bottom: 1px solid #2c2c2c; padding-left:10px; height: 35px; line-height: 35px; color: #737488; font-size: 12px; text-align:  left; font-weight: normal;}
+.news-table  tr td{ height: 43px; padding-left: 10px; line-height: 43px; border-bottom: 1px solid #eef2f4; font-size: 14px ; }
+.news-table  a{font-size: 14px ; color: #333; font-family: 'simsun'}
+.news-table .date, .news-table .hits{font-family: 'simsun' }
+.btn-box { text-align: center; margin: 40px 0}
+.btn-box a{ display: inline-block; *display: inline; *zoom:1; margin: 0 18px; font-size: 14px; padding: 5px 25px; border:2px solid #2c2c2c; border-radius: 14px;}
+.btn-box a i{  font-weight: bold; padding: 0 5px ;   }
+.btn-box a:hover{ text-decoration: none;}
+
+
+.pop-mask{position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 9; background: #000; opacity: 0.6; filter:alpha(opacity=60);}
+.pop-box{ width: 930px; height: 600px;  background: #fff; z-index: 10; position: fixed; top: 10%; left: 50%; margin-left: -465px;}
+
+.carousel-box{ width: 890px; height: 550px;  z-index: -1; overflow: hidden;}
+.carousel { width:890px; height: 550px; position:relative; margin: 15px 20px; }
+.carousel .scroll-a {position:absolute; top:35%; z-index: 8;  overflow:hidden; width:60px; height:110px; background:url(../img/icon.png) no-repeat; cursor:pointer }
+.carousel .bt-prev { left:14px; background-position:-164px -78px }
+.carousel .bt-next { right:14px; background-position:-96px  -78px }
+.carousel .banner-list { width:100%;  height: auto; height: 550px}
+.carousel .banner-list li { float:left; width: 100%;   height: 100%} 
+.carousel img{width: 890px; height: 493px;}
+.carousel .txt{ display: block; text-align: center; font-size: 24px; line-height: 54px;}
+.pop-box .close{cursor: pointer; width: 50px; height: 50px; background: #fff;position: absolute; right: -50px; top: 0; line-height: 50px; text-align: center;}
+
+.icon-close{ width: 20px; height: 19px;   background-position: -214px 0; display: block; margin: 15px auto}
+
+.fenbu .hd{ padding:  0 36px;}
+.fenbu .bd{ padding: 15px 0}
