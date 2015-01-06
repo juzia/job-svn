@@ -78,7 +78,7 @@ html{ background: #fff;}
 /*menu*/
 .beauty-menu{ height: 121px; background: url(../img/menu-bg.jpg) center top no-repeat; border-bottom: 1px solid #dfe0f3}
 .beauty-menu dl{ float: left; width: 235px; padding: 5px 0 0 15px;}
-.beauty-menu  dl dt{ font-size: 18px; font-weight: bold;  text-align: center; line-height: 38px; }
+.beauty-menu  dl dt{ font-size: 18px; font-weight: bold;  text-align: center; line-height: 38px; font-family: 'microsoft yahei' }
 .beauty-menu  dl dd {float: left;  width: 33.3%; text-align:left; line-height: 22px;}
 .beauty-menu  dl dd a{ color: #737488; font-family: '宋体'}
 /*end*/
@@ -196,7 +196,7 @@ html{ background: #fff;}
 /*sider*/
 .sider-c2 .hd{ height: 49px; background: url(../img/hd2.jpg) no-repeat; }
 .hot-tb{ width: 100%; background: #dbd4e1}
-.hot-tb td{ text-align: center; height: 49px; background: #ebe9ec}
+.hot-tb td{ text-align: center; height: 49px; background: #ebe9ec; width: 50%}
 .hot-tb td a{ color: #6c488b; font-size: 14px; display: inline-block; *display: inline; *zoom:1; width: 100%; height: 49px; line-height: 49px; font-weight: bold;}
 .hot-tb td a:hover{ background: #f3f3f3}
 
