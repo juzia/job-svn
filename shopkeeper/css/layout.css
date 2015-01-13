@@ -62,7 +62,7 @@ transition: opacity 0.4s;opacity: 0;display: block;}
 */
 
 
-.focus-con{position: relative; max-height: 700px; overflow: hidden;}
+.focus-con{position: relative; height: 630px; max-height: 700px;  overflow: hidden;}
 .focus-con,.focus-item,.focus-item .img{ width: auto; }
 .focus-item img{ width:100%; height:100%}
 .focus-item .txt{ overflow:hidden; white-space:nowrap}
@@ -81,6 +81,11 @@ transition: opacity 0.4s;opacity: 0;display: block;}
 .focus-con .bt{ position: absolute; width: 28px; height: 47px; background-position: -32px -128px;  top:35%; left: 0; cursor: pointer;}
 .focus-con .forward{ left: auto; right: 0;background-position:  0 -128px;}
 .focus-con .item1{ background:url(../img/1.jpg) top center no-repeat; height: 630px;}
+.focus-con .item2{ background:url(../img/2.jpg) top center no-repeat; height: 700px;}
+.focus-con .item3{ background:url(../img/3.jpg) top center no-repeat; height: 700px;}
+.focus-con .item4{ background:url(../img/4.jpg) top center no-repeat; height: 630px;}
+.focus-con .item5{ background:url(../img/5.jpg) top center no-repeat; height: 630px;}
+.focus-con .item6{ background:url(../img/6.jpg) top center no-repeat; height: 630px;}
 
 
 h2{ font-size: 30px; font-weight: bold; color: #ca5100 ; line-height: 40px;}
