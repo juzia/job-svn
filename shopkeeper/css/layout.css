@@ -62,7 +62,7 @@ transition: opacity 0.4s;opacity: 0;display: block;}
 */
 
 
-.focus-con{position: relative; height: 630px; max-height: 700px;  overflow: hidden;}
+.focus-con{position: relative;   overflow: hidden; *zoom:1; max-height: 700px;}
 .focus-con,.focus-item,.focus-item .img{ width: auto; }
 .focus-item img{ width:100%; height:100%}
 .focus-item .txt{ overflow:hidden; white-space:nowrap}
@@ -73,10 +73,10 @@ transition: opacity 0.4s;opacity: 0;display: block;}
 .focus-item .s-tit{ bottom: 20px;  font-size: 12px;}
 .focus-item a:hover .tit{ text-decoration:underline}
 .focus-item .bg{ display:block; position:absolute; z-index:-1; top:0; left:0; width:1000px; height:1000px; background:#1f0806; filter:alpha(opacity:70); opacity:.7}
-.focus-num{ overflow:hidden;  height:5px}
-.focus-num a{ display:inline-block; float:left; width:20%; height:5px;  background-color: #53a5dd }
+.focus-num{ position: absolute;width: 10px;height: 160px;top:50%; right: 10px; margin-top: -80px;  text-align: center;font-size: 15px;}
+.focus-num a{ display:inline-block; width: 20px;height: 20px; overflow: hidden; text-indent: -111px; background: url(../img/icon.png) -48px -112px no-repeat;   cursor: pointer;}
 .focus-num a:hover{ text-decoration:none}
-.focus-num .current{ color:#191919; background-color:#ff6376}
+.focus-num .current{  background-position: -48px -88px; }
 
 .focus-con .bt{ position: absolute; width: 28px; height: 47px; background-position: -32px -128px;  top:35%; left: 0; cursor: pointer;}
 .focus-con .forward{ left: auto; right: 0;background-position:  0 -128px;}
@@ -93,6 +93,8 @@ h2 em{ font-weight: bold;  font-size: 60px; color: #e70000}
 .focus-item .txt-box{ top: 75px; right: 161px;}
 .focus-item .txt-box p{ font-size: 22px; color: #000; line-height: 42px;}
 
+.focus-item .btn-detail{ border: 2px solid #000; width: 124px; height: 44px; line-height: 44px; }
 
 
 .page-2 .banner{ height: 330px; background: url(../img/banner1.jpg) center top no-repeat;}
+
