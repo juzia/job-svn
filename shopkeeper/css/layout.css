@@ -87,14 +87,20 @@ transition: opacity 0.4s;opacity: 0;display: block;}
 .focus-con .item5{ background:url(../img/5.jpg) top center no-repeat; height: 630px;}
 .focus-con .item6{ background:url(../img/6.jpg) top center no-repeat; height: 630px;}
 
-
 h2{ font-size: 30px; font-weight: bold; color: #ca5100 ; line-height: 40px;}
 h2 em{ font-weight: bold;  font-size: 60px; color: #e70000}
 .focus-item .txt-box{ top: 75px; right: 161px;}
-.focus-item .txt-box p{ font-size: 22px; color: #000; line-height: 42px;}
+.focus-item .txt-box p, .con1-c1 .text p{ font-size: 22px; color: #000; line-height: 42px;}
 
-.focus-item .btn-detail{ border: 2px solid #000; width: 124px; height: 44px; line-height: 44px; }
+.focus-item .btn-detail{ border: 2px solid #000; width: 124px; height: 44px; line-height: 44px; text-align: center; }
 
-
+.page-2 { background: #f6f6f6}
 .page-2 .banner{ height: 330px; background: url(../img/banner1.jpg) center top no-repeat;}
+.con1-c1{ width: 646px; margin: 20px auto 20px;}
+.con1-c1 .text{ padding: 10px;}
+.con1-c1 .img{ padding: 20px 0 }
+.con1-c2-c1{ padding: 10px 0 }
+.con1-c2-c1 .img{  width: 186px; text-align: center;}
+.con1-c2-c2 .img{ padding: 0}
 
+.con1-c2 .text{ padding: 10px 0 0 45px; font-size: 16px; color: #333; line-height: 26px;}
