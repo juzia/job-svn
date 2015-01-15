@@ -11,9 +11,10 @@ html{ background: #fff;font-family: 'microsoft Yahei'}
 .c2{ color: #333}
 h2 .en{ font-size: 14px; font-family: 'Times New Roman'}
 img {vertical-align: middle;}
+.mt20{ margin-top: 20px;}
 /*common*/
 .icon{ background:url(../img/icon.png) no-repeat; display: inline-block; *display: inline; *zoom:1;}
-.icon-home{ width: 22px; height: 26px;}
+.icon-home{ width: 26px; height: 26px; background-position: -104px -72px; }
 .icon-server{ background-position: -24px 0; width: 30px; height: 25px;}
 .icon-jiameng{ background-position: -64px 0; width: 28px; height: 27px;}
 .icon-system{ background-position: -96px 0; width: 27px; height: 26px;}
@@ -30,7 +31,7 @@ img {vertical-align: middle;}
 
 .menu-list a:hover { background: #cd5e27}
 .menu-list a:hover .txt{ color: #fff;}
-.menu-list a:hover .icon-home{background-position: 0 -40px;}
+.menu-list a:hover .icon-home{background-position: -104px -104px;}
 .menu-list a:hover .icon-server{background-position: -24px -40px;}
 .menu-list a:hover .icon-jiameng{background-position: -64px -40px;}
 .menu-list a:hover .icon-system{background-position: -96px -40px;}
@@ -104,3 +105,33 @@ h2 em{ font-weight: bold;  font-size: 60px; color: #e70000}
 .con1-c2-c2 .img{ padding: 0}
 
 .con1-c2 .text{ padding: 10px 0 0 45px; font-size: 16px; color: #333; line-height: 26px;}
+
+.con2{ margin-top: 40px; border-top: 1px solid #dfdfdf; padding:40px 0}
+.video-list li{ position: relative; float: left; width: 186px; height: 204px; margin: 0 32px;}
+.video-list li a{ display: block;  width: 186px; height: 204px; position: relative;}
+.video-list img{width: 180px; height: 200px; padding: 2px 3px;}
+.video-list .cover{position: absolute; left: 0; top: 0; width: 180px; height: 200px; padding: 2px 3px; background: url(../img/video-bg.png) no-repeat; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='../img/video-bg.png')}
+.video-list a:hover .cover{ background: url(../img/video-bg-hover.png) no-repeat;  _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='../img/video-bg-hover.png')}
+.pop-video{ width: 480px; height: 522px; left: 50%; margin-left: -240px; top:20%; display: none; position: fixed; z-index: 100 }
+.pop-mask{ width: 100%; left: 0; top: 0; height: 100%; background: #000; opacity: 0.5; filter:alpha(opacity=50);display: none; position: fixed; }
+.icon-close{ width: 61px; height: 61px; background-position: -136px -72px; right: -61px; top: 0}
+
+
+/*page3*/
+.page-3{ background: #f6f6f6}
+.banner3{ background: url(../img/banner3.jpg) top center no-repeat; height: 329px;}
+
+.con3-c1 .bd img{ display: block; margin: 0 auto;}
+.con3 .hd .tit{ font-size: 30px; color: #333; font-weight: bold;}
+.con3-c1 .hd .info{ font-size: 16px; color: #666; line-height: 26px; margin-top: 20px;}
+
+.con3-c2 {  }
+.con3-c2 .bd{}
+.con3-c2-c1{background: url(../img/p2bg1.jpg) left top no-repeat; height: 316px; width: 100%; margin-top: 40px;  position: relative; }
+.con3-c2 .img{  top: -20px }
+.con3-c2-c1 .img{ right: 0}
+.con3-c2-c2 .img{ left: 0}
+
+.con3-c2-c2{background: url(../img/p2bg2.jpg) right top no-repeat; height: 316px; width: 100%; margin-top: 100px;   position: relative; padding: 20px 0}
+.con3-c2-c3{background: url(../img/p2bg3.jpg) right top no-repeat;}
+.con3-c2-c4{background: url(../img/p2bg4.jpg) right top no-repeat;}

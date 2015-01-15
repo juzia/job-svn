@@ -104,19 +104,69 @@
 						</div>
 						<div class="text oz">
 							为了帮助更多企业和商家实现O2O移动营销，借助支付宝钱包“移动支付、粉丝营销”的独道优势，
-计划在全国100个城市带领超过100万户的商家，共同开启和迎接移动支付时代的来临！
-					</div>	
-
-
-
+							计划在全国100个城市带领超过100万户的商家，共同开启和迎接移动支付时代的来临！
+						</div>	
+					</div>
 				</div>
 			</div>
 
 		</div>
-	</div>
-		
+		<!-- con1 -->
 
+		<div class="con2">
+			<div class="con-in">
+				<ul class="video-list oz">
+					<li>
+						<a href="javascirpt:;" data-video='<embed src="http://player.youku.com/player.php/sid/XNzQ3NzI1MjU2/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>'>
+							<img src="img/v1.jpg" alt="" width="180 " height="200" />
+							<span class="cover">
+							</span>
+						</a>
+					</li>	
+					<li>
+						<a href="javascirpt:;" data-video='<embed src="http://player.youku.com/player.php/sid/XODE4NDk0NTQw/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>'>
+							<img src="img/v2.jpg" alt="" width="180 " height="200" />
+							<span class="cover">
+							</span>
+						</a>
+					</li>		
+					<li>
+						<a href="javascirpt:;" data-video='<embed src="http://player.youku.com/player.php/sid/XNjkyODMzNDEy/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>'>
+							<img src="img/v3.jpg" alt="" width="180 " height="200" />
+							<span class="cover">
+							</span>
+						</a>
+					</li>		
+					<li>
+						<a href="javascirpt:;" data-video='<embed src="http://player.youku.com/player.php/sid/XODA3MTE0Njg0/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>'>
+							<img src="img/v4.jpg" alt="" width="180 " height="200" />
+							<span class="cover">
+							</span>
+						</a>
+					</li>					
+				</ul>
+			</div>
+
+
+		</div>
+	</div>
 </div>
+<!-- wrap -->
+
+	<div class="pop-video">
+		<div class="hd">
+			<a href="javascript:;" class="pa icon icon-close js-close"></a>
+		</div>
+		<div class="bd">
+			
+
+		</div>
+
+	</div>
+
+	<div class="pop-mask">
+		
+	</div>
 
 <div class="footer">
 	<div class="con-in">
@@ -124,6 +174,21 @@
 	</div>
 	
 </div>
+<script type="text/javascript">
+	$('.video-list li a').click(function(event) {
+		var src = $(this).data('video');
+		$('.pop-video .bd').html(src);
+		$('.pop-video').show();
+		$('.pop-mask').show();
+	});
 
+
+	$('.js-close').click(function(event) {
+		$('.pop-video').hide();
+		$('.pop-mask').hide();
+		$('.pop-video .bd').html('');
+	});
+
+</script>
 </body>
 </html>
