@@ -6,7 +6,7 @@ h2 { font-size: 18px; font-weight: bold; color: #333}
 h3{font-size: 25px; color: #333; font-weight: bold;  line-height: 45px;}
 
 img{ border:0;}
-html{ background: #fff;font-family: 'microsoft Yahei'}
+html{ background: #f6f6f6;font-family: 'microsoft Yahei'}
 .c1{ color: #fe4d4d;}
 .c2{ color: #333}
 h2 .en{ font-size: 14px; font-family: 'Times New Roman'}
@@ -88,7 +88,7 @@ transition: opacity 0.4s;opacity: 0;display: block;}
 .focus-con .item5{ background:url(../img/5.jpg) top center no-repeat; height: 630px;}
 .focus-con .item6{ background:url(../img/6.jpg) top center no-repeat; height: 630px;}
 
-h2{ font-size: 30px; font-weight: bold; color: #ca5100 ; line-height: 40px;}
+h2{ font-size: 30px; font-weight: bold; color: #ca5100 ; line-height: 40px; }
 h2 em{ font-weight: bold;  font-size: 60px; color: #e70000}
 .focus-item .txt-box{ top: 75px; right: 161px;}
 .focus-item .txt-box p, .con1-c1 .text p{ font-size: 22px; color: #000; line-height: 42px;}
@@ -119,19 +119,71 @@ h2 em{ font-weight: bold;  font-size: 60px; color: #e70000}
 
 /*page3*/
 .page-3{ background: #f6f6f6}
+.mt40{margin-top: 40px;}
+.orange{ color: #f29429}
 .banner3{ background: url(../img/banner3.jpg) top center no-repeat; height: 329px;}
 
 .con3-c1 .bd img{ display: block; margin: 0 auto;}
-.con3 .hd .tit{ font-size: 30px; color: #333; font-weight: bold;}
-.con3-c1 .hd .info{ font-size: 16px; color: #666; line-height: 26px; margin-top: 20px;}
+.con3 .hd .tit, .con4 .hd .tit{ font-size: 30px; color: #333; font-weight: bold; }
+.con3-c1 .hd .info, .con4 .hd .info{ font-size: 16px; color: #666; line-height: 26px; margin-top: 20px;}
 
-.con3-c2 {  }
+.con3-c2 { padding-bottom: 50px; border-top: 1px solid #dfdfdf; padding-top: 40px; }
 .con3-c2 .bd{}
 .con3-c2-c1{background: url(../img/p2bg1.jpg) left top no-repeat; height: 316px; width: 100%; margin-top: 40px;  position: relative; }
-.con3-c2 .img{  top: -20px }
+.con3-c2 .img{  top: -40px }
 .con3-c2-c1 .img{ right: 0}
 .con3-c2-c2 .img{ left: 0}
 
 .con3-c2-c2{background: url(../img/p2bg2.jpg) right top no-repeat; height: 316px; width: 100%; margin-top: 100px;   position: relative; padding: 20px 0}
-.con3-c2-c3{background: url(../img/p2bg3.jpg) right top no-repeat;}
+.con3-c2-c3{background: url(../img/p2bg3.jpg) left top no-repeat;}
 .con3-c2-c4{background: url(../img/p2bg4.jpg) right top no-repeat;}
+
+
+.con3-c2 .text{ width: 570px; margin: 0 0  0  100px; padding: 70px 0 0 0}
+.con3-c2 .info{ font-size: 16px; color: #999; line-height: 26px; padding: 30px 0 0 0}
+.con3-c2 .text .tit{ text-align: center;}
+
+.con3-c2-c2 .text{ margin: 0 0 0 325px; padding-top: 50px;}
+
+
+/*page4*/
+.banner4{ background: url(../img/banner4.jpg) top center no-repeat; height: 330px;}
+
+.con4 .hd .info{color: #6d6d6d}
+.con4 .bd{padding: 20px 0}
+
+
+/*page5*/
+
+.banner5{ background: url(../img/banner5.jpg) top center no-repeat; height: 330px}
+
+.h2-tit{ color: #333; font-size: 30px; font-weight: bold; }
+
+
+.con5 .text{ padding: 0 30px 0 50px;}
+.con5-c1{ border-bottom:1px solid #dfdfdf; padding: 50px 0}
+.con5 .info{color: #999; font-size: 16px; line-height: 26px; margin-top: 20px;}
+
+.con5-c2 .text{ padding: 0 50px 0 42px}
+.con5-c2  .img{ margin-right: 120px;}
+
+
+.con5-c3 .text{padding: 0 80px}
+.con5-c4 .img{margin-right: 140px;}
+.con5-c5{ padding: 30px 0}
+.con5-c5 .h2-tit{ text-align: center;}
+.con5-c5 .bd{ padding: 30px 0}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
