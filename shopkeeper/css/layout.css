@@ -186,4 +186,9 @@ h2 em{ font-weight: bold;  font-size: 60px; color: #e70000}
 .con6-c2 .text{ padding: 40px 0}
 
 
+/*page7*/
+.page-7{ background: #fff;}
+.banner6 { background: url(../img/banner7.jpg) top center no-repeat; height: 330px;}
 
+.con7 .tit{ color: #3c628f; font-size: 20px; line-height: 30px;}
+.con7 .info{color: #6d6d6d; font-size: 16px; line-height: 26px; margin: 20px 0}
