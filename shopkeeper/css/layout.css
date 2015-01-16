@@ -23,7 +23,7 @@ img {vertical-align: middle;}
 
 .con-in{ width: 1000px; margin: 0 auto; position: relative;}
 .pa{ position: absolute;}
-.header{ height: 70px; background:#fff;}
+.header{ height: 70px; background:#fff; position: fixed;  top: 0; left: 0; width: 100%; z-index: 10}
 .menu-list li{ float: left; width: 108px; text-align: center;}
 .menu-list .txt{ display: block; color: #333; font-size: 16px; line-height: 26px;}
 .menu-list .icon-box{ display: block; height: 30px;}
@@ -39,7 +39,7 @@ img {vertical-align: middle;}
 .menu-list a:hover .icon-contact{background-position: -168px -40px;}
 
 .footer{ background: #dedede; height: 100px; line-height: 100px; text-align: center;}
-
+.container{ margin-top: 70px;}
 
 /*0*/
 /*.banner {position: relative;overflow: auto;}
@@ -179,11 +179,11 @@ h2 em{ font-weight: bold;  font-size: 60px; color: #e70000}
 
 
 
-
-
-
-
-
+/*page6 */
+.banner6 { background: url(../img/banner6.jpg) top center no-repeat; height: 330px;}
+.con6-c1{ overflow: hidden; *zoom:1; padding: 30px 0 }
+.con6-c1 .text{ border-bottom: 1px solid #dfdfdf;  width: 790px; font-size: 16px; line-height: 26px; color: #808284 ; padding: 46px 0  80px;}
+.con6-c2 .text{ padding: 40px 0}
 
 
 
