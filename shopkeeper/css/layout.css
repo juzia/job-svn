@@ -13,7 +13,7 @@ h2 .en{ font-size: 14px; font-family: 'Times New Roman'}
 img {vertical-align: middle;}
 .mt20{ margin-top: 20px;}
 /*common*/
-.icon{ background:url(../img/icon.png) no-repeat; display: inline-block; *display: inline; *zoom:1;}
+.icon{ background:url(../img/icon.png) no-repeat; display: inline-block; *display: inline; *zoom:1; _background:url(../img/icon-ie6.png) no-repeat;}
 .icon-home{ width: 26px; height: 26px; background-position: -104px -72px; }
 .icon-server{ background-position: -24px 0; width: 30px; height: 25px;}
 .icon-jiameng{ background-position: -64px 0; width: 28px; height: 27px;}
@@ -49,7 +49,7 @@ img {vertical-align: middle;}
 
 
 .footer{ background: #dedede; height: 100px; line-height: 100px; text-align: center;}
-.container{ margin-top: 70px;}
+.container{ margin-top: 70px; _margin-top: 0;}
 
 /*0*/
 /*.banner {position: relative;overflow: auto;}
@@ -72,8 +72,8 @@ transition: opacity 0.4s;opacity: 0;display: block;}
  .active { background-position: -48px -88px; }
 */
 
-
-.focus-con{position: relative;   overflow: hidden; *zoom:1; max-height: 700px;}
+.focus-w{position: relative;}
+.focus-con{position: relative;   overflow: hidden; *zoom:1;}
 .focus-con,.focus-item,.focus-item .img{ width: auto; }
 .focus-item img{ width:100%; height:100%}
 .focus-item .txt{ overflow:hidden; white-space:nowrap}
@@ -84,8 +84,8 @@ transition: opacity 0.4s;opacity: 0;display: block;}
 */.focus-item .s-tit{ bottom: 20px;  font-size: 12px;}
 .focus-item a:hover .tit{ text-decoration:underline}
 .focus-item .bg{ display:block; position:absolute; z-index:-1; top:0; left:0; width:1000px; height:1000px; background:#1f0806; filter:alpha(opacity:70); opacity:.7}
-.focus-num{ position: absolute;width: 10px;height: 160px;top:50%; right: 10px; margin-top: -80px;  text-align: center;font-size: 15px;}
-.focus-num a{ display:inline-block; width: 20px;height: 20px; overflow: hidden; text-indent: -111px; background: url(../img/icon.png) -48px -112px no-repeat;   cursor: pointer;}
+.focus-num{ position: fixed;width: 10px;height: 160px;right: 20px;top: 217px; text-align: center;font-size: 15px;}
+.focus-num a{ display:block; width: 20px;height: 20px; overflow: hidden; text-indent: -111px; background: url(../img/icon.png) -48px -112px no-repeat; _background: url(../img/icon-ie6.png) -48px -112px no-repeat;    cursor: pointer;}
 .focus-num a:hover{ text-decoration:none}
 .focus-num .current{  background-position: -48px -88px; }
 
@@ -105,26 +105,30 @@ h2 em{ font-weight: bold;  font-size: 60px; color: #e70000}
 .focus-item .txt-box{ top: 75px; right: 161px;}
 .focus-item .txt-box p, .con1-c1 .text p{ font-size: 22px; color: #000; line-height: 42px;}
 .focus-item .txt-box .info{ margin-top: 20px; width: 528px;}
-.focus-item .item2 .txt-box .orange{ font-size: 30px; font-weight: bold;} 
-.focus-con .item2 .txt-box p{ color: #fff; font-size: 16px; line-height: 26px;}
-.focus-item .btn-detail{ border: 3px solid #333; color: #333; top: 110px; right: 10px; padding:0 15px; height: 44px; line-height: 44px; text-align: center; }
 
-.focus-con .item2 .btn-detail{ border-color:#fff; color: #fff; right: auto; left: 0; top: 180px;}
+.focus-con .btn-detail{ border: 3px solid #fff; color: #fff; padding:0 15px; font-weight: bold;  height: 44px; line-height: 44px; text-align: center;}
+.focus-con .item2 .txt-box .orange{ font-size: 30px; font-weight: bold;} 
+.focus-con .item2 .txt-box p{ color: #fff; font-size: 16px; line-height: 26px;}
+.focus-con .item1 .btn-detail{ border: 3px solid #333; color: #333; top: 110px; right: 10px;  }
+.focus-con .item1 .btn-detail:hover{ border-color: #e70000; color: #e70000;}
+.focus-con .item2 .btn-detail{right: auto; left: 0; top: 220px;  border-color: #fff; color: #fff }
+.focus-con .item2 .btn-detail:hover{ border-color: #e70000; color: #e70000}
 .focus-con .item3 .tit{ color: #fff; font-size: 50px; font-weight: bold;}
 .focus-con .item3 .txt-box { width: 620px ;margin: 0 auto; top: 65px;}
 .focus-con .item3 .info p{color: #b6dcff; font-size: 18px; line-height: 28px;}
-.focus-con .item3 .btn-detail{ border-color: #fff; color: #fff; right: 287px; top: 160px;}
+.focus-con .item3 .btn-detail{right: 287px; top: 170px;border-color: #fff; color: #fff; }
+.focus-con .item3 .btn-detail:hover{  border-color: #e2bf30; color: #e2bf30; }
 .focus-con .item4 .tit{ color: #fff;}
 .focus-con .item4 .txt-box {width: 565px; right: 0; top: 132px;}
-.focus-con .item4 .txt-box p{color: #ffc5b5; font-size: 18px; line-height: 28px; margin-top: 20px; padding: 0 20px;}
-.focus-con .item4 .btn-detail{ border-color: #e2bf30; color: #e2bf30; right: 302px; top: 335px}
-
+.focus-con .item4 .txt-box p{color: #ffc5b5; font-size: 18px; line-height: 28px; margin-top: 20px; padding: 0 8px;}
+.focus-con .item4 .btn-detail{ right: 362px; top: 165px;  border-color: #ffcd00; color: #ffcd00; }
+.focus-con .item4 .btn-detail:hover{ border-color: #fff; color: #fff; }
 .focus-con .item5 .txt-box {width: 628px; left: 0; top: 122px;}
 .focus-con .item5 .txt-box p{color: #8387be; font-size: 18px; line-height: 28px; margin-top: 20px;}
-.focus-con .item5 .btn-detail{ border-color: #4ed0ea; color: #4ed0ea; left: 0; right: auto; top: 140px}
-
-
-.focus-con .item6 .con-in{ padding: 20px 0}
+.focus-con .item5 .btn-detail{  left: 0; right: auto; top: 164px;border-color: #4ed0ea; color: #4ed0ea; }
+.focus-con .item5 .btn-detail:hover{border-color: #fff; color: #fff; }
+.focus-con .item6{ background: #f3f3f3}
+.focus-con .item6 .con-in{ padding: 20px 0;}
 .focus-con .item6 .other{ font-size: 22px; line-height: 50px;}
 .focus-con .item6 .phone{color: #eb4a36; font-size: 22px; font-family: 'simsun'}
 .focus-con .item6 .bd{ padding: 30px 0}
@@ -140,13 +144,13 @@ h2 em{ font-weight: bold;  font-size: 60px; color: #e70000}
 .con1-c2 .text{ padding: 10px 0 0 45px; font-size: 16px; color: #333; line-height: 26px;}
 
 .con2{ margin-top: 40px; border-top: 1px solid #dfdfdf; padding:40px 0}
-.video-list li{ position: relative; float: left; width: 186px; height: 204px; margin: 0 32px;}
+.video-list li{ position: relative; float: left; width: 186px; height: 204px; margin: 0 32px; _margin:0 22px;}
 .video-list li a{ display: block;  width: 186px; height: 204px; position: relative;}
 .video-list img{width: 180px; height: 200px; padding: 2px 3px;}
 .video-list .cover{position: absolute; left: 0; top: 0; width: 180px; height: 200px; padding: 2px 3px; background: url(../img/video-bg.png) no-repeat; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='../img/video-bg.png')}
 .video-list a:hover .cover{ background: url(../img/video-bg-hover.png) no-repeat;  _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='../img/video-bg-hover.png')}
-.pop-video{ width: 480px; height: 522px; left: 50%; margin-left: -240px; top:20%; display: none; position: fixed; z-index: 100 }
-.pop-mask{ width: 100%; left: 0; top: 0; height: 100%; background: #000; opacity: 0.5; filter:alpha(opacity=50);display: none; position: fixed; }
+.pop-video{ width: 480px; height: 522px; left: 50%; margin-left: -240px; top:20%; _top:700px; display: none; position: fixed; z-index: 100 ; _position: absolute;  }
+.pop-mask{ width: 100%; left: 0; top: 0; height:100%; _height:1300px; background: #000; opacity: 0.5; filter:alpha(opacity=50); position: fixed; _position: absolute; display: none; }
 .icon-close{ width: 61px; height: 61px; background-position: -136px -72px; right: -61px; top: 0}
 
 
@@ -220,7 +224,7 @@ h2 em{ font-weight: bold;  font-size: 60px; color: #e70000}
 
 
 /*page7*/
-.page-7{ background: #fff;}
+.page-7{ background: #fff}
 .banner6 { background: url(../img/banner7.jpg) top center no-repeat; height: 330px;}
 
 .con7 .tit{ color: #3c628f; font-size: 20px; line-height: 30px;}
@@ -238,6 +242,8 @@ h2 em{ font-weight: bold;  font-size: 60px; color: #e70000}
 .con8-c1-c1{ margin-bottom: 30px;}
 
 .con8-c2{ }
+.support-list{ *padding-bottom: 30px;}
+
 .support-list li{ width: 282px; float: left;  margin-bottom: 50px;  height: 203px;}
 .support-list .bor{ border-right: 1px solid #dfdfdf; border-left: 1px solid #dfdfdf ; width: 418px;}
 .support-list .txt{ display: block; font-size: 16px; line-height: 26px; color: #333; text-align: left; margin-top: 25px;}
@@ -258,3 +264,7 @@ h2 em{ font-weight: bold;  font-size: 60px; color: #e70000}
 .con9 .info{color: #acacac; font-size: 20px; line-height: 30px;}
 .info-list { margin-top: 35px;}
 .info-list li{font-size: 16px; color: #333; line-height: 36px;}
+
+
+.qq-box{ position: fixed;  left: 0; top: 30%;padding:  8px;  width: 48px; height: 59px;border-top-right-radius: 5px; _position: absolute;  border-bottom-right-radius:5px; background: #fff; box-shadow: 1px 1px 1px #dfdfdf}
+.qq-box a{ display: block; width: 48px; height: 59px;  background: #fff url(../img/qqserver.jpg) no-repeat}
