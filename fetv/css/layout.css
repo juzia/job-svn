@@ -1,0 +1,124 @@
+/*common reset*/
+*{ color: #333;  }
+a{ text-decoration: none;}
+em,i{ font-style: normal;}
+h2{ text-align: center; line-height: 38px;}
+h2 a{ font-size: 18px; font-weight: bold; color: #e30f2d;}
+
+
+img{ border:0;}
+
+html{ background: #eeeeee; font-size: 12px; line-height: 1.2;  font-family: 'microsoft yahei'}
+.c1{ color: #333;}
+.c2{ color: #666}
+.c3{ color: #e45722;} /*orange*/
+.c4{ color: #999}
+
+
+h3{ font-size: 18px; font-weight: bold; float: left; border-bottom: 1px solid #333}
+h4{ font-size: 18px; font-weight: bold; line-height: 30px}
+/*common*/
+
+
+.icon{ background: url(../img/icon.png) no-repeat; overflow: hidden; display: inline-block; *display: inline; *zoom:1;}
+.icon-dott{ float: left; width: 4px; height: 4px; background-position: -64px 0; margin: 10px 5px 0 0}
+
+.mt10{ margin-top: 10px;}
+.more{float: right; color: #333}
+/*top bar*/
+.top-bar{ height: 35px; border-bottom: 1px solid #e0e0e0; background: #f7f7f7; line-height: 35px;}
+
+/*end top bar*/
+
+
+/*header*/
+
+.con-in{ width: 1000px ; margin:  0 auto;}
+
+.header{ position: relative; height: 146px; }
+.header .con-in{position: relative; height: 146px;}
+.logo{float: left;  margin: 15px 0}
+.navigation{ height: 50px; position: absolute; background: #2d2a29; bottom: 0; left: 0; width: 1000px; z-index: 10; overflow: hidden; *zoom: 1;}
+.menu-list li{ float: left; }
+.menu-list li a{ display: block;border-right:1px solid #3c3938; padding: 0 30px;text-align: center; color: #fff; line-height:50px; font-weight: bold; font-size: 16px;}
+.menu-list .current, .menu-list a:hover{ background: #e45722}
+.navigation .cp{ padding: 0 28px; background: #75c42f; color:#fff; font-size: 16px; line-height: 50px;}
+
+.comm-con{ border: 1px solid #e1e1e1; background: #f8f8f8}
+.comm-pn{ border: 1px solid #fff; padding: 8px;}
+.comm-con .hd{ border-bottom: 1px solid #ebecec; line-height: 30px; height: 30px;}
+.comm-con .bd{padding: 10px 0}
+
+.container{ width: 1000px; margin: 0 auto;}
+.con2-c1{ width: 298px;}
+.news-list li{ line-height: 24px}
+.news-list a{font-size: 14px; color: #666}
+.news-list a:hover{ text-decoration: underline; color: #e45722}
+
+.con2-c2{ width: 678px;}
+.pic-list1 {margin-left: -19px;}
+.pic-list1 li{float: left; width: 150px; margin-left: 19px;}
+.pic-list1 img{ width: 150px; height: 84px;}
+.pic-list1 .txt{ display: block; color: #666; text-align: center; line-height: 24px;}
+.text-con{ padding: 0 20px;}
+
+.con2-c2-c2 img{ width: 250px; height: 140px; }
+
+.con3-c1{ width: 678px;}
+.con3-c2{width: 298px;}
+
+.con3-c1-text{ width: 335px;}
+.con3-c1-c1 img{width: 250px; height: 140px;}
+.content3 .img .txt{ display: block; font-size: 14px; color: #666; text-align: center; line-height: 24px;}
+.content3 .img { margin-right: 20px;}
+
+
+.fjnews{ width: 381px;}
+.pic-list2{ margin-left: -10px;}
+.pic-list2 li{margin-left: 10px; width: 120px; margin-bottom: 20px;}
+.pic-list2 img{width: 120px; height: 90px; }
+.news-box{width: 262px;}
+
+.video-list{margin-left: -24px;}
+.video-list img{width: 175px; height: 100px;}
+.video-list li{width: 175px;margin-left: 24px; margin-bottom: 20px;}
+.video-list .img{ display: block; width: 175px; height: 100px; position: relative; }
+.icon-video{ width: 45px; height: 45px; background-position: -72px 0; position: absolute; left: 50%; margin-left: -22px; top: 20px}
+.video-list .cover{ z-index: 2; position: absolute;bottom: 0; left: 0; height: 46px; width: 100%; text-align: center; }
+.video-list .cover .date{ position: absolute; bottom: 10px; left: 0; text-align: center; width: 100%;}
+.video-list .bg{ z-index: -1; position: absolute; left: 0; bottom: 0; height: 46px; background:url(../img/cover.png) repeat-x; width: 100%;}
+.video-list .txt{font-size: 14px; color: #333; line-height: 24px;}
+
+
+
+.con5-c1{width: 480px}
+.con5-c2{width: 478px;}
+.news-list1{padding: 10px 0}
+.news-list1 li{line-height: 24px;}
+.news-list1 em{width: 16px; height: 18px; text-align: center; line-height: 18px; float: left; margin: 3px 3px 0 0; font-family: 'impact'; color: #fff}
+.news-list1 a{font-size: 14px; color: #666;}
+
+.con5-c1-c1 h3{ float: none; border: none;}
+.pic-list4 { margin-left: -7px;}
+.pic-list4 li{ float: left; width: 90px; margin-left: 7px; margin-bottom: 7px;}
+.pic-list4 img{width: 90px; height: 110px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
