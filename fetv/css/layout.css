@@ -148,14 +148,14 @@ h2{font-size: 30px; font-weight: bold; line-height: 40px; text-align: center;}
 
 
 .news-list1{padding: 10px 0}
-.news-list1 li{line-height: 26px;}
-.news-list1 em{width: 16px; height: 18px; text-align: center; line-height: 18px; float: left; margin: 3px 5px 0 0; font-family: 'impact'; color: #fff}
+.news-list1 li{line-height: 29px; height: 29px;}
+.news-list1 em{width: 16px; height: 18px; text-align: center; line-height: 18px; float: left; margin: 6px 5px 0 0; font-family: 'impact'; color: #fff}
 .news-list1 a{font-size: 14px; color: #666;}
 
 .con5-c1-c1{ margin-top: 15px;}
 .con5-c1-c1 h3{ float: none; border: none;}
 .pic-list4 { margin-left: -7px; _margin-left: -14px;}
-.pic-list4 li{ float: left; width: 90px; margin-left: 7px; margin-bottom: 7px; _margin-bottom: 4px;}
+.pic-list4 li{ float: left; width: 90px; margin-left: 7px; margin-bottom: 7px;  *margin-bottom: 4px; _margin-bottom: 2px;}
 .pic-list4 img{width: 90px; height: 110px;}
 
 .content6 .comm-pn{ height: 290px; overflow: hidden;}
