@@ -206,3 +206,50 @@ h5{font-size: 18px;  font-weight: bold;  line-height: 28px;}
 .footer{ height: 160px; background: #2d2d2b; padding:50px 0 20px 0; margin-top: 20px}
 .footer-in{width: 1000px; margin: 0 auto}
 .footer p, .footer p a{ color: #999; text-align: center; font-size: 14px; line-height: 24px;}
+
+
+/*list page*/
+.icon-clock{width: 13px; height: 13px; background-position: -80px 0; float: left; margin-right: 2px} 
+.icon-read{ width: 20px; height: 11px; background-position: -96px 0; float: left; margin-right: 2px}
+.crumb-box{ height: 40px; line-height: 40px}
+.crumb-in .curr{ padding: 0 0 0 5px; color: #999}
+.crumb-in a, .crumb-in span{ color: #999}
+.crumb-box .icon-home{margin: 13px 2px 0}
+
+.list-box .comm-pn{ padding: 10px 0 10px 10px;}
+.list-box .list-l{ width: 658px;}
+
+.list-box .list-r{width: 319px;}
+.news-list2 .h2-tit{ text-align: left; line-height: 54px}
+.news-list2 .h2-tit a{ font-size: 24px;color: #333; text-align: left;}
+.news-list2 .h2-tit a:hover{ color: #e13a07}
+.news-list2 .summary{ font-size: 14px; line-height: 24px; color: #999}
+.news-list2 p {margin-top:15px;}
+.news-list2 p span{color: #999}
+.news-list2 .s1{ padding-right: 15px;}
+.news-list2 li{ padding: 10px 0 15px; border-bottom: 1px solid #e7e7e7; overflow: hidden; *zoom:1;}
+
+
+
+
+.page-box{ text-align: center; margin-top: 30px;}
+.page-box a{ font-family: 'microsoft yahei';  box-shadow: 1px 1px 1px #eee; display: inline-block; *display: inline; *zoom:1; margin: 0 2px; font-size: 14px; height:27px; line-height: 27px; padding: 0  10px; border: 1px solid #e3e3e3; border-radius: 3px; box-shadow: 1px 1px #f5f5f5  }
+.page-box .current ,.page-box a:hover{ background: #ff702a; border-color: #e13a07; color: #fff;  }
+
+
+.content { padding-bottom: 40px}
+.content .hd {border-bottom: 1px solid #efefef; text-align: center; padding: 12px 0; height: 80px;}
+.content .hd p span{ padding-right: 30px; color: #999 ; font-size: 14px;}
+.content .hd p span em{color: #999}
+.content .bd{ padding: 30px 90px 0;}
+.content .hd .lettersize a{ color: #278eee}
+.content .tit{ font-size: 24px; line-height: 56px; font-family: 'microsoft yahei' ; font-weight: bold;}
+.detail-box p{ text-indent: 2em; font-size: 14px; font-family: 'microsoft yahei'; color: #333; margin-bottom: 40px; line-height: 24px;}
+.detail-box  img{ display: block; margin: 0 auto}
+
+.recomm-box { border: 1px solid #ededed; background: #fff; padding: 20px; margin-top: 20px}
+.recomm-box .s1{ width: 49.9%; font-size: 14px}
+.recomm-box .s1 a{color: #e45722; font-size: 14px}
+
+
+
