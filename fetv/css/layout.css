@@ -209,8 +209,8 @@ h5{font-size: 18px;  font-weight: bold;  line-height: 28px;}
 
 
 /*list page*/
-.icon-clock{width: 13px; height: 13px; background-position: -80px 0; float: left; margin-right: 2px} 
-.icon-read{ width: 20px; height: 11px; background-position: -96px 0; float: left; margin-right: 2px}
+.icon-clock{width: 13px; height: 13px; background-position: -80px 0; float: left; margin-right: 2px; margin-top: 4px;} 
+.icon-read{ width: 20px; height: 11px; background-position: -96px 0; float: left; margin-right: 2px; margin-top: 5px;}
 .crumb-box{ height: 40px; line-height: 40px}
 .crumb-in .curr{ padding: 0 0 0 5px; color: #999}
 .crumb-in a, .crumb-in span{ color: #999}
@@ -223,8 +223,8 @@ h5{font-size: 18px;  font-weight: bold;  line-height: 28px;}
 .news-list2 .h2-tit{ text-align: left; line-height: 54px}
 .news-list2 .h2-tit a{ font-size: 24px;color: #333; text-align: left;}
 .news-list2 .h2-tit a:hover{ color: #e13a07}
-.news-list2 .summary{ font-size: 14px; line-height: 24px; color: #999}
-.news-list2 p {margin-top:15px;}
+.news-list2 .summary{ font-size: 14px; line-height: 24px; color: #999; text-indent: 2em}
+.news-list2 p {margin-top:15px; height: 20px ; line-height: 20px;}
 .news-list2 p span{color: #999}
 .news-list2 .s1{ padding-right: 15px;}
 .news-list2 li{ padding: 10px 0 15px; border-bottom: 1px solid #e7e7e7; overflow: hidden; *zoom:1;}
@@ -234,7 +234,7 @@ h5{font-size: 18px;  font-weight: bold;  line-height: 28px;}
 
 .page-box{ text-align: center; margin-top: 30px;}
 .page-box a{ font-family: 'microsoft yahei';  box-shadow: 1px 1px 1px #eee; display: inline-block; *display: inline; *zoom:1; margin: 0 2px; font-size: 14px; height:27px; line-height: 27px; padding: 0  10px; border: 1px solid #e3e3e3; border-radius: 3px; box-shadow: 1px 1px #f5f5f5  }
-.page-box .current ,.page-box a:hover{ background: #ff702a; border-color: #e13a07; color: #fff;  }
+.page-box .current ,.page-box a:hover{ background: #ff702a; border-color: #e13a07; color: #fff; text-decoration: none; }
 
 
 .content { padding-bottom: 40px}
