@@ -80,3 +80,36 @@ if($('.carousel-box').length) {
 	});
 }
 
+
+
+
+  if($('#ng_scroll').length > 0) {
+  		var scrtime;
+		$("#ng_scroll").hover(function() {
+
+			clearInterval(scrtime);
+		},
+		function() {
+			scrtime = setInterval(function() {
+				var $ul = $("#ng_scroll ul");
+				var liHeight = $ul.find("li:first").height();
+				$ul.animate({
+					marginTop: -liHeight + "px"
+				},
+				1000, function() {
+					$ul.find("li").removeClass('nob');
+					$ul.find("li:first").appendTo($ul);
+					$ul.find("li:last").hide();
+					$ul.css({
+						marginTop: 0
+					});
+					$ul.find("li:last").addClass('nob').fadeIn(1000);
+				});
+			},
+			3000);
+		}).trigger("mouseleave");
+  	
+  }
+
+
+	
