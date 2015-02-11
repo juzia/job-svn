@@ -16,6 +16,7 @@ html{ background: #fff; font-size: 12px; line-height: 1.2; }
 .c4{ color: #999}
 .c5{color: #fff}
 a.c5:hover{ color: #fff}
+.c6{color: #fe332e}
 
 h3{ font-size: 16px; font-family: 'microsoft yahei';  color: #333;}
 h4{ font-size: 16px; font-weight: bold; line-height: 30px}
@@ -31,7 +32,7 @@ h4 a{font-size: 16px; font-weight: bold; font-family: 'microsoft yahei'}
 .mt5{ margin-top: 5px;}
 .more{float: right; color: #333}
 /*top bar*/
-.top-bar{ height: 12px; border-bottom: 1px solid #e0e0e0; background: #f7f7f7; line-height: 12px; padding: 14px 0}
+.top-bar{ height: 14px; border-bottom: 1px solid #e0e0e0; background: #f7f7f7; line-height: 14px; padding: 13px 0}
 strong , .strong{ font-weight: bold;}
 /*end top bar*/
 
@@ -43,9 +44,10 @@ strong , .strong{ font-weight: bold;}
 
 .header{ position: relative; height: 175px; }
 .header .con-in{position: relative; height: 147px;}
-.header .bg1{ position: absolute;  background: url(../img/topbg1.jpg) no-repeat; width: 279px; height: 96px; right: -40px; bottom: 50px;}
+.header .bg1{ position: absolute;  background: url(../img/topbg1.jpg) no-repeat; width: 279px; height: 96px; right: -20px; bottom: 50px;}
 .header .bg1 img{border: 12px solid #fff; border-top-left-radius: 10px; border-top-right-radius: 10px;}
-.ewm-box{position: absolute; right: 48px; bottom: 0; border: 1px solid #dedede; border-top-left-radius: 10px; border-top-right-radius: 10px;}
+.ewm-box{position: absolute; right: 35px; bottom: 0; border: 1px solid #dedede; border-top-left-radius: 10px; border-top-right-radius: 10px;}
+.banner-box{width: 560px; height: 70px; position: absolute; top: 13px; right: 198px;}
 .login-box { border-right: 1px solid #c4c4c4; padding-right: 10px}
 .login-box  a{ padding: 0 5px;}
 .logo{float: left;  margin: 15px 0}
@@ -60,10 +62,10 @@ strong , .strong{ font-weight: bold;}
 .navigation .cp{ padding: 0 28px; background: #75c42f; color:#fff; font-size: 16px; line-height: 50px;}
 .navigation dl{ float: left;}
 
-.navigation .other-box{ width: 240px; padding: 14px 0 }
+.navigation .other-box{ width: 240px; padding: 17px 0 0 }
 .other-list li{ float: left; width: 32.5%; text-align: center; border-right: 1px solid #437adf}
 .other-list li .img{ display: block; height:28px;  }
-.other-list li .txt{ line-height: 22px;}
+.other-list li .txt{ line-height: 24px;}
 .other-list li a:hover .txt,.other-list li a:hover{ color: #fff}
 .txt{ display: block;}
 
@@ -85,7 +87,7 @@ h2{font-size: 30px; font-weight: bold; line-height: 40px; text-align: center;}
 .recom-box .strong{ padding-right: 8px;}
 .recom-box span{ padding-right: 8px;}
 .search-box{ padding: 8px 0; line-height: 30px;}
-.btn-search{ background: #32a0ed; border: 0 ; width: 60px; height: 32px; position: absolute; right: 0; top: 0}
+.btn-search{ background: #32a0ed; border: 0 ; width: 60px; height: 32px; position: absolute; right: 0; top: 0; cursor: pointer;}
 .input-keyword{width: 153px; height: 28px; position: absolute; left: 0; top: 0; border: 1px solid #e8e8e8; line-height: 28px; float: left; padding-left: 5px;}
 .search-in{width: 220px; height: 30px; position: relative;}
 
@@ -117,7 +119,7 @@ h2{font-size: 30px; font-weight: bold; line-height: 40px; text-align: center;}
 .focus-num a{   margin-right: 3px; width:14px; height:14px; overflow: hidden; background-position: -56px 0;}
 .focus-num a:hover{ text-decoration:none}
 .focus-num .current{ background-position: -75px 0 }
-.focus-con .icon{ position: absolute;width: 22px; height: 41px; bottom: 5px; z-index: 10}
+.focus-con .icon{ position: absolute;width: 22px; height: 41px; bottom: 5px; z-index: 10; cursor: pointer;}
 .focus-con .backward{ background-position:-240px -24px; left: 5px}
 .focus-con .forward{ background-position:-272px -24px;  right: 5px}
 
@@ -129,7 +131,7 @@ h2{font-size: 30px; font-weight: bold; line-height: 40px; text-align: center;}
 .news-tab { position: absolute;bottom: -2px;  _bottom: -3px; left: 0; height: 41px;}
 
 .news-tab li{ float: left; line-height: 39px; position: relative;}
-.news-tab a{ padding: 0 22px; font-size: 16px; height: 36px; color: #999; font-family: 'microsoft yahei';  display: inline-block; *display: inline; *zoom:1;  }
+.news-tab a{ padding: 0 41px; font-size: 16px; height: 36px; color: #999; font-family: 'microsoft yahei';  display: inline-block; *display: inline; *zoom:1;  }
 .news-tab .current{ color: #333;  border: 1px solid #f2f2f2 ;  border-top: 3px solid #0066cc;border-bottom: 2px solid #fff}
 .news-tab a:hover{ text-decoration: none;}
 
@@ -149,6 +151,8 @@ h2{font-size: 30px; font-weight: bold; line-height: 40px; text-align: center;}
 .query-list li{ position: relative;  float: left; width: 33.3%; text-align: center;  margin-bottom: 10px; height: 70px;}
 .query-list a{ font-family: 'microsoft yahei';padding-left: 6px;}
 .query-list .txt{ color: #999; line-height: 20px; padding: 0 5px;}
+.query-list a:hover .txt,.query-list a:hover { color: #999}
+
 .query-list .current .icon-circle{ background-position: -72px 0 }
 .query-list .current{ background: #f6faf5}
 
@@ -167,11 +171,13 @@ h2{font-size: 30px; font-weight: bold; line-height: 40px; text-align: center;}
 .com-c1{ width: 300px; float: left;}
 .com-c2{width: 440px; float: left; margin: 0 20px}
 .com-c3{width: 220px; float: right;}
-.content2 .hd, .content3 .hd,  .content4 .hd{ line-height: 38px;}
+.content2 .hd, .content3 .hd,  .content4 .hd{ line-height: 36px;}
 .content2 .bd{padding-top: 5px;}
 .gk-list{ background: #3498db}
 .gk-list li{ float: left; width: 33%; text-align: center; padding: 15px 0; height: 65px; overflow: hidden;}
 .gk-list .txt{ color: #fff; line-height: 30px;}
+.gk-list a:hover .txt, .gk-list a:hover{color: #fff}
+
 .br{ border-right: 1px solid #48a8e9}
 .bt{border-bottom: 1px solid #48a8e9}
 
@@ -193,22 +199,23 @@ a:hover .icon-video{ background-position: -176px 0}
 
 
 
-.footer{  background: #3c3c3c; padding:50px 0 20px 0; margin-top: 20px}
+.footer{  background: #3c3c3c; padding:30px 0 20px 0; margin-top: 20px}
 .footer-in{width: 1000px; margin: 0 auto}
 
-.all-box{border-bottom: 1px solid #4c4c4c; padding-bottom: 40px;}
+.all-box{border-bottom: 1px solid #4c4c4c; padding-bottom: 30px;}
 .all-list {width: 780px;}
 .all-list li{ float: left; width: 16.66%;text-align: center;}
-.all-list .tit{ font-size: 16px; color: #fff; line-height: 26px;}
-.all-list  a{ display: block;  color: #999; font-size: 14px; line-height: 24px;}
-.gzhu-box{ width: 220px; text-align: center;}
+.all-list .tit{ font-size: 18px; color: #fff; line-height: 36px; font-family: 'microsoft yahei'}
+.all-list  a{ display: block;  color: #999; font-size: 14px; line-height: 24px;font-family: 'microsoft yahei'}
+.gzhu-box{ width: 220px; text-align: center;  margin-top: 20px;}
 .gzhu-box img{border: 4px solid #fff}
 .gzhu-box .txt{ line-height: 24px;}
 
+.gzhu-box a:hover  { text-decoration: none;}
 
 .icon-sina{width: 70px; height: 23px; background-position: -200px 0; line-height: 23px; text-indent: 25px; color: #fff;}
 
-.link-box h3{ line-height: 36px;}
+.link-box h3{ line-height: 46px; font-size: 18px;}
 .link-box .bd a{ font-size: 14px; color: #999 ; padding-right: 18px; font-family: 'microsoft yahei'}
-.copyright{margin-top: 20px ;border-top: 1px solid  #4c4c4c; padding: 20px 0}
+.copyright{margin-top: 30px ;border-top: 1px solid  #4c4c4c; padding: 30px 0}
 .copyright p{ font-size: 12px; color: #ccc; text-align: center; line-height: 22px;}
