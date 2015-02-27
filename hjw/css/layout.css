@@ -26,7 +26,7 @@ h4 a{font-size: 16px; font-weight: bold; font-family: 'microsoft yahei'}
 
 .icon{ background: url(../img/icon.png) no-repeat; overflow: hidden; display: inline-block; *display: inline; *zoom:1; _background: url(../img/icon-ie6.png) no-repeat;}
 .icon-recom{ width:21px; height: 25px; margin-right: 10px; }
-.icon-search{ width: 20px; height: 20px; background-position: -32px 0}
+.icon-search{ width: 20px; height: 20px; background-position: -32px 0; float: left; margin: 5px 13px; *margin: 2px 0  0 17px;}
 .mt10{ margin-top: 10px;}
 .mt15{ margin-top: 15px;}
 .mt5{ margin-top: 5px;}
@@ -194,7 +194,7 @@ h2{font-size: 30px; font-weight: bold; line-height: 40px; text-align: center;}
 .con4-c1 .pic-con .con .summary{ line-height: 18px}
 h5 a{ font-weight: bold; line-height: 22px;}
 
-.icon-video{width: 14px; height: 14px; float: left; background-position: -160px 0; margin: 3px 4px 0 0}
+.icon-video{width: 14px; height: 14px; float: left; background-position: -160px 0; margin: 4px 4px 0 0}
 a:hover .icon-video{ background-position: -176px 0}
 
 
