@@ -5,17 +5,25 @@
 	<title>福建省高职招考信息发布平台</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="css/layout.css" media="screen" />
-	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
-	<script type="text/javascript" src="js/ue-slideshow-combo.js"></script>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/tab.js"></script>
 </head>
 <body>
 <div class="wrap">
 	<div class="top-bar">
-		<div class="con-in">
-			<div class="collect-box fr"> 
-				<a href="javascript:;" id="setHomePage"><i class="icon icon-add"></i> 加入收藏</a>
-				<a href="javascript:;" id="addBookMark"><i class="icon icon-home"></i>设为首页</a> 
+		<div class="con-in oz">
+		<div class="collect-box fr"> 
+				<a href="javascript:;" id="setHomePage">加入收藏</a>
+				<a href="javascript:;" id="addBookMark">设为首页</a> 
+				<a href="#" target="_blank">教育导航</a>
+				<a href="#" target="_blank">官方微博</a> 
 			</div>
+			<div class="login-box fr">
+				<a href="#" target="_blank">注册</a>
+				<a href="#" target="_blank">登陆</a> 
+
+			</div>
+			
 		</div>	
 	</div>
 	<div class="header ">
@@ -24,161 +32,783 @@
 					<a href="#" target="_blank" class="ewm-box"><img src="img/ewm.jpg" /></a>
 
 			</div>
+			<div class="banner-box fl">
+				<a href="#" target="_blank" ><img src="img/p1.jpg" width="560" height="70"></a>
+
+			</div>
 			<h1 class="logo fl">
 				<a href="/" > <img src="img/logo.jpg" alt="" /></a> 
 			</h1>
-			<div class="navigation">
-				<a class="fr cp" href="#" target="_blank">福建教育电视台</a>
+			
+		</div>
+		<div class="navigation">
+			<div class="con-in">
 				<ul class="menu-list fl">
 					<li class="item1">
-						<a href="#" target="_blank" class="current">首页</a>
+						<strong>高考</strong>
+						<a href="#" target="_blank" >高职</a>
+						<a href="#" target="_blank"> 艺考 </a>
+						<a href="#" target="_blank" >自主招生</a>
+						<a href="#" target="_blank" >成人高考</a>
 					</li>
 					<li class="item2">
-						<a href="#" target="_blank">要闻</a>
+						<strong>考研</strong>
+						<a href="#" target="_blank" >在线学习 </a>
+						<a href="#" target="_blank"> 试卷中心 </a>
 					</li>
 					<li class="item3">
-						<a href="#" target="_blank">专题</a>
+						<strong>新闻中心</strong>
+						<a href="#" target="_blank" >教育专区 </a>
 					</li>
-					<li class="item4">
-						<a href="#" target="_blank">直播</a>
+					<li class="item1">
+						<strong>中考</strong>
+						<a href="#" target="_blank" >学前    </a>
+						<a href="#" target="_blank"> 小学 </a>
+						<a href="#" target="_blank" >初中</a>
+						<a href="#" target="_blank" >高中</a>
+						<a href="#" target="_blank" >中专</a>
 					</li>
-					<li class="item5">
-						<a href="#" target="_blank">校园</a>
+					<li class="item2">
+						<strong>留学</strong>
+						<a href="#" target="_blank" >教育导航  </a>
+						<a href="#" target="_blank"> 在线访谈 </a>
 					</li>
-					<li class="item6">
-						<a href="#" target="_blank">招考</a>
-					</li>
-					<li class="item7">
-						<a href="#" target="_blank">原创</a>
-					</li>
-					<li class="item8">
-						<a href="#" target="_blank">海辩赛</a>
+					<li class="item3">
+						<strong>教师招考</strong>
+						<a href="#" target="_blank" >教师资格证 </a>
 					</li>
 				</ul>
+
+				<div class="other-box fr">
+					<ul class="other-list">
+						<li>
+							<a href="#" target="_blank">
+								<span class="img">
+									<img src="img/a1.jpg" alt="">
+								</span>
+								<span class="txt c5">大学生就业  </span>
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<span class="img">
+									<img src="img/a2.jpg" alt="">
+
+								</span>
+								
+								<span class="txt c5">创业  </span>
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<span class="img">
+									<img src="img/a3.jpg" alt="">
+								</span>
+								<span class="txt c5">微视频 </span>
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<span class="img">
+									<img src="img/a4.jpg" alt="">
+								</span>
+								<span class="txt c5">教育导航 </span>
+							</a>
+						</li>
+
+					</ul>
+
+				</div>
 			</div>
-			<!-- end navigation -->
+			
 		</div>
+		<!-- end navigation -->
 		
 	</div>
 	<!-- end header -->
 
-	<div class="container oz ">
-		<div class="crumb-box">
-			<div class="crumb-in c4"><i class="icon icon-home"></i>
-				<span class="curr">当前位置: </span> <a href="#" target="_blank">首页</a>  &lt; <a href="#" target="_blank">资讯</a> &lt; <span>招生简章</span>
-
-			</div>	
+	<div class="recom-box">
+		<div class="con-in">
+			<i class="icon icon-recom fl"></i>
+			<span class="s1">
+				<a href="#" target="_blank">高中生答疑 </a>
+				<a href="#" target="_blank">大学排名</a>
+				<a href="#" target="_blank">高考满分作文</a>
+				<a href="#" target="_blank">2014年高考试题</a>
+			</span>
+			<span class="s2"><span class="strong">大学</span><a href="#" target="_blank">高中生答疑 </a>
+				<a href="#" target="_blank">大学排名</a>
+				<a href="#" target="_blank">高考满分作文</a>
+				<a href="#" target="_blank">2014年高考试题</a></span>
 		</div>
-		<div class="list-box comm-con">
-			<div class="comm-pn oz">
-				<div class="list-l fl">
-					<ul class="news-list2">
-						<li>
-							<h2 class="h2-tit"><a href="#" target="_blank">“史上最严校规”折射畸形的学校管理</a></h2>
-							<div class="summary c4">
-								日前，有东莞技师学院学生在微博上爆料称，该校校规太严，从9月1日开学至今，已有几十名新生违规被开除。此事披露后，引发网友热议，称其为“东莞史上最严校规”。对此，东莞技师学院表示...
-							</div>
-							<p><span class="s1 fl"><i class="icon icon-clock"></i><span class="date">更新时间：2011-12-12</span> </span> 
-								<span class="s1 fl"><i class="icon icon-read"></i>阅读：1563</span>
-							</p>
-						</li>
-						<li>
-							<h2 class="h2-tit"><a href="#" target="_blank">“史上最严校规”折射畸形的学校管理</a></h2>
-							<div class="summary c4">
-								日前，有东莞技师学院学生在微博上爆料称，该校校规太严，从9月1日开学至今，已有几十名新生违规被开除。此事披露后，引发网友热议，称其为“东莞史上最严校规”。对此，东莞技师学院表示...
-							</div>
-							<p><span class="s1 fl"><i class="icon icon-clock"></i><span class="date">更新时间：2011-12-12</span> </span> 
-								<span class="s1 fl"><i class="icon icon-read"></i>阅读：1563</span>
-							</p>
-						</li>
-						<li>
-							<h2 class="h2-tit"><a href="#" target="_blank">“史上最严校规”折射畸形的学校管理</a></h2>
-							<div class="summary c4">
-								日前，有东莞技师学院学生在微博上爆料称，该校校规太严，从9月1日开学至今，已有几十名新生违规被开除。此事披露后，引发网友热议，称其为“东莞史上最严校规”。对此，东莞技师学院表示...
-							</div>
-							<p><span class="s1 fl"><i class="icon icon-clock"></i><span class="date">更新时间：2011-12-12</span> </span> 
-								<span class="s1 fl"><i class="icon icon-read"></i>阅读：1563</span>
-							</p>
-						</li>
-						<li>
-							<h2 class="h2-tit"><a href="#" target="_blank">“史上最严校规”折射畸形的学校管理</a></h2>
-							<div class="summary c4">
-								日前，有东莞技师学院学生在微博上爆料称，该校校规太严，从9月1日开学至今，已有几十名新生违规被开除。此事披露后，引发网友热议，称其为“东莞史上最严校规”。对此，东莞技师学院表示...
-							</div>
-							<p><span class="s1 fl"><i class="icon icon-clock"></i><span class="date">更新时间：2011-12-12</span> </span> 
-								<span class="s1 fl"><i class="icon icon-read"></i>阅读：1563</span>
-							</p>
-						</li>
-						<li>
-							<h2 class="h2-tit"><a href="#" target="_blank">“史上最严校规”折射畸形的学校管理</a></h2>
-							<div class="summary c4">
-								日前，有东莞技师学院学生在微博上爆料称，该校校规太严，从9月1日开学至今，已有几十名新生违规被开除。此事披露后，引发网友热议，称其为“东莞史上最严校规”。对此，东莞技师学院表示...
-							</div>
-							<p><span class="s1 fl"><i class="icon icon-clock"></i><span class="date">更新时间：2011-12-12</span> </span> 
-								<span class="s1 fl"><i class="icon icon-read"></i>阅读：1563</span>
-							</p>
-						</li>
-						<li>
-							<h2 class="h2-tit"><a href="#" target="_blank">“史上最严校规”折射畸形的学校管理</a></h2>
-							<div class="summary c4">
-								日前，有东莞技师学院学生在微博上爆料称，该校校规太严，从9月1日开学至今，已有几十名新生违规被开除。此事披露后，引发网友热议，称其为“东莞史上最严校规”。对此，东莞技师学院表示...
-							</div>
-							<p><span class="s1 fl"><i class="icon icon-clock"></i><span class="date">更新时间：2011-12-12</span> </span> 
-								<span class="s1 fl"><i class="icon icon-read"></i>阅读：1563</span>
-							</p>
-						</li>
+	</div>
 
-
-					</ul>
-
-
-					<div class="page-box">
-					<a href="#"> 上一页</a>
-					<a href="#">1</a> 
-					<a href="#">2</a> 
-					<a href="#">3</a> 
-					<a href="#">4</a> 
-					<a href="#">5</a> 
-					<a href="#">6</a> 
-					<a href="#"> 上一页</a>
-				</ul>
-
+	<div class="search-box">
+		<div class="con-in">
+			<div class="search-in fr">
+				<form>
+					<input type="text" class="input-keyword" placeholder="高职招考">
+					<button class="btn-search"><i class="icon icon-search"></i> </button>
+				</form>
 			</div>
+			<div class="keywords">
+				<a href="#" target="_blank">大学排名</a>
+				<a href="#" target="_blank">高考满分作文</a>
+				<a href="#" target="_blank">2014年高考试题</a>
+			</div>
+			
+		</div>
+	</div>
 
-				</div>
-
-				<div class="list-r fr mt10">
+	<div class="container oz ">
+		<div class="content1 mt10 oz">
+			<div class="con1-c1 fl">
+				<div class="con1-c1-c1">
+					<div class="focus-w">
+			            <!--"focus-w -->
+			            <div class="focus-con">
+			            	<span class="icon backward"></span>
+			            	<span class="icon forward"></span>
+				            <div class="focus-item" style="display: block;">
+				                <div class="img">
+				                	<a href="#" target="_blank">
+				                		<img alt="图片" src="http://i3.17173.itc.cn/2014/acg/tj/eye/1205/eye01.jpg">
+				                	</a>
+				                </div>
+				                <a class="txt" href="#" target="_blank"><span class="tit">这里是配图文字标题</span></a>
+				            </div>
+				            <div class="focus-item" style="display: none;">
+				                <div class="img">
+				                	<a href="#" target="_blank">
+				                		<img alt="图片" src="http://i3.17173.itc.cn/2014/acg/tj/eye/1205/eye01.jpg">
+				                	</a>
+				                </div>
+				                <a class="txt" href="#" target="_blank"><span class="tit">这里是配图文字标题</span></a>
+				            </div>
+				            <div class="focus-item" style="display: none;">
+				                <div class="img">
+				                	<a href="#" target="_blank">
+				                		<img alt="图片" src="http://i3.17173.itc.cn/2014/acg/tj/eye/1205/eye01.jpg">
+				                	</a>
+				                </div>
+				                <a class="txt" href="#" target="_blank"><span class="tit">这里是配图文字标题</span></a>
+				            </div>
+			            </div>
+			            <div class="focus-num"><a href="javascript:;" class="icon current "></a><a href="javascript:;" class="icon"></a><a href="javascript:;" class="icon"></a></div>
+			        </div>
+		          <!-- end focus  -->
+		        </div>
+				<div class="con1-c1-c2">
 					<div class="hd">
-						<h3 class="c1"><span class="c3">要闻</span>资讯</h3>
+						<h3 class="tit">教育部</h3>
 					</div>
 					<div class="bd">
 						<ul class="news-list">
-							<li><i class="icon icon-dott"></i><a href="#" target="_blank">今日关注：福州规定小学生到校时间...</a> </li>
-							<li><i class="icon icon-dott"></i><a href="#" target="_blank">今日关注：福州规定小学生到校时间...</a> </li>
-							<li><i class="icon icon-dott"></i><a href="#" target="_blank">今日关注：福州规定小学生到校时间...</a> </li>
-							<li><i class="icon icon-dott"></i><a href="#" target="_blank">今日关注：福州规定小学生到校时间...</a> </li>
-							<li><i class="icon icon-dott"></i><a href="#" target="_blank">今日关注：福州规定小学生到校时间...</a> </li>
-							<li><i class="icon icon-dott"></i><a href="#" target="_blank">今日关注：福州规定小学生到校时间...</a> </li>
-							<li><i class="icon icon-dott"></i><a href="#" target="_blank">今日关注：福州规定小学生到校时间...</a> </li>
-							<li><i class="icon icon-dott"></i><a href="#" target="_blank">今日关注：福州规定小学生到校时间...</a> </li>
-							<li><i class="icon icon-dott"></i><a href="#" target="_blank">今日关注：福州规定小学生到校时间...</a> </li>
-							<li><i class="icon icon-dott"></i><a href="#" target="_blank">今日关注：福州规定小学生到校时间...</a> </li>
-							<li><i class="icon icon-dott"></i><a href="#" target="_blank">今日关注：福州规定小学生到校时间...</a> </li>
-							<li><i class="icon icon-dott"></i><a href="#" target="_blank">今日关注：福州规定小学生到校时间...</a> </li>
+							<li><a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li><a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li><a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li><a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li><a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
 						</ul>
-
-
-					</div>	
-
+					</div>
 				</div>
 
 			</div>
+			<!-- end con1 -->
+
+			<!-- con1-c2 begin -->
+			<div class="con1-c2 fl js-tab">
+				<div class="hd">
+					<ul class="gb-tab news-tab">
+						<li><a href="javascript:;" >新闻 News </a>  </li>
+						<li><a href="javascript:;">市区县</a>  </li>
+						<li><a href="javascript:;" >高校新闻</a>  </li>
+					</ul>
+				</div>
+				<div class="bd gb-tab-pn oz">
+					<div class="tab-con">
+						<h2 class="hot-tit">
+							<a href="#" target="_blank" class="fm1 c6">2014年福建省普通高校招生各类录取控制分数</a> </h2>
+						<ul class="news-list news-list1">
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						</ul>
+
+						<h2 class="hot-tit">
+							<a href="#" target="_blank" class="fm1">2014年福建省普通高校招生各类录取控制分数</a> </h2>
+						<ul class="news-list news-list1">
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						</ul>
+
+						<h2 class="hot-tit">
+							<a href="#" target="_blank" class="fm1">2014年福建省普通高校招生各类录取控制分数</a> </h2>
+						<ul class="news-list news-list1">
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						</ul>
+					</div>
+
+					<!-- tab 1 end  -->
+
+					<div class="tab-con">
+						<h2 class="hot-tit">
+							<a href="#" target="_blank" class="fm1 c6">2014年福建省普通高校招生各类录取控制分数22222</a> </h2>
+						<ul class="news-list news-list1">
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						</ul>
+
+						<h2 class="hot-tit">
+							<a href="#" target="_blank" class="fm1">2014年福建省普通高校招生各类录取控制分数</a> </h2>
+						<ul class="news-list news-list1">
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						</ul>
+
+						<h2 class="hot-tit">
+							<a href="#" target="_blank" class="fm1">2014年福建省普通高校招生各类录取控制分数</a> </h2>
+						<ul class="news-list news-list1">
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						</ul>
+					</div>
+
+
+					<!-- tab 2  end  -->
+
+					<div class="tab-con">
+						<h2 class="hot-tit">
+							<a href="#" target="_blank" class="fm1 c6">2014年福建省普通高校招生各类录取控制分数33333</a> </h2>
+						<ul class="news-list news-list1">
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						</ul>
+
+						<h2 class="hot-tit">
+							<a href="#" target="_blank" class="fm1">2014年福建省普通高校招生各类录取控制分数</a> </h2>
+						<ul class="news-list news-list1">
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						</ul>
+
+						<h2 class="hot-tit">
+							<a href="#" target="_blank" class="fm1">2014年福建省普通高校招生各类录取控制分数</a> </h2>
+						<ul class="news-list news-list1">
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						</ul>
+					</div>
+
+
+					<!-- tab 3 end  -->
+
+				
+				</div>
+			</div>
+
+			<!-- end con1-c2 -->
+			<!-- con1-c3 begin -->
+			<div class="con1-c3 fr">
+				<div class="con1-c3-c1">
+					<div class="hd oz"><h3>便捷查询</h3> </div>
+					<div class="bd">
+						<ul class="query-list oz">
+							<li> <a href="#" target="_blank">
+								<img src="img/b1.jpg" alt="" />
+								<span class="txt">
+									教师报考
+								</span>
+							</a></li>
+							<li> <a href="#" target="_blank">
+								<img src="img/b2.jpg" alt="" />
+								<span class="txt">
+									教师报考
+								</span>
+							</a></li>
+							<li> <a href="#" target="_blank">
+								<img src="img/b3.jpg" alt="" />
+								<span class="txt">
+									教师报考
+								</span>
+							</a></li>
+							<li> <a href="#" target="_blank">
+								<img src="img/b4.jpg" alt="" />
+								<span class="txt">
+									国内学历查询
+								</span>
+							</a></li>
+							<li> <a href="#" target="_blank">
+								<img src="img/b5.jpg" alt="" />
+								<span class="txt">
+									教师报考
+								</span>
+							</a></li>
+							<li> <a href="#" target="_blank">
+								<img src="img/b6.jpg" alt="" />
+								<span class="txt">
+									教师报考
+								</span>
+							</a></li>
+
+						</ul>
+
+						<div class="btn-box">
+							<a href="#" target="_blank" class="icon btn-jyt">教育厅</a>
+							<a href="#" target="_blank" class="icon btn-ksy">考试院</a>
+
+						</div>
+
+					</div>
+
+				</div>
+				<div class="con1-c3-c2 oz">
+					<ul class="news-list oz">
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+					
+					</ul>
+					<div style="clear"></div>
+
+				</div>
+				
+
+			</div>
+		</div>
+		
+		<!-- end content1 -->
+		<!-- ad -->
+		<div class="ad-box mt10 oz">
+			<a href="#" target="_blank" class="fl ad760"><img src="img/p1.jpg" width="760" height="80"></a>		
+			<a href="#" target="_blank" class="fr ad220"><img src="img/p1.jpg" width="220" height="80"></a>		
+		</div>
+		<!-- ad -->
+
+
+		<!-- content2 -->
+		<div class="content2 mt15 oz">
+			<div class="con2-c1 com-c1 ">
+				<div class="con2-c1-c1">
+					<div class="hd">
+						<a href="#" class="more" target="_blank">更多>></a>
+						<h3>阳光高考</h3>
+					</div>
+					<div class="bd">
+						<ul class="gk-list oz">
+							<li class="br bt"><a href="#" target="_blank">
+								<img src="img/c1.jpg" alt="" />
+								<span class="txt">
+									高考报名
+								</span>
+							</a></li>
+							<li class="br bt"><a href="#" target="_blank">
+								<img src="img/c2.jpg" alt="" />
+								<span class="txt">
+									高考报名
+								</span>
+							</a></li>
+							<li class="bt"><a href="#" target="_blank">
+								<img src="img/c3.jpg" alt="" />
+								<span class="txt">
+									高考报名
+								</span>
+							</a></li>
+							<li class="br"><a href="#" target="_blank">
+								<img src="img/c4.jpg" alt="" />
+								<span class="txt">
+									高考报名
+								</span>
+							</a></li>
+							<li class="br"><a href="#" target="_blank">
+								<img src="img/c5.jpg" alt="" />
+								<span class="txt">
+									高考报名
+								</span>
+							</a></li>
+							<li><a href="#" target="_blank">
+								<img src="img/c6.jpg" alt="" />
+								<span class="txt">
+									高考报名
+								</span>
+							</a></li>
+						</ul>
+
+					</div>
+				</div>
+				<!-- end con2-c1-c1 -->
+				<div class="con2-c1-c2 mt10">
+					<div class="hd">
+						<h3>高职入学考试</h3>
+					</div>
+					<div class="bd">
+						<h4 class="c1"><a href="#" target="_blank">2015年中央美院新增实验艺术专业</a> </h4>
+						<ul class="news-list">
+							<li><a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li><a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li><a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li><a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li><a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- end con2-c1 -->
+			<div class="con2-c2 com-c2 ">
+				<div class="con2-c2-c1">
+					<div class="hd">
+						<h3><strong>阳光高考</strong></h3>
+					</div>
+					<div class="bd">
+						<h4 ><a href="#" target="_blank" class="c2">关于做好2015年高校部分特殊类型招生工作的通知</a> </h4>
+
+						<ul class="news-list news-list1 mt5">
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						</ul>
+					</div>
+				</div>
+				<!-- end con2-c2-c1 -->
+
+				<div class="con2-c2-c2 mt15">
+					<div class="hd">
+						<h3><strong>阳光高考</strong></h3>
+					</div>
+					<div class="bd">
+						<h4 ><a href="#" target="_blank" class="c2">关于做好2015年高校部分特殊类型招生工作的通知</a> </h4>
+
+						<ul class="news-list news-list1 mt5">
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						</ul>
+
+					</div>
+				</div>
+				<!-- end con2-c2-c2 -->
+			</div>
+			<!-- end con2-c2 -->
+			<div class="con2-c3 com-c3 ">
+				<div class="hd"><h3>专题栏目</h3></div>
+				<div class="bd">
+					<ul class="com-list">
+						<li><a href="#" target="_blank" >
+						中外合作办学</a></li>
+						<li><a href="#" target="_blank" >
+						中外合作办学</a></li>
+						<li><a href="#" target="_blank" >
+						中外合作办学</a></li>
+						<li><a href="#" target="_blank" >
+						中外合作办学</a></li>
+						<li><a href="#" target="_blank" >
+						中外合作办学</a></li>
+					</ul>
+
+				</div>
+			</div>
+			<!-- end con2-c3 -->
 		</div>
 
-		<!-- list-box end -->
+		<!-- end content2 -->
+
+		<!-- content3-->
+		<div class="content2 mt15 oz">
+			<div class="con2-c1 com-c1 ">
+				<div class="con2-c1-c1">
+					<div class="hd">
+						<a href="#" class="more" target="_blank">更多>></a>
+						<h3>阳光高考</h3>
+					</div>
+					<div class="bd">
+						<ul class="gk-list gk-list1 oz">
+							<li class="br bt"><a href="#" target="_blank">
+								<img src="img/d1.jpg" alt="" />
+								<span class="txt">
+									高考报名
+								</span>
+							</a></li>
+							<li class="br bt"><a href="#" target="_blank">
+								<img src="img/d2.jpg" alt="" />
+								<span class="txt">
+									高考报名
+								</span>
+							</a></li>
+							<li class="bt"><a href="#" target="_blank">
+								<img src="img/d3.jpg" alt="" />
+								<span class="txt">
+									高考报名
+								</span>
+							</a></li>
+							<li class="br"><a href="#" target="_blank">
+								<img src="img/d4.jpg" alt="" />
+								<span class="txt">
+									高考报名
+								</span>
+							</a></li>
+							<li class="br"><a href="#" target="_blank">
+								<img src="img/d5.jpg" alt="" />
+								<span class="txt">
+									高考报名
+								</span>
+							</a></li>
+							<li><a href="#" target="_blank">
+								<img src="img/d6.jpg" alt="" />
+								<span class="txt">
+									高考报名
+								</span>
+							</a></li>
+						</ul>
+
+					</div>
+				</div>
+				<!-- end con2-c1-c1 -->
+				<div class="con2-c1-c2 mt10">
+					<div class="hd">
+						<h3>高职入学考试</h3>
+					</div>
+					<div class="bd">
+						<h4 class="c1"><a href="#" target="_blank">2015年中央美院新增实验艺术专业</a> </h4>
+						<ul class="news-list">
+							<li><a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li><a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li><a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li><a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li><a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- end con2-c1 -->
+			<div class="con2-c2 com-c2 ">
+				<div class="con2-c2-c1">
+					<div class="hd">
+						<h3><strong>阳光高考</strong></h3>
+					</div>
+					<div class="bd">
+						<h4 ><a href="#" target="_blank" class="c2">关于做好2015年高校部分特殊类型招生工作的通知</a> </h4>
+
+						<ul class="news-list news-list1 mt5">
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						</ul>
+					</div>
+				</div>
+				<!-- end con2-c2-c1 -->
+
+				<div class="con2-c2-c2 mt15">
+					<div class="hd">
+						<h3><strong>阳光高考</strong></h3>
+					</div>
+					<div class="bd">
+						<h4 ><a href="#" target="_blank" class="c2">关于做好2015年高校部分特殊类型招生工作的通知</a> </h4>
+
+						<ul class="news-list news-list1 mt5">
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						</ul>
+
+					</div>
+				</div>
+				<!-- end con2-c2-c2 -->
+			</div>
+			<!-- end con2-c2 -->
+			<div class="con2-c3 com-c3 ">
+				<div class="hd"><h3>专题栏目</h3></div>
+				<div class="bd">
+					<ul class="com-list">
+						<li><a href="#" target="_blank" >
+						中外合作办学</a></li>
+						<li><a href="#" target="_blank" >
+						中外合作办学</a></li>
+						<li><a href="#" target="_blank" >
+						中外合作办学</a></li>
+						<li><a href="#" target="_blank" >
+						中外合作办学</a></li>
+						<li><a href="#" target="_blank" >
+						中外合作办学</a></li>
+					</ul>
+
+				</div>
+			</div>
+			<!-- end con2-c3 -->
+		</div>
+		<!-- end content3 -->
+		<!-- content4-->
+		<div class="content4 mt15 oz">
+			<div class="con4-c1 com-c1">
+					<div class="hd">
+						<a href="#" class="more" target="_blank">更多>></a>
+						<h3>在线访谈</h3>
+					</div>
+					<div class="bd">
+						<div class="pic-con">
+							<a href="#" target="_blank" class="fl">
+								<img src="img/p1.jpg" alt=""  width="100" height="75"/>
+							</a>
+							<div class="con oz">
+								<h5><a href="#" target="_blank" class="c1">自主招生是高考制度改革过渡</a> </h5>
+								<div class="summary c4">
+									如果把教育体制改革，特别是招生考试制度改革和中国经济体制的变迁联系起来...
+								</div>
+							</div>
+						</div>
+						<!-- pic-con -->
+
+						<ul class="news-list  mt5">
+							<li> <a href="#" target="_blank"><i class="icon icon-video"></i>2014年福建高考各高校出档线汇总</a> </li>
+							<li>  <a href="#" target="_blank"><i class="icon icon-video"></i>2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank"><i class="icon icon-video"></i> 2014年福建高考各高校出档线汇总</a> </li>
+							<li>  <a href="#" target="_blank"><i class="icon icon-video"></i>2014年福建高考各高校出档线汇总</a> </li>
+							
+						</ul>
+
+					</div>
+			</div>
+			<!-- con3-c1 -->
+			<div class="con4-c2 com-c2">
+				<div class="hd">
+					<h3><strong>阳光高考</strong></h3>
+				</div>
+				<div class="bd">
+					<h4 ><a href="#" target="_blank" class="c2">关于做好2015年高校部分特殊类型招生工作的通知</a> </h4>
+					<ul class="news-list news-list1 mt5">
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+					</ul>
+				</div>
+
+			</div>
+			<!-- end con3-c2 -->
+			<div class="con4-c3 com-c3">
+				<div class="hd">
+					<h3>在线答疑</h3>
+				</div>
+				<div class="bd">
+					<ul class="news-list  mt5">
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+					</ul>
+				</div>
+			</div>
+			<!-- end con3-c3 -->
+		</div>
+		<!-- end content4 -->
 
 		
+		<!-- content4-->
+		<div class="content4 mt15 oz">
+			<div class="con4-c1 com-c1">
+					<div class="hd">
+						<a href="#" class="more" target="_blank">更多>></a>
+						<h3>微视频</h3>
+					</div>
+					<div class="bd">
+						<div class="pic-con">
+							<a href="#" target="_blank" class="fl">
+								<img src="img/p1.jpg" alt=""  width="100" height="75"/>
+							</a>
+							<div class="con oz">
+								<h5><a href="#" target="_blank" class="c1">自主招生是高考制度改革过渡</a> </h5>
+								<div class="summary c4">
+									如果把教育体制改革，特别是招生考试制度改革和中国经济体制的变迁联系起来...
+								</div>
+							</div>
+						</div>
+						<!-- pic-con -->
+
+						<ul class="news-list  mt5">
+							<li> <a href="#" target="_blank"><i class="icon icon-video"></i>2014年福建高考各高校出档线汇总</a> </li>
+							<li>  <a href="#" target="_blank"><i class="icon icon-video"></i>2014年福建高考各高校出档线汇总</a> </li>
+							<li> <a href="#" target="_blank"><i class="icon icon-video"></i> 2014年福建高考各高校出档线汇总</a> </li>
+							<li>  <a href="#" target="_blank"><i class="icon icon-video"></i>2014年福建高考各高校出档线汇总</a> </li>
+							
+						</ul>
+
+					</div>
+			</div>
+			<!-- con3-c1 -->
+			<div class="con4-c2 com-c2">
+				<div class="hd">
+					<h3><strong>阳光高考</strong></h3>
+				</div>
+				<div class="bd">
+					<h4 ><a href="#" target="_blank" class="c2">关于做好2015年高校部分特殊类型招生工作的通知</a> </h4>
+					<ul class="news-list news-list1 mt5">
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+					</ul>
+				</div>
+
+			</div>
+			<!-- end con3-c2 -->
+			<div class="con4-c3 com-c3">
+				<div class="hd">
+					<h3>在线答疑</h3>
+				</div>
+				<div class="bd">
+					<ul class="news-list  mt5">
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+						<li> <a href="#" target="_blank">2014年福建高考各高校出档线汇总</a> </li>
+					</ul>
+				</div>
+			</div>
+			<!-- end con3-c3 -->
+		</div>
+		<!-- end content4 -->
+
+
 	
+
+		<!-- ad -->
+		<div class="ad-box mt10">
+			<a href="#" target="_blank"><img src="img/p1.jpg" width="1000" height="80"></a>			
+		</div>
+		<!-- ad -->
+
+		
 		
 	</div>
 </div>
@@ -190,16 +820,112 @@
 
 <div class="footer">
 	<div class="footer-in">
-		<p><a href="#" target="_blank">博视网简介</a> <span class="gep1">|</span> <a href="#" target="_blank">版权声明</a> <span class="gep1">|</span> <a href="#" target="_blank">联系我们</a></p>
-		<p>© 2015 chouti.com 京ICP备09053974号-3 福建省教育电视台  版权所有</p>
-		<p>地址：福建省福州市仓山区金林路39号   闽ICP备05027762号</p>
 
-		<p>闽互联网新闻信息服务备案20060503号  信息网络传播视听节目许可证号：1309391号</p>
-		<p>《中国互联网视听节目服务自律公约》</p>
+		<div class="all-box oz">
+			<ul class="all-list fl">
+				<li>
+					<span class="tit">
+						高考
+					</span>
+					<a href="#" target"_blank">高职</a>
+					<a href="#" target"_blank">高职</a>
+					<a href="#" target"_blank">高职</a>
+					<a href="#" target"_blank">高职</a>
+				</li>
+
+				<li>
+					<span class="tit">
+						高考
+					</span>
+					<a href="#" target"_blank">高职</a>
+					<a href="#" target"_blank">高职</a>
+					<a href="#" target"_blank">高职</a>
+					<a href="#" target"_blank">高职</a>
+				</li>
+
+
+				<li>
+					<span class="tit">
+						高考
+					</span>
+					<a href="#" target"_blank">高职</a>
+					<a href="#" target"_blank">高职</a>
+					<a href="#" target"_blank">高职</a>
+					<a href="#" target"_blank">高职</a>
+				</li>
+
+				<li>
+					<span class="tit">
+						高考
+					</span>
+					<a href="#" target"_blank">高职</a>
+					<a href="#" target"_blank">高职</a>
+					<a href="#" target"_blank">高职</a>
+					<a href="#" target"_blank">高职</a>
+				</li>
+				<li>
+					<span class="tit">
+						高考
+					</span>
+					<a href="#" target"_blank">高职</a>
+					<a href="#" target"_blank">高职</a>
+					<a href="#" target"_blank">高职</a>
+					<a href="#" target"_blank">高职</a>
+				</li>
+				<li>
+					<span class="tit">
+						高考
+					</span>
+					<a href="#" target"_blank">高职</a>
+					<a href="#" target"_blank">高职</a>
+					<a href="#" target"_blank">高职</a>
+					<a href="#" target"_blank">高职</a>
+				</li>
+			</ul>
+
+			<div class="gzhu-box fr">
+				<a href="#" target="_blank"><img src="img/ewm.jpg" width="70" height="70">
+					<span class="txt c4">扫一扫，关注公众号</span>
+				</a>
+				<div class="weibo-box">
+					<a href="javascript:;" class="icon icon-sina ">关注</a>
+					<a href="javascript:;" class="icon icon-tx">关注</a>
+
+				</div>
+			</div>	
+			
+
+
+		</div>
+
+		
+		<div class="link-box oz mt15">
+			<h3 class="c5">友情链接</h3>
+			<div class="bd oz">
+				<a href="#" target="_blank" >英孚教育</a>
+				<a href="#" target="_blank" >英孚教育</a>
+				<a href="#" target="_blank" >英孚教育</a>
+				<a href="#" target="_blank" >英孚教育</a>
+				<a href="#" target="_blank" >英孚教育</a>
+				<a href="#" target="_blank" >英孚教育</a>
+				<a href="#" target="_blank" >英孚教育</a>
+				<a href="#" target="_blank" >英孚教育</a>
+				<a href="#" target="_blank" >英孚教育</a>
+			</div>
+		</div>	
+
+		<div class="copyright">
+			<p>投稿邮件:gaokao@haiedu.cn　　合作联系:fjgk@haiedu.cn</p>
+			<p>Copyright © 2001-2015 haiedu.com. All rights reserved. 福建海教网版权所有</p>
+
+		</div>
+		
+
+		
 	</div>
 
 </div>
-	<script type="text/javascript" src="js/fetv.js"></script>
+	<script type="text/javascript" src="js/hjw.js"></script>
 
 </body>
 </html>

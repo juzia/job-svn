@@ -52,8 +52,8 @@ strong , .strong{ font-weight: bold;}
 .login-box  a{ padding: 0 5px;}
 .logo{float: left;  margin: 15px 0}
 .navigation{ height: 80px; width: 100%; position: absolute; background: url(../img/nav-bg.jpg) top center no-repeat; bottom: 0; left: 0;  z-index: 10; overflow: hidden; *zoom: 1;}
-.menu-list{width: 760px; padding: 10px 0}
-.menu-list li{ float: left;  padding: 0 10px;  line-height: 30px;}
+.menu-list{width: 720px; padding: 10px 0}
+.menu-list li{ float: left;  line-height: 30px;}
 .menu-list li strong { color: #fff; font-size: 14px;}
 .menu-list li a{ color: #fff; padding: 0 5px; font-size: 14px}
 .menu-list .item1{width: 290px;}
@@ -62,8 +62,8 @@ strong , .strong{ font-weight: bold;}
 .navigation .cp{ padding: 0 28px; background: #75c42f; color:#fff; font-size: 16px; line-height: 50px;}
 .navigation dl{ float: left;}
 
-.navigation .other-box{ width: 240px; padding: 17px 0 0 }
-.other-list li{ float: left; width: 32.5%; text-align: center; border-right: 1px solid #437adf}
+.navigation .other-box{ width: 280px; padding: 17px 0 0; background: #396ecf; height: 65px; }
+.other-list li{ float: left; width: 24.5%; text-align: center; border-right: 1px solid #437adf}
 .other-list li .img{ display: block; height:28px;  }
 .other-list li .txt{ line-height: 24px;}
 .other-list li a:hover .txt,.other-list li a:hover{ color: #fff}
@@ -132,7 +132,7 @@ h2{font-size: 30px; font-weight: bold; line-height: 40px; text-align: center;}
 
 .news-tab li{ float: left; line-height: 39px; position: relative;}
 .news-tab a{ padding: 0 41px; font-size: 16px; height: 36px; color: #999; font-family: 'microsoft yahei';  display: inline-block; *display: inline; *zoom:1;  }
-.news-tab .current{ color: #333;  border: 1px solid #f2f2f2 ;  border-top: 3px solid #0066cc;border-bottom: 2px solid #fff}
+.news-tab .current{ color: #333;  border: 1px solid #f2f2f2 ;  border-top: 3px solid #b1b1b1; border-bottom: 2px solid #fff}
 .news-tab a:hover{ text-decoration: none;}
 
 
@@ -213,7 +213,10 @@ a:hover .icon-video{ background-position: -176px 0}
 
 .gzhu-box a:hover  { text-decoration: none;}
 
-.icon-sina{width: 70px; height: 23px; background-position: -200px 0; line-height: 23px; text-indent: 25px; color: #fff;}
+.icon-sina, .icon-tx{width: 70px; height: 23px; background-position: -200px 0; line-height: 23px; text-indent: 25px; color: #fff;}
+.icon-tx{ background-position: 0 -112px;}
+
+
 
 .link-box h3{ line-height: 46px; font-size: 18px;}
 .link-box .bd a{ font-size: 14px; color: #999 ; padding-right: 18px; font-family: 'microsoft yahei'}
