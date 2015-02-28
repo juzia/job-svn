@@ -28,6 +28,7 @@ h4 a{font-size: 16px; font-weight: bold; font-family: 'microsoft yahei'}
 .icon-recom{ width:21px; height: 25px; margin-right: 10px; }
 .icon-search{ width: 20px; height: 20px; background-position: -32px 0; float: left; margin: 5px 13px; *margin: 2px 0  0 17px;}
 .mt10{ margin-top: 10px;}
+.mt30{ margin-top: 30px;}
 .mt15{ margin-top: 15px;}
 .mt5{ margin-top: 5px;}
 .more{float: right; color: #333}
@@ -43,11 +44,11 @@ strong , .strong{ font-weight: bold;}
 .con-in{ width: 1000px ; margin:  0 auto;}
 
 .header{ position: relative; height: 175px; }
-.header .con-in{position: relative; height: 147px;}
-.header .bg1{ position: absolute;  background: url(../img/topbg1.jpg) no-repeat; width: 279px; height: 96px; right: -20px; bottom: 50px;}
+.header .header-in{position: relative; height: 99px;}
+.header .bg1{ position: absolute;  background: url(../img/topbg1.jpg) no-repeat; width: 279px; height: 96px; right: -20px; bottom: 0;}
 .header .bg1 img{border: 12px solid #fff; border-top-left-radius: 10px; border-top-right-radius: 10px;}
 .ewm-box{position: absolute; right: 35px; bottom: 0; border: 1px solid #dedede; border-top-left-radius: 10px; border-top-right-radius: 10px;}
-.banner-box{width: 560px; height: 70px; position: absolute; top: 13px; right: 198px;}
+.banner-box{width: 560px; height: 70px; position: absolute; top: 13px; right: 258px;}
 .login-box { border-right: 1px solid #c4c4c4; padding-right: 10px}
 .login-box  a{ padding: 0 5px;}
 .logo{float: left;  margin: 15px 0}
@@ -196,7 +197,7 @@ h5 a{ font-weight: bold; line-height: 22px;}
 
 .icon-video{width: 14px; height: 14px; float: left; background-position: -160px 0; margin: 4px 4px 0 0}
 a:hover .icon-video{ background-position: -176px 0}
-
+.icon-dott{ width: 3px ; height: 3px ; background-position: -294px 0; float: left; margin: 11px 3px 0 0}
 
 
 .footer{  background: #3c3c3c; padding:30px 0 20px 0; margin-top: 20px}
@@ -222,3 +223,70 @@ a:hover .icon-video{ background-position: -176px 0}
 .link-box .bd a{ font-size: 14px; color: #999 ; padding-right: 18px; font-family: 'microsoft yahei'}
 .copyright{margin-top: 30px ;border-top: 1px solid  #4c4c4c; padding: 30px 0}
 .copyright p{ font-size: 12px; color: #ccc; text-align: center; line-height: 22px;}
+
+
+
+/*list*/
+.container2{ width: 1010px; margin: 0 auto;}
+.nav2{ width: 1000px; margin: 0 auto; height: 50px; overflow: hidden; background: #356aca}
+.nav2 .navigation{ background: none; width: 1000px; margin: 0 auto; position: relative;}
+.nav2 .menu-list{ width: 980px; padding: 10px 10px; margin: 0 auto;}
+
+.main{width: 670px;}
+.sider{width: 280px;}
+.list-box{width: 1000px; margin: 0 auto }
+
+.hot-box{position: relative;  background: #f9f8f4; height: 150px; padding-top: 10px;}
+.hot-box .tt{position: absolute; left: -3px; top: 0px;  background: url(../img/tt.jpg) no-repeat; width: 82px; height: 62px;}
+.hot-box .tit{ font-size: 30px; color: #333; font-family: 'microsoft yahei'; line-height: 40px; font-weight: normal;}
+.hot-box .summary{font-size: 14px; color: #666; line-height: 24px; width: 560px; margin-left: 100px; text-indent: 2em; margin-top: 15px;}
+.page-box{ text-align: center; margin-top: 30px;}
+.page-box a{ font-family: 'microsoft yahei'; display: inline-block; *display: inline; *zoom:1; margin: 0 2px; font-size: 14px; height:27px; line-height: 27px; padding: 0  10px; border: 1px solid #efefef; border-radius: 3px; box-shadow: 1px 1px #f5f5f5  }
+.page-box .current ,.page-box a:hover{ background: #356aca; border-color: #356aca; color: #fff; text-decoration: none;}
+
+
+.news-list2 a{ font-size: 14px; }
+.news-list2 li{ line-height: 24px;}
+.news-list2 .date{color: #999; font-size: 14px;}
+
+.sider .hd{border-bottom: 4px solid #f5f5f5; height: 30px; line-height: 30px;}
+.sider .tit{height: 30px; border-bottom: 4px solid #356aca}
+
+.sider .bd{ padding: 5px 0}
+.ad-box1 {width: 1000px; margin: 10px auto;}
+.sider-ad img{width: 280px; height: 180px;}
+
+
+.content .bd{ padding: 30px 50px 0; } 
+.content .hd {border-bottom: 1px solid #efefef; text-align: center; padding: 12px 0 6px}
+.content .hd p span{ padding-right: 30px; color: #999 }
+.content .hd p span em{color: #999}
+.content .tit{ font-size: 26px; line-height: 56px; font-family: 'microsoft yahei' ; font-weight: bold;}
+.detail-box p{ text-indent: 30px; font-size: 16px; font-family: 'microsoft yahei'; margin-bottom: 40px; line-height: 26px;}
+.detail-box  img{ display: block; margin: 0 auto}
+
+.share-box{ height: 28px; line-height: 28px;}
+.share-box span{color: #999}
+
+.recomm-box{ margin: 35px 0;}
+.recomm-box .m-hd{border-bottom: 1px solid #f5f5f5;height: 28px;}
+.recomm-box .m-hd h3{height: 28px; border-bottom: 1px solid #356aca ; float: left; font-size: 16px; font-weight: bold; color: #333; font-family: 'microsoft yahei'}
+.recomm-box .m-bd{ padding: 10px 0}
+.recomm-box  .news-list li{ line-height: 24px;}
+.recomm-box  .news-list .date{ font-size: 12px; padding-left: 15px; float: right}
+.recomm-box  .news-list a{font-size: 14px;}
+
+
+.sider-c2{ border: 1px solid #f5f5f5}
+.sider-c2 .hd2 { text-align: center;  line-height: 40px}
+.teach-list li{ float: left;  width: 33.33%; text-align: center; _width:33%;}
+.teach-list .pic img{width: 80px; height: 60px;}
+.teach-list .txt{ text-align: center; margin: 3px 0; display: block;}
+.teach-list p{ line-height: 20px; text-align: left; padding-left: 6px;}
+.btn-tw{ display: block; height: 25px; background: #32a0ed; width: 80px;  line-height: 25px; text-align: center; color: #fff; margin: 5px auto}
+.icon-answer{width: 12px; height: 11px; background-position:-104px -112px; }
+.icon-zan{ width: 13px; height: 11px; background-position: -120px -112px;}
+
+.other-info{ line-height: 26px;}
+.nav2 .menu-list li{width: auto; padding:0 10px; line-height: 30px;}
+.nav2 .menu-list {float: none;}
