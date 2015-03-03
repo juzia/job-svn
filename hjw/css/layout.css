@@ -1,4 +1,4 @@
-/*common reset*/
+﻿/*common reset*/
 *{ color: #333;  }
 a{ text-decoration: none;}
 em,i{ font-style: normal;}
@@ -197,7 +197,7 @@ h5 a{ font-weight: bold; line-height: 22px;}
 
 .icon-video{width: 14px; height: 14px; float: left; background-position: -160px 0; margin: 4px 4px 0 0}
 a:hover .icon-video{ background-position: -176px 0}
-.icon-dott{ width: 3px ; height: 3px ; background-position: -294px 0; float: left; margin: 11px 3px 0 0}
+.icon-dott{ width: 3px ; height: 3px ; background-position: -294px 0; float: left; margin: 9px 3px 0 0}
 
 
 .footer{  background: #3c3c3c; padding:30px 0 20px 0; margin-top: 20px}
@@ -241,7 +241,7 @@ a:hover .icon-video{ background-position: -176px 0}
 .hot-box .tit{ font-size: 30px; color: #333; font-family: 'microsoft yahei'; line-height: 40px; font-weight: normal;}
 .hot-box .summary{font-size: 14px; color: #666; line-height: 24px; width: 560px; margin-left: 100px; text-indent: 2em; margin-top: 15px;}
 .page-box{ text-align: center; margin-top: 30px;}
-.page-box a{ font-family: 'microsoft yahei'; display: inline-block; *display: inline; *zoom:1; margin: 0 2px; font-size: 14px; height:27px; line-height: 27px; padding: 0  10px; border: 1px solid #efefef; border-radius: 3px; box-shadow: 1px 1px #f5f5f5  }
+.page-box a{ font-family: 'microsoft yahei'; display: inline-block; *display: inline; *zoom:1; margin: 0 2px; font-size: 14px; height:30px; line-height: 30px; padding: 0  10px; border: 1px solid #efefef; border-radius: 3px; box-shadow: 1px 1px #f5f5f5  }
 .page-box .current ,.page-box a:hover{ background: #356aca; border-color: #356aca; color: #fff; text-decoration: none;}
 
 
@@ -252,7 +252,7 @@ a:hover .icon-video{ background-position: -176px 0}
 .sider .hd{border-bottom: 4px solid #f5f5f5; height: 30px; line-height: 30px;}
 .sider .tit{height: 30px; border-bottom: 4px solid #356aca}
 
-.sider .bd{ padding: 5px 0}
+.sider .bd{ padding: 8px 0}
 .ad-box1 {width: 1000px; margin: 10px auto;}
 .sider-ad img{width: 280px; height: 180px;}
 
@@ -266,7 +266,7 @@ a:hover .icon-video{ background-position: -176px 0}
 .detail-box  img{ display: block; margin: 0 auto}
 
 .share-box{ height: 28px; line-height: 28px;}
-.share-box span{color: #999}
+.share-box span{color: #999; _margin-top:6px;}
 
 .recomm-box{ margin: 35px 0;}
 .recomm-box .m-hd{border-bottom: 1px solid #f5f5f5;height: 28px;}
@@ -281,12 +281,12 @@ a:hover .icon-video{ background-position: -176px 0}
 .sider-c2 .hd2 { text-align: center;  line-height: 40px}
 .teach-list li{ float: left;  width: 33.33%; text-align: center; _width:33%;}
 .teach-list .pic img{width: 80px; height: 60px;}
-.teach-list .txt{ text-align: center; margin: 3px 0; display: block;}
+.teach-list .txt{ text-align: center; margin: 5px 0; display: block;}
 .teach-list p{ line-height: 20px; text-align: left; padding-left: 6px;}
 .btn-tw{ display: block; height: 25px; background: #32a0ed; width: 80px;  line-height: 25px; text-align: center; color: #fff; margin: 5px auto}
-.icon-answer{width: 12px; height: 11px; background-position:-104px -112px; }
-.icon-zan{ width: 13px; height: 11px; background-position: -120px -112px;}
+.icon-answer{width: 12px; height: 11px; background-position:-104px -112px; float:left; margin: 4px 2px 0 0; }
+.icon-zan{ width: 13px; height: 11px; background-position: -120px -112px;float:left; margin: 4px 2px 0 0;}
 
-.other-info{ line-height: 26px;}
+.other-info{ line-height: 28px; height: 28px;}.other-info .time{padding-right:15px}  
 .nav2 .menu-list li{width: auto; padding:0 10px; line-height: 30px;}
 .nav2 .menu-list {float: none;}
