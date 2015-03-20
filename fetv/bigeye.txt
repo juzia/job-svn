@@ -1,0 +1,90 @@
+ <div class="focus" data-ui-control="Slide" data-ui-option="{&quot;defaultAni&quot;:&quot;random&quot;,&quot;animateSpeed&quot;:&quot;2&quot;,&quot;autoplay&quot;:&quot;true&quot;}">
+                    <div class="focus-in">
+                        <ul data-ui-mark="data" style="display: none;">
+                                    <li><a href="news.aspx?id=485" data-ui-data="link">
+                                        <img data-src="http://www.fetv.cn/uploads/image/20150318/20150318095356_5268.jpg" data-ui-data="img"></a>
+                                        <img data-src="http://www.fetv.cn/uploads/image/20150318/20150318095356_5268.jpg" alt="" data-ui-data="thumb">
+                                        <h2 class="title" data-ui-data="title">
+                                            长沙一57层高楼12天建成 可抗9级地震
+                                        </h2>
+                                    </li>
+                                
+                                    <li><a href="news.aspx?id=484" data-ui-data="link">
+                                        <img data-src="http://www.fetv.cn/uploads/image/20150318/20150318094505_5600.jpg" data-ui-data="img"></a>
+                                        <img data-src="http://www.fetv.cn/uploads/image/20150318/20150318094505_5600.jpg" alt="" data-ui-data="thumb">
+                                        <h2 class="title" data-ui-data="title">
+                                            中国首批歼击机女飞行员驾歼-10海外首秀
+                                        </h2>
+                                    </li>
+                                
+                                    <li><a href="news.aspx?id=479" data-ui-data="link">
+                                        <img data-src="http://www.fetv.cn/uploads/image/20150317/20150317151550_9197.jpg" data-ui-data="img"></a>
+                                        <img data-src="http://www.fetv.cn/uploads/image/20150317/20150317151550_9197.jpg" alt="" data-ui-data="thumb">
+                                        <h2 class="title" data-ui-data="title">
+                                            习近平会见哈佛大学校长福斯特
+                                        </h2>
+                                    </li>
+                                
+                                    <li><a href="news.aspx?id=468" data-ui-data="link">
+                                        <img data-src="http://www.fetv.cn/uploads/image/20150317/20150317110256_9906.jpg" data-ui-data="img"></a>
+                                        <img data-src="http://www.fetv.cn/uploads/image/20150317/20150317110256_9906.jpg" alt="" data-ui-data="thumb">
+                                        <h2 class="title" data-ui-data="title">
+                                            68具在韩中国志愿军烈士遗骸将于3月20日装运回国
+                                        </h2>
+                                    </li>
+                                
+                                    <li><a href="news.aspx?id=467" data-ui-data="link">
+                                        <img data-src="http://www.fetv.cn/uploads/image/20150317/20150317105207_5654.jpg" data-ui-data="img"></a>
+                                        <img data-src="http://www.fetv.cn/uploads/image/20150317/20150317105207_5654.jpg" alt="" data-ui-data="thumb">
+                                        <h2 class="title" data-ui-data="title">
+                                            政府工作报告起草背后:经历5次重大修改
+                                        </h2>
+                                    </li>
+                                
+                        </ul>
+                        <div class="focus-con">
+                            <!-- 焦点图 图片+文字 开始 -->
+                        <div class="focus-con-item" data-ui-mark="imageContainer" >
+                            <p class="img-box">
+                                <a href="javascript:;" data-ui-mark="link" target="_blank">
+                                    <img src="http://www.fetv.cn/uploads/image/20150317/20150317151550_9197.jpg" alt="" data-ui-mark="img"></a>
+                            </p>
+                            <div class="txt-box">
+                                <h2 class="tit"><a href="http://newgame.17173.com/news/01112013/180532688_1.shtml" target="_blank" data-ui-mark="title"> 长沙一57层高楼12天建成 可抗9级地震</a></h2>
+                                <b class="bg"></b>
+                            </div>
+                        </div>
+                        <!-- 焦点图 图片+文字 结束 -->  
+                        </div>
+                        <div class="focus-fun" data-ui-mark="tool">
+                            <a href="javascript:;" data-ui-mark="prev" class="bt bt-focus-prev" hidefocus="true">
+                                <i class="btn btn-prev"></i><b class="bg"></b></a>
+                            <div class="focus-thumb" data-ui-mark="thumbsbox">
+                                <div class="focus-thumb-in">
+                                    <div class="focus-thumb-box" data-ui-mark="thumbs">
+                                        <p class="focus-thumb-item" data-ui-thumb-item="">
+                                            <a href="1">
+                                                <img data-ui-rel="0" src=""></a>
+                                        </p>
+                                        <p class="focus-thumb-item current" data-ui-thumb-item="">
+                                            <a href="2">
+                                                <img data-ui-rel="1" src=""></a></p>
+                                        <p class="focus-thumb-item" data-ui-thumb-item="">
+                                            <a href="3">
+                                                <img data-ui-rel="2" src=""></a></p>
+                                        <p class="focus-thumb-item" data-ui-thumb-item="">
+                                            <a href="4">
+                                                <img data-ui-rel="3" src=""></a></p>
+                                        <p class="focus-thumb-item" data-ui-thumb-item="">
+                                            <a href="5">
+                                                <img data-ui-rel="4" src=""></a></p>
+                                    </div>
+                                </div>
+                                <!-- <div class="focus-thumb-grid" style="left: 146px;"></div> -->
+                            </div>
+                            <a href="javascript:;" class="bt bt-focus-next" data-ui-mark="next" hidefocus="true">
+                                <i class="btn btn-next"></i><b class="bg"></b></a>
+                        </div>
+                        <img data-ui-mark="loading" class="focus-con-loading" src="/img/loading.gif" style="display: none;">
+                    </div>
+                </div>

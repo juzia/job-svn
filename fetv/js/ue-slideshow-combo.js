@@ -302,7 +302,7 @@
             me.thumbItemWidth = thumbItems.outerWidth(true);
             //可见预览框数量
             me.totalVisableThumb = Math.ceil(me.mark.thumbsbox.innerWidth() / me.thumbItemWidth);
-            me.noRepeat = me.totalVisableThumb >= me.total;
+            me.noRepeat = me.totalVisableThumb > me.total;
             if (!me.noRepeat) {
                 me.mark.thumbsClone = me.mark.thumbs.clone();
                 me.mark.thumbs.after(me.mark.thumbsClone);
