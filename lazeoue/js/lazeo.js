@@ -5,8 +5,8 @@ $(document).ready(function(){
 	$(".carousel-box").jCarouselLite({
 	btnNext: ".bt-next",//下一个按钮的选择器
 	btnPrev: ".bt-prev",//上一个按钮的选择器
-	auto: null,//自动滚动
-	speed: 200,//滚动速度
+	auto: 2000,//自动滚动
+	speed: 500,//滚动速度
 	vertical: false, //垂直滚动
 	circular: true, //循环
 	visible:1, //显示的个数
@@ -64,21 +64,45 @@ $(function() {
 	});
 
 })
-
+function isMobile() {
+	var userAgentInfo = navigator.userAgent;  
+	//console.log(userAgentInfo);
+	var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");  
+	var flag = false;  
+	for (var v = 0; v < Agents.length; v++) {  
+	   if (userAgentInfo.indexOf(Agents[v]) > 0) { flag = true; break; }  
+	}
+	return flag;  
+}
 
 function focusHeight(){
 	var fh = $('.carousel-box').width()*420/1920;
 	$('ul.banner-list').height(fh);
 	$('.carousel .banner-list li').height(fh);
+	$('.carousel .banner-list li img').height(fh);
 	$('.carousel-box').height(fh)
 }
-if($('.carousel-box').length) {
 
+if(!isMobile() ){
+
+if($('.carousel-box').length) {
 	focusHeight();
 	$(window).resize(function(){
 		focusHeight();
 	});
 }
+
+
+} else{
+	var fh = 180;
+	$('ul.banner-list').height(fh);
+	$('.carousel .banner-list li').height(fh);
+	$('.carousel .banner-list li img').height(fh);
+	$('.carousel .banner-list li img').width('auto')
+	$('.carousel-box').height(fh)
+
+}
+
 
 
 
@@ -112,4 +136,58 @@ if($('.carousel-box').length) {
   }
 
 
+
+$('body').on('click','.btn-close',function(){
+	$(this).parents('.pop-box').hide();
+	$('.mask').hide()
+
+
+})
+
+$('.ourproject').last().css({'border-bottom':0});
+
+$('.ourproject-list li a').click(function() {
+
+	$('.pop-box').show();
+	$('.mask').show();
+
+})
+
+
+$('#js-menuOpen').click(function(){
+	$('.navigation').show();
+
+})
+
+
+$('#js-menuClose').click(function(){
+	$('.navigation').hide()
+
+})
+
+if(isMobile()){
+	$('.sub-list').width($('.project-list').width());
+	$('.sub-list').hide()
+	$('.js-toggle').click(function(){
+		var num = Math.ceil( ($(this).parents(".project-list").find(".js-toggle").index($(this))+1) /3);
+		$('.js-toggle-con').css({'top':40*num})
+
+	});
+
+	$('.project-list').height(Math.ceil($('.project-list .item1').length/3)*40);
+	$('.pro-c1 .pro-box:odd').css({'float':'right'})
 	
+	$('.mask').click(function(){
+		console.log(1)
+		$('.pop-box').hide();
+		$('.mask').hide()
+	})
+
+}
+
+
+
+
+
+
+
