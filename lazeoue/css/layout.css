@@ -441,16 +441,16 @@ html{ background: #fff;}
  	/*新闻详情页*/
  	.crumbs, .detail-box .hd span,.ad-box1,.news-box,.yuanzh-box,.menu-left .hd,.pro-zt-box{ display: none;}
  	.detail-box{width: 98%; padding: 0  1%}
- 	.project-banner { height: 180px}
- 	.project-banner img{ margin-left: -277px; height: 180px}
+ 	/*.project-banner { height: 180px}
+ 	.project-banner img{ height: 180px}*/
  	.banner-box .banner-about{ padding: 10px ; width: 60%}
- 	.banner-box .s1{ font-size: 25px}
- 	.banner-box .s2{ font-size: 20px}
+ 	.banner-box .s1{ font-size: 12px}
+ 	.banner-box .s2{ font-size: 12px}
  	.detail-box .bd img{ max-width: 100%}
  	.detail-box .hd{padding: 0; border-color:#737488;}
  	.detail-box .bd p{ font-size: 16px; line-height: 26px;}
- 	.banner-box{ height: 180px}
- 	.banner-box img{ margin-left: -60%; height: 180px;}
+ 	.banner-box{ height: auto}
+ 	.banner-box img{ width: 100%; height: auto;}
  	.menu-left{width: 98%; padding: 0 1%;}
  	.project-list {border: 1px solid #ececec; width: 99%; position: relative;}
  	.project-list .item1{ width: 33%; float: left; background:none; border-right: 1px solid #ececec}
