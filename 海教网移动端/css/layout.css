@@ -1,56 +1,56 @@
-body{ width: 100%; font-family: '黑体'}
-html{ font-size: 16px;}
-*{font-family: '黑体';}
+
+
+body{ width: 100%;  }
+html{ font-size: 16px;font-family:"MicrosoftJhengHei","Microsoft YaHei";}
+*{font-family:'MicrosoftJhengHei',"Microsoft YaHei";}
 a{ text-decoration: none; color: #333}
-.topbar{ height: 4.6em; background: #d25132; width: 100%; line-height: 4.5em; position: relative;}
-h1{ font-size: 1.5em; color: #fff; text-align: center;}
+.topbar{ height: 4.5em; background: #d25132; width: 100%; line-height: 4.5em; position: relative;}
+h1{ font-size: 1.3em; color: #fff; text-align: center;}
 .mt20{ margin-top: 20px}
 .icon{ background: url(../img/icon.png) no-repeat; display: inline-block;}
-.icon-home{ width: 175x; height: 28px; background-position: -48px 0; vertical-align: -3px}
-.icon-menu{ width: 40px; height: 37px; }
 .banner img{width: 100%; height: auto}
 
 
-.btn-home{ font-size: 1.2em; color: #fff; position: absolute; left: 1% ;top: 0; }
-.btn-home img{width: 28%; float: left; margin-top: 23px; margin-right: 3px}
-.btn-menu{ position: absolute; right: 1%; top: 0.5em}
-.btn-menu img{ width: 70%} 
+.btn-home{ font-size: 1em; color: #fff; position: absolute; left: 1% ;top: 0; }
+.btn-home img{width: 26%; float: left; margin-top: 25px; margin-right: 3px}
+.btn-menu{ position: absolute; right: 1%; top: 0.3em}
+.btn-menu img{ width: 60%} 
 
-.menu-list { position: absolute; right: 0; line-height: 38px; top: 4.5em; background: #3e3d3d;}
+.menu-list { position: absolute; right: 0; line-height: 38px; top: 4.5em; background: #3e3d3d; display: none;}
 .menu-list a{ color: #fff}
 .menu-list li{ border-bottom: 1px solid #292929; border-top: 1px solid #484848;padding: 0 20px 0 10px; }
 
 
 .icon-s{ width: 5px ; height:22px; overflow: hidden; background: #d04f30; float: left; margin-right: 10px}
-.icon-dott{ width: 3px ; height: 3px; overflow: hidden; background: #333; float: left; margin: 12px 8px 0 0 }
+.icon-dott{ width: 3px ; height: 3px; overflow: hidden; background: #333; float: left; margin: 1em 8px 0 0 }
 h2{ color: #d04f30; font-size: 1.5em}
 .active-box{ padding: 0 5%}
 .active-box .bd{ padding: 10px 0}
-.news-list li{ line-height: 32px; border-bottom: 1px solid #e7e7e7; overflow: hidden;}
-.news-list a{ font-size: 18px;}
-.news-list .date{ color: #999; font-size: 18px}
-.news-list2 a{float: left; width: 80%; text-overflow:ellipsis; white-space: nowrap; overflow: hidden;}
+.news-list li{ line-height: 2.5em; border-bottom: 1px solid #e7e7e7; overflow: hidden;}
+.news-list a{ float: left; font-size: 1.1em;  width: 90%;text-overflow:ellipsis; white-space: nowrap; overflow: hidden;}
+.news-list .date{ color: #999; font-size: 1.1em}
+.news-list2 a{float: left; width: 80%; }
 
 .quick-box{ padding: 0 5%}
 .pic-list li{ width: 24.9%; float: left;  text-align: center;  margin-bottom: 15px}
 .pic-list img{ width: 80%}
-.pic-list .txt{ text-align: center; display: block;}
+.pic-list .txt{ text-align: center; display: block; font-size: 0.8rem; line-height: 1rem}
 .btn-get-more{ display: block; text-align: center; line-height: 3em; background: #f6f6f6; font-size: 18px;}
 
 .content { padding:  0 3%;}
 .content .tit{ color: #333; font-size: 26px}
 .content .bd{ padding: 20px 0}
-.content p { line-height: 28px; font-size: 18px; text-indent: 2em; margin-bottom: 25px;}
+.content p { line-height: 28px; font-size: 1.8em; text-indent: 2em; margin-bottom: 25px;}
 
 .ask-box { padding: 0 3%}
 .ask-box table{ width: 100%}
 .ask-box table td{padding: 5px 0 }
-.ask-box table .td1{ width: 20%; vertical-align: top;  line-height: 35px;}
+.ask-box table .td1{ width: 20%; vertical-align: top;  line-height: 3.5em;}
 .ask-box .name{ font-size: 120%; width: 20%}
 .ask-box p{ margin-bottom: 15px;}
-.ask-box input{ width: 100%; border: 1px solid #e2e2e2; height: 35px; }
+.ask-box input{ width: 100%; border: 1px solid #e2e2e2; height: 3.5em; }
 .ask-box textarea { width: 100%;border: 1px solid #e2e2e2; height: 100px}
-.btn-submit{ background: #dd5b3d; height: 45px; margin-top: 20px; width: 100%; text-align: center; border: 0; color: #fff; font-size: 20px}
+.btn-submit{ background: #dd5b3d; height: 45px; margin-top: 20px; width: 100%; text-align: center; border: 0; color: #fff; font-size: 2em}
 
 
 .footer{ background: #343434; text-align: center;  color: #fff; line-height: 2.8em}
