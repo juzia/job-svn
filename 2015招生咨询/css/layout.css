@@ -1,0 +1,80 @@
+/*common reset*/
+*{ color: #333;  }
+a{ text-decoration: none;}
+em,i{ font-style: normal;}
+h2{  color: #ec4a4a; font-size: 18px; font-weight: bold;}
+h1 a{ display: block; width: 1000px; height: 250px; }
+a:hover{ text-decoration: underline;}
+input{padding: 0}
+img{ border:0;}
+
+html{ background: #fff; font-size: 14px; line-height: 1.4; font-family: 'microsoft yahei'; }
+.c1{ color: #333;}
+.c2{ color: #4075d5}
+.c3{ color: #e45722;} /*orange*/
+.c4{ color: #999}
+.c5{color: #fff}
+a.c5:hover{ color: #fff}
+.c6{color: #fe332e}
+h3{ font-size: 25px; color: #333; font-weight: bold; margin: 0  80px; text-align: center; line-height: 40px}
+h4{ font-size: 14px; font-weight: bold; line-height: 30px; color: #fff;}
+h4 a{font-size: 16px; font-weight: bold; font-family: 'microsoft yahei'}
+h5{color: #589f23; font-size: 14px; font-weight: bold; font-family: 'microsoft yahei'}
+
+/*common*/
+.icon{ background: url(../img/icon.png) no-repeat; display: inline-block; *display: inline; *zoom:1;}
+.icon-pic{width: 26px; height: 18px; vertical-align: -2px;}
+.icon-jt{ width: 15px; height: 8px; background-position: -56px 0; bottom: -8px; left: 50%; overflow: hidden; position: absolute;}
+.icon-pen{ width: 21px; height: 21px; background-position: -32px 0; vertical-align: -4px; padding-right: 8px;}
+.con-in{width: 1000px; margin: 0 auto}
+
+
+.header{ height: 300px; background: url(../img/top.jpg) center top no-repeat;}
+.header-in{height: 250px;}
+.navigation{ height: 50px ; background: #ec4a4a}
+.menu-list{ margin-left: 40px}
+.menu-list li{ float: left; line-height: 50px; padding: 0 20px; position: relative;}
+.menu-list a{ color: #fff; font-size: 16px; }
+.menu-list .gep{ position: absolute; right: 0px; top: 0px; height: 17px; width: 1px; color: #f87d7d; }
+
+.crumb{ margin: 20px 0}
+.crumb a{color: #999999; font-size: 14px;}
+
+.sider{ width: 278px; border:1px solid #f3f3f3;}
+.sider .hd{ height: 39px; margin: 0 10px; border-bottom: 2px solid #ec4a4a; line-height: 39px;}
+
+.sider .bd{ padding:15px 10px 0; text-align: center;}
+.pic-list li{margin-bottom: 20px;}
+.pic-list .txt{ display: block; font-size: 14px; color: #333; line-height: 24px;}
+
+.main{width: 700px; }
+.desc-con{color: #fbfbfb; border-bottom: 1px solid #ececec; position: relative;}
+.desc-in{ padding: 30px}
+.detail{ font-size: 14px; color: #333; line-height: 24px; margin-top: 20px}
+.info-box{ line-height: 24px; margin-top: 30px}
+
+.log-box{ margin-top: 18px}
+.other-info{ margin-top: 2px;}
+.other-info a{color: #fff; height: 22px; padding: 2px 5px; line-height: 22px;}
+.other-info a:hover{ text-decoration: none;}
+.other-info .des{ background: #83cc47;}
+.other-info .asc{ background: #4daff4}
+.manual{ background: #727272; }
+
+.log-box .hd{ border-bottom: 2px solid #ec4a4a; height: 39px;}
+.log-box .bd{ height: 600px; overflow-y:scroll;}
+.log-list li{ padding:  20px 10px ; border-bottom: 1px solid #ececec}
+.log-list .nickname{ font-size: 16px ; font-weight: bold}
+.log-list .date{ color: #999}
+.log-list .con{ color: #666; line-height: 24px; margin-top: 10px;}
+.log-list .gx .nickname{ color: #6aa43a }
+.log-list .gx {background: #fbfbfb}
+
+.page-box{ text-align: center; margin-top: 30px;}
+.page-box a{ font-family: 'microsoft yahei';  box-shadow: 1px 1px 1px #eee; display: inline-block; *display: inline; *zoom:1; margin: 0 2px; font-size: 14px; height:27px; line-height: 27px; padding: 0  10px; border: 1px solid #e3e3e3; border-radius: 3px; box-shadow: 1px 1px #f5f5f5  }
+.page-box .current ,.page-box a:hover{ background: #d93f25; border-color: #e13a07; color: #fff; text-decoration: none;  font-weight: bold;}
+
+.footer{ border-top: 1px solid #efefef; margin-top: 50px}
+.footer-in{width: 1000px ; margin: 0 auto; padding: 20px 0; text-align: center; line-height: 24px; color: #999}
+.footer-in a{ color: #999; padding: 0 10px; font-size: 12px;}
+.footer-in p{ font-size: 12px ; color: #999}
