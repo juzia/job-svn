@@ -14,9 +14,11 @@ if($('.focus-num').length>0){
 
 if($('.js-rank').length >0) {
 
-	for(var i = 0; i<5; i++) {
-
-		$('.js-rank li').eq(i).find('em').text(i+1)
+	for(var i = 0; i<10; i++) {
+		$('.js-rank li').eq(i).find('em').text(i+1);
+    if(i>=3) {
+      $('.js-rank li').eq(i).addClass('l2')
+    }
 	}
 }
 

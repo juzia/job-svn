@@ -31,8 +31,8 @@ h5{color: #589f23; font-size: 14px; font-weight: bold; font-family: 'microsoft y
 .icon-book{ width: 14px; height: 16px; background-position: -24px 0; vertical-align: -2px;  _vertical-align:2px;}
 .icon-wd{ width: 12px; height: 10px ; background-position: -24px -24px; _vertical-align:2px;}
 .icon-comment{ width: 20px; height: 16px; background-position: 0 -24px; float: left; vertical-align: -2px; }
-.icon-dott{ float: left; width: 4px; height: 4px; background-position: -64px 0; margin: 10px 5px 0 0}
-
+.icon-dott{ float: left; width: 8px; height: 8px; background-position: 0px -43px; margin: 14px 5px 0 0}
+.icon-home{ width:16px; height: 13px; background-position: -40px -24px; vertical-align: -2px;  _vertical-align:4px; }
 .mt10{ margin-top: 10px;}
 .mt30{ margin-top: 30px;}
 .mt15{ margin-top: 15px;}
@@ -80,9 +80,8 @@ strong , .strong{ font-weight: bold;}
 .other-list li a:hover .txt,.other-list li a:hover{ color: #fff}
 .txt{ display: block;}
 
-.comm-con{ border: 1px solid #e1e1e1; background: #f8f8f8}
-.comm-pn{ border: 1px solid #fff; padding: 8px; }
-.comm-con .hd{ border-bottom: 1px solid #ebecec; line-height: 30px; height: 30px;}
+.comm-con{ }
+.comm-con .hd{line-height: 30px; height: 30px;}
 .comm-con .bd{padding: 10px 0 0}
 
 .container{ width: 1000px; margin: 20px auto;}
@@ -249,41 +248,45 @@ h2{font-size: 18px; font-weight: bold; line-height: 40px; font-family: 'microsof
 /*list page*/
 .icon-clock{width: 13px; height: 13px; background-position: -80px 0; float: left; margin-right: 2px; margin-top: 4px;} 
 .icon-read{ width: 20px; height: 11px; background-position: -96px 0; float: left; margin-right: 2px; margin-top: 5px;}
-.crumb-box{ height: 40px; line-height: 40px}
-.crumb-in .curr{ padding: 0 0 0 5px; color: #999}
+.crumb-box{ height: 40px; line-height: 40px; border-bottom: 1px solid #eaeaea}
+.crumb-in .curr{color: #999}
 .crumb-in a, .crumb-in span{ color: #999}
-.crumb-box .icon-home{margin: 13px 2px 0}
 
-.list-box .comm-pn{ padding: 10px 0 10px 10px;}
-.list-box .list-l{ width: 658px;}
+.list-box .list-l{ width: 730px; }
 
-.list-box .list-r{width: 319px;}
-.list-box  .news-list2 .h2-tit{ text-align: left; line-height: 54px}
-.list-box  .news-list2 .h2-tit a{ font-size: 24px;color: #333; text-align: left;}
-.list-box  .news-list2 .h2-tit a:hover{ color: #e13a07}
-.list-box  .news-list2 .summary{ font-size: 14px; line-height: 24px; color: #999; text-indent: 2em}
-.list-box  .news-list2 p {margin-top:15px; height: 20px ; line-height: 20px;}
-.list-box  .news-list2 p span{color: #999}
-.list-box  .news-list2 .s1{ padding-right: 15px;}
-.list-box  .news-list2 li{ padding: 10px 0 15px; border-bottom: 1px solid #e7e7e7; overflow: hidden; *zoom:1;}
-.list-r .news-list{ font-size: 14px; line-height: 24px;}
-.list-r .news-list a {font-size: 14px;
-}
+.list-box .list-r-c1{width: 250px; background: #fcfefb}
 
-
+.list-r-c1 .news-list{ font-size: 14px; line-height: 40px;  padding: 0 20px 10px}
+.list-r-c1 .news-list li{ border-bottom: 1px solid #ebebeb; height: 40px; line-height: 40px;}
+.list-r-c1 .news-list a {font-size: 14px;}
+.list-r-c1 .hd{ background: url(../img/icon.png) 0 -56px no-repeat;  width: 250px; height: 40px; text-align: center; line-height: 40px; }
+.list-r-c1 .hd h3{ font-size: 18px}
 .page-box{ text-align: center; margin-top: 30px;}
 .page-box a{ font-family: 'microsoft yahei';  box-shadow: 1px 1px 1px #eee; display: inline-block; *display: inline; *zoom:1; margin: 0 2px; font-size: 14px; height:27px; line-height: 27px; padding: 0  10px; border: 1px solid #e3e3e3; border-radius: 3px; box-shadow: 1px 1px #f5f5f5  }
 .page-box .current ,.page-box a:hover{ background: #ff702a; border-color: #e13a07; color: #fff; text-decoration: none; }
 
-
+.list-r-c2 .hd{ border-bottom: 2px solid #579f23}
+.list-r-c2 .news-list li{height: 30px; line-height: 30px;}
+.list-r-c2 .news-list em{ width: 22px; height: 14px; float: left; background: #f68e31; text-align: center; line-height: 14px; color: #fff;  margin: 8px 2px 0}
+.list-r-c2 .news-list .l2 em{background: #bec8b8}
 .content { padding-bottom: 40px}
-.content .hd {border-bottom: 1px solid #efefef; text-align: center; padding: 12px 0; height: 80px;}
-.content .hd p span{ padding-right: 30px; color: #999 ; font-size: 14px;}
+
+.list-l .icon-dott{width: 3px ;height: 3px ; overflow: hidden; font-size: 0; background: #000; margin: 18px 5px 0 ;}
+
+.news-list2 a{ font-size: 14px; color: #333333 }
+.news-list2 li{ line-height: 36px; height: 36px; border-bottom: 1px solid  #f1f1f1}
+.news-list2 .date{color: #999; font-size: 12px;}
+
+.list-l .hd{ height: 18px; line-height: 18px; margin-bottom: 20px; }
+.list-l h2{ font-size: 18px; color: #579f23; font-family: "microsoft yahei"; border-left: 4px solid #579f23; height: 18px;  line-height: 18px;  padding-left: 10px; }
+
+.content .hd {border-bottom: 1px solid #efefef; text-align: center;  height: 80px;}
+.content .hd p span{ padding-right: 30px; color: #999 ; }
 .content .hd p span em{color: #999}
 .content .bd{ padding: 30px 90px 0;}
 .content .hd .lettersize a{ color: #278eee}
 .content .tit{ font-size: 24px; line-height: 56px; font-family: 'microsoft yahei' ; font-weight: bold;}
-.detail-box p{ text-indent: 2em; font-size: 14px; font-family: 'microsoft yahei'; color: #333; margin-bottom: 40px; line-height: 24px;}
+.detail-box p{ text-indent: 2em; font-size: 14px; font-family: 'microsoft yahei'; color: #666; margin-bottom: 40px; line-height: 24px;}
 .detail-box  img{ display: block; margin: 0 auto}
 
 .recomm-box { border: 1px solid #ededed; background: #fff; padding: 20px; margin-top: 20px}
@@ -291,3 +294,4 @@ h2{font-size: 18px; font-weight: bold; line-height: 40px; font-family: 'microsof
 .recomm-box .s1 a{color: #e45722; font-size: 14px}
 
 
+.content h2{ border: 0; line-height: auto; height: auto; color: #333333; font-size: 24px; font-weight: bold;}
