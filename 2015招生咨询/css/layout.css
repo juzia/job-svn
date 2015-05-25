@@ -28,8 +28,8 @@ h5{color: #589f23; font-size: 14px; font-weight: bold; font-family: 'microsoft y
 .icon-pen{ width: 21px; height: 21px; background-position: -32px 0; vertical-align: -4px; padding-right: 8px;}
 .con-in{width: 1000px; margin: 0 auto}
 
-
-.header{ height: 300px; background: url(../img/top.jpg) center top no-repeat;}
+.wrap{background: url(../img/top.jpg) center top no-repeat;}
+.header{ height: 300px; }
 .header-in{height: 250px;}
 .navigation{ height: 50px ; background: #ec4a4a}
 .menu-list{ margin-left: 40px}
@@ -37,7 +37,8 @@ h5{color: #589f23; font-size: 14px; font-weight: bold; font-family: 'microsoft y
 .menu-list a{ color: #fff; font-size: 16px; }
 .menu-list .gep{ position: absolute; right: 0px; top: 0px; height: 17px; width: 1px; color: #f87d7d; }
 
-.crumb{ margin: 20px 0}
+.crumb{ margin: 20px 0; color: #999}
+.crumb .con-in{color: #999}
 .crumb a{color: #999999; font-size: 14px;}
 
 .sider{ width: 278px; border:1px solid #f3f3f3;}
@@ -48,7 +49,7 @@ h5{color: #589f23; font-size: 14px; font-weight: bold; font-family: 'microsoft y
 .pic-list .txt{ display: block; font-size: 14px; color: #333; line-height: 24px;}
 
 .main{width: 700px; }
-.desc-con{color: #fbfbfb; border-bottom: 1px solid #ececec; position: relative;}
+.desc-con{background: #fbfbfb; border-bottom: 1px solid #ececec; position: relative;}
 .desc-in{ padding: 30px}
 .detail{ font-size: 14px; color: #333; line-height: 24px; margin-top: 20px}
 .info-box{ line-height: 24px; margin-top: 30px}
@@ -78,3 +79,59 @@ h5{color: #589f23; font-size: 14px; font-weight: bold; font-family: 'microsoft y
 .footer-in{width: 1000px ; margin: 0 auto; padding: 20px 0; text-align: center; line-height: 24px; color: #999}
 .footer-in a{ color: #999; padding: 0 10px; font-size: 12px;}
 .footer-in p{ font-size: 12px ; color: #999}
+
+
+/*高考查询页面*/
+.wrap1{ background: url(../img/top1.jpg) top center no-repeat;}
+.wrap1 .header-in{ height: 279px;}
+.wrap1 .header{height: 334px;}
+.nav-box { height: 54px;}
+.menu-list1{ margin-left: 28px; line-height: 54px}
+.menu-list1 li{ float: left; line-height: 54px; padding: 0 20px; position: relative;}
+.menu-list1 a{ color: #fff; font-size: 16px; }
+.h2{color: #fff; font-size: 24px; text-align: center; font-weight: bold; height: 50px; line-height: 50px}
+.content1{ padding: 63px 0 20px; }
+
+.hot-list{ padding: 50px 0 30px;border-bottom: 1px solid #e9e9e9 ; margin:0 24px;}
+.hot-list li{ float: left; width: 49.9%; text-align: center;}
+.hot-list a{ color: #333333; font-size: 16px; padding-left: 3px; }
+.icon-dott{ width: 6px; height: 6px; background-position: 0 -24px; vertical-align: 4px;}
+
+.banner-box1{ width: 1000px; height: 60px; background: #b8c1c4;}
+.banner-box2{ margin-top: 10px;}
+.banner2-c1{ width: 495px; height: 60px; background: #b8c1c4}
+
+.content2{ margin: 20px 0 0 0}
+.h3{color: #333; font-size: 20px; font-weight: bold;}
+.con2-c1{ width: 680px;}
+
+.table1 {width: 678px ; border: 1px solid #f2fafe}
+.table1 thead th{ background: #c4d8e2; color: #fff; font-size: 16px; font-weight: bold; height: 50px; line-height: 50px;}
+.table1  .area, .table1 .time{ text-align: center; vertical-align: middle; border-right:1px solid #f2fafe; }
+.table1 .time{color: #00a0ea}
+.table1 .mark{ color: #333; font-size: 12px; line-height: 22px; padding:  10px;}
+.table1  tr{ border-bottom: 1px solid #f2fafe}
+ .mt15{margin-top: 15px;}
+.con2-c2{ width: 280px;}
+.con2-c2-c1{ background: #57d8ce;}
+.icon-stan{width: 10px; height: 10px; background-position: 0 -40px;}
+.con2-c2-c1 .hd { margin: 0 15px; background: #10bdaf; height: 40px; line-height: 40px;}
+h4{font-size: 20px; color: #fff; font-weight: bold; text-align: center; line-height: 40px;}
+.con2-c2-c1 .bd{ padding: 10px 20px}
+.con2-c2-c1 .bd a{font-size: 16px; color: #fff; padding: 0 5px;}
+
+.con2-c2-c1 .bd p{ line-height: 26px; } 
+.con2-c2-c2 .hd{height: 33px; line-height: 33px; border-bottom: 1px solid #e0ebf0}
+.con2-c2-c2 .bd{padding: 10px 3px;}
+h5{font-size: 16px; font-weight: bold; color: #333; border-bottom: 1px solid #42484b; height: 33px;}
+.icon-fk{width: 3px ;height: 3px ; background: #939799; font-size: 0; overflow: hidden; float: left; margin: 10px 0 0 0}
+.news-list2 a{ font-size: 12px; color: #333; font-family: 'sim sun'; padding: 0 5px;}
+.news-list2  li{ line-height: 22px;}
+
+.news-list2 .gep{color: #bbbdbe}
+
+.footer1{ background: #3c3c3c ;padding: 20px 0}
+.footer1 p , .footer1 a{color: #969696; line-height: 24px; font-size: 12px}
+.footer1-in{ text-align: center;}
+
+
