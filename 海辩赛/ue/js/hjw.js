@@ -1,49 +1,13 @@
-$('#setHomePage').click(function () {
-  if (!window.ActiveXObject) {
-    alert("\u8bf7\u62d6\u52a8\u672c\u7f51\u7ad9\u5730\u5740\u65c1\u8fb9\u7684\u5c0f\u56fe\u6807\u5230\u4e3b\u9875\u6309\u94ae");
-  } else {
-    document.body.style.behavior = 'url(#default#homepage)';
-    document.body.setHomePage(window.location.href);
-  }
-});
-
-
-$('#addBookMark').click(function () {
-  if (!window.ActiveXObject) {
-    alert("\u8bf7\u6309\u0043\u0074\u0072\u006c\u002b\u0044\u5c06\u672c\u9875\u6dfb\u52a0\u5230\u6536\u85cf\u5939");
-  } else {
-    try{
-      var url = window.location.href;
-      var title = window.title;
-      window.external.addFavorite(url, title);
-    } catch (e) {
-      alert("\u8bf7\u6309\u0043\u0074\u0072\u006c\u002b\u0044\u5c06\u672c\u9875\u6dfb\u52a0\u5230\u6536\u85cf\u5939");
-    }
-  }
-});
-
-
-
-if($('.focus-num').length>0){
-  $(".focus-num").tabs(".focus-item", {
-      event:'mouseover',
-      effect: 'fade',
-      fadeOutSpeed: "300",
-      rotate: true
-    }).slideshow();
-    $(".focus-num").data("slideshow").play();
-}
-
-
-if($('.js-rank').length >0) {
-
-	for(var i = 0; i<5; i++) {
-
-		$('.js-rank li').eq(i).find('em').text(i+1)
-	}
-}
-
-
-$(".js-tab").each(function(){
-    $(".gb-tab:eq(0)",$(this)).tabs($(".gb-tab-pn:eq(0) > div",$(this)),{event:'mouseover'});
-  }); 
+  $(document).ready(function(){
+    $(".carousel-box").jCarouselLite({
+    btnNext: ".bt-next",//下一个按钮的选择器
+    btnPrev: ".bt-prev",//上一个按钮的选择器
+    auto: null,//自动滚动
+    speed: 200,//滚动速度
+    vertical: false, //垂直滚动
+    circular: true, //循环
+    visible:1, //显示的个数
+    start: 0, //第几个开始
+    scroll: 1 //设置滚动的个数
+    });
+  });
