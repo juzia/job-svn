@@ -1,0 +1,60 @@
+html{font-family: 'Microsoft yahei' }
+body{font-size: 62.5%;font-family: 'Microsoft yahei'}
+.page1{ background: url(../img/bg.jpg) center top no-repeat;/* background-size: 100% 100%;*/background-size:cover;
+	/*background-repeat:no-repeat;background-size:cover;-moz-background-size:cover;-webkit-background-size:cover;*/
+}
+
+.logo{padding:1em 2%; display: block; text-align: center; background: rgba(000,000,000,0.52); }
+.logo img{max-width: 70%}
+.fr{float: right;}
+.fl{float: left;}
+.section1{ padding:2em 0 1em;}
+.btn{text-align: center; margin: 1em 0}
+.btn img{ max-width: 60%}
+
+.tips{ margin: 1.4em 5% 0}
+.tips .bd{ background: rgba(000,000,000,0.56);  padding:10px 5px; margin-top: 0.5em }
+.tips .bd p{ font-size: 0.8em; color: #d2d2d2}
+h2{ font-size:1.875em; color: #fefefe}
+
+.oz{overflow: hidden; *zoom:1;}
+.section2{ padding: 2em 5%}
+.section2 .bd{ padding: 10px 0}
+h2 img{max-width: 35%}
+.photo img{width: 3.5em; height: 3.5em; border-radius: 5px}
+.info{padding-left: 7px;}
+.info p{color: #d2d2d2; font-size:1.25em }
+.logout{color:#d2d2d2; font-size:1.25em ; text-decoration: underline;}
+
+.energy-box{ text-align: center; }
+.energy-num{ background: url(../img/icon2.png) no-repeat;  display: inline-block; color: #e5152e; font-size: 2.2em ; margin: 0.3em auto;
+ font-style: normal; font-weight: bold; padding: 8px 10px; width: 36%; background-size: 100% 100%; text-align: center;}
+
+h3{color: #fefefe; font-size:2.2em ; text-align: center; font-weight: bold;}
+.ewm-box{ text-align: center; margin: 2em 0 1em}
+.ewm-box img{ max-width: 45% ;}
+
+.section3{padding: 1em 5%}
+h4{color: #fefefe; font-size: 1.875em; text-align: center; }
+.condition{ background:url(../img/bg3.png) no-repeat; background-size: 100% 100%; text-align: center; padding: 15px 25px; line-height: 2.5em; margin: 1em 0}
+.condition .p1{ color: #f0ff00; font-size: 2.5em; font-weight: bold;}
+.condition .p2{ color: #d2d2d2; font-size: 1.75em}
+.prize-list{ width: 100%; margin-top: 0.4em}
+.prize-list thead{ background-color: #2e2d2f; border-top: 2px solid #e5152e}
+.prize-list thead th{font-size: 1.5em; color: #d2d2d2; font-weight: normal;}
+.prize-list  tbody{background: rgba(000,000,000,0.56); color: #d2d2d2; font-size: 1.25em; line-height: 2.2em; }
+.prize-list  tbody tr{border-bottom: 1px solid #414141}
+.prize-list  tbody tr.last{ border-width: 0}
+.prize-list  tbody td{text-align: center; }
+.prize-list  tbody td.first{text-align: left;  padding-left: 25px}
+
+.warning{text-align: center; color: #d2d2d2; font-size: 1.25em; margin: 1em 0}
+.warning1{ color: #d2d2d2; font-size: 1em; margin: 1em 0}
+
+.pop-box{z-index: 11; background: url(../img/popbg.jpg) no-repeat; background-size: 100% 100%; width: 86%; position: absolute; left: 7%; top: 20%}
+.pop-in{padding:3em 5% 2em; text-align: center;}
+.pop-box .p1{ font-size:3.25em; color: #fff600; font-weight: bold;}
+.pop-box .p2{font-size: 1.875em; color: #fff}
+.btn-sure{display: inline-block; margin: 1.5em 0 0;  background: #fff600; border-radius: 5px; color: #9e0006; font-size: 2em; line-height: 2em;  padding: 0 2em; font-weight: bold;}
+
+.mask{z-index: 10; position: absolute; left: 0; top: 0; height: 100%; width: 100%; background: #000; opacity: 0.8}
