@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="email=no">
+	<title>Document</title>
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css" >
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	
+</head>
+<body>
+	
+
+
+	<div class="mask" ></div>
+		
+
+	
+
+	<!-- 工作人员扫码确认购买 -->
+	<div class="page2" >
+		<div class="ok"><img src="img/ok.png" />
+			<span class="txt">您已成功购买</span>
+		</div>
+		<div class="bd product-info">
+			<p>购买产品：<span>红牛维生素饮料</span></p>
+			<p>购买熟料： <span>4罐</span></p>
+			<p>支付金额：<span>20元</span></p>
+			<p>交易时间：2015年7月22日 21:22:22</p>
+			<p class="line"></p>
+			<p class="btn-lq"><a href="javascript:;"><img src="img/lqbtn.png" /></a></p>
+			<p class="warning">温馨提示：此页面仅红牛工作人员有兑换权限！</p>
+		</div>
+	</div>
+
+<!-- 成功购买页面end -->
+
+
+
+	
+
+
+
+	<script type="text/javascript">
+	
+
+		$('body').on('click', '.js-close', function(event) {
+			event.preventDefault();
+			$(this).parents('.pop-box').hide();
+			$('.mask').hide();
+		});
+
+		$('#section2 .actdes').click(function() {
+			$('.rule-box').show();
+			$('.mask').show();
+
+		});
+
+
+		// 立即支付
+
+		$('.js-pay').click(function() {
+			$('.order-confirm').show();
+			$('.mask').show();
+		})
+
+		// 确认支付
+
+		$('body').on('click', '.js-pay-comfirm', function(){
+
+			$('.pay-loading').show();
+			$('.order-confirm').hide();
+
+		})
+
+
+		
+	</script>
+</body>
+</html>

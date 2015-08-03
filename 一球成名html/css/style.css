@@ -1,0 +1,108 @@
+html{background: #e02727;font-family: 'Microsoft yahei' }
+body{font-size: 62.5%;font-family: 'Microsoft yahei'}
+.page1{ background: url(../img/bg.jpg) center top no-repeat;/* background-size: 100% 100%;*/background-size:cover;
+	/*background-repeat:no-repeat;background-size:cover;-moz-background-size:cover;-webkit-background-size:cover;*/
+}
+
+.logo{padding:1em 2%; display: inline-block;}
+.logo img{max-width: 70%}
+
+
+
+/**/
+.fl{float: left;}
+.fr{float: right;}
+#section1{ margin-top: 44%}
+.flexslider .txt{display: block; color: #fff; font-size:1.5em; font-family: 'Microsoft yahei'  }
+.total{width: 90%; margin: 0 5%; height: 2.9em; line-height: 2.8em}
+.total .s1{ background: #fff; border-radius: 5px; height: 1.875em; display: inline-block; padding: 0 5px; width: 68%; line-height: 1.7em; font-size:1.5em ; color: #333; }
+.total .s2{font-size: 1.5em; color: #fff; padding-right: 3px;}
+.total input{ border: 0; width: 80%; color: #eb3434}
+.total .count, .total .money{ width: 48%;}
+
+.btn-pay{ width: 90%; margin:0.8em 5% 0.5em;   display: inline-block;}
+
+#section2 {width: 90%; margin: 0 5%;}
+#section2 a{ display: inline-block; width: 48%;}
+
+.mask{position: fixed; width: 100%; display: none; height: 100%; background: #000; opacity: 0.7; top: 0; left: 0; z-index: 12}
+.pop-box{ width: 90%; margin: 0 5%; display: none; background: url(../img/orderbg.jpg) no-repeat;background-size:cover;position: fixed; top: 30%; z-index: 19}
+.pop-in{ padding: 50px 5% 18px; }
+.pop-box p ,.product-info p{ font-size: 1.5em; color: #fff; font-family: 'Microsoft yahei'}
+.pop-box p span, .product-info p span{ font-weight: bold;}
+.pop-box .warning ,.product-info .warning{ color: #ffe400; font-size:1.375; text-align: center; }
+.btn-pay1{ padding: 0.5em 0; display: inline-block;}
+.btn-close{position: absolute; right: -3%; top: -10%;  width: 18%;}
+.pay-loading{ position: fixed; width: 100%; text-align: center; top: 48.5%; color: #fff; font-size: 1.875em; z-index: 15}
+ .ewm{ text-align: center;  }
+ .ewm img{ max-width: 43%}
+
+.order-info{background: url(../img/bg3.jpg) no-repeat;background-size:cover;}
+.order-ending .pop-in{padding: 60px 5% 18px;}
+.line{ border-top: 1px dashed #fff; margin: 10px 0 }
+
+.page2{ background: url(../img/bg2.jpg) center top no-repeat;background-size: 100% 100%;}
+
+.page2 .ok{text-align: center; padding-top: 1.4em;}
+.page2 .ok img{ max-width: 20%}
+.page2 .ok .txt{ color: #fff; display: block; font-size: 2.25em}
+.product-info{ padding: 1.2em 10%;}
+.product-info .ewm{ margin-bottom: 0.5em}
+.btn-lq{margin: 2.5em 0}
+
+
+.hongbao-box{ background: url(../img/bg4.png) no-repeat;background-size:cover; top: 0%; width: 94%; margin: 0 3%}
+.hongbao-box .p1{ text-align: center; }
+.hongbao-box .p1 span{font-size: 5em; color: #e94426;}
+.hongbao-box .p1 em{ font-size: 7em; color: #e94426; font-style: normal;}
+.hongbao-box .p2{font-size: 2.25em; text-align: center;}
+.hongbao-box .p3{font-size:2em ; text-align: center;}
+.hongbao-box .p3 span{color: #ffff00}
+.hongbao-box .btn-pay4{ margin: 1.6em 5%; text-align: center; display: inline-block;}
+.hongbao-box .btn-pay4 img{ max-width: 80%}
+.orderlist-box .hd{ background: #be1919; padding: 0.75em 3%;}
+.orderlist-box .hd .back img{ max-width: 30%;}
+.orderlist-box .title{ padding: 1.5em 5%;}
+.orderlist-box .bd{ min-height: 350px;}
+.order-list { padding: 1em 5%;}
+.order-list li{ background: #d02424; border-top-right-radius: 22px; border-bottom-right-radius: 22px; overflow: hidden; margin-bottom: 15px;}
+.order-list li img{ width: 16%;}
+.order-detail p{color: #fff; font-size: 1.5em}
+.order-detail .date{ font-size: 1.25em}
+.btn-detail{margin-right: 4px; border-radius: 50%; color: #d02424; margin-top: 0.35em; font-size: 1.375em ; background: #fff; width: 3.7em; height: 3.7em; text-align: center; position: relative;}
+.btn-detail .txt{ width: 2em; margin: 5px 2px 0 5px; line-height: 1.5em }
+.order-list li  .btn-detail img{width: 20%;  position: absolute; right: 5px; top: 15px;}
+.order-list li .unpay{background: #ff9c00}
+.order-list li .ending{background: #b9b9b9; color: #fff;}
+
+
+.rule-box{background: url(../img/rule.jpg) no-repeat;background-size: 100% 100%; top: 10%}
+.rule-box p{font-size: 1.35em}
+.rule-box p span{ color: #ffff00}
+.rule-box .btn-close{top: -6%}
+.rule-box .pop-in{ padding-top: 70px;  padding-bottom: 60px}
+.redbowimg{position: absolute; bottom: -10%; right: -13%;}
+.redbowimg img{width: 55%; }
+
+.sorry-box{background: url(../img/bg5.jpg) no-repeat; background-size: 100% 100%}
+.sorry-box .p1{ color: #fff; font-size: 3em; text-align: center;}
+.sorry-box .p2{ color: #fff; font-size: 2.25em; text-align: center;}
+
+@media only screen and (max-width:320px) {  
+	.pop-box p ,.product-info p{ font-size: 1.35em}
+	.order-list li img{ width: 15%;}
+	.btn-detail { margin-top: 1px}
+	.order-detail p{color: #fff; font-size: 1.5em}
+	.order-detail .date{ font-size: 1.25em}
+
+}
+
+@media only screen and (min-height:568px) {
+.hongbao-box{ padding-bottom: 50px;}
+}
+
+@media only screen and (max-width:414px) {  
+.order-list li{border-top-right-radius: 27px; border-bottom-right-radius: 27px; }
+
+
+}

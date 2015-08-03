@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="email=no">
+	<title>Document</title>
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css" >
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+
+</head>
+<body>
+
+
+
+<!-- 我的订单页 -->
+
+	<div class="page2 orderlist-box" >
+		<div class="hd">
+			<a href="index.html" class="back"><img src="img/back.png" alt=""></a>
+		</div>
+		<h2 class="title"><img src="img/tit1.png"></h2>
+		<div class="bd product-box">
+			<ul class="order-list">
+				<li><img src="img/pic1.png" class="fl"><div class="order-detail fl">
+					<p>红牛2罐</p>
+					<p class="date">订单时间：2015-09-05  23:52:11</p>
+
+				</div>
+				<a href="javascript:;" class="btn-detail fr js-detail"> <span class="txt fl">交易详情</span><img src="img/jt.png" class="fr" /></a>
+				</li>
+
+				<li><img src="img/pic1.png" class="fl"><div class="order-detail fl">
+					<p>红牛2罐</p>
+					<p class="date">订单时间：2015-09-05  23:52:11</p>
+
+				</div>
+				<a href="javascript:;" class="btn-detail fr unpay js-unpay"> <span class="txt fl">尚未付款</span><img src="img/jt.png" class="fr" /></a>
+				</li>
+
+				<li><img src="img/pic1.png" class="fl"><div class="order-detail fl">
+					<p>红牛2罐</p>
+					<p class="date">订单时间：2015-09-05  23:52:11</p>
+
+				</div>
+				<a href="javascript:;" class="btn-detail fr ending js-ok"> <span class="txt fl">交易完毕</span><img src="img/jt1.png" class="fr" /></a>
+				</li>
+
+				<li><img src="img/pic1.png" class="fl"><div class="order-detail fl">
+					<p>红牛2罐</p>
+					<p class="date">订单时间：2015-09-05  23:52:11</p>
+
+				</div>
+				<a href="javascript:;" class="btn-detail fr ending js-ok"> <span class="txt fl">交易完毕</span><img src="img/jt1.png" class="fr" /></a>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+<!-- 我的订单页end -->
+
+
+	<!-- 交易详情弹窗 -->
+	<div class="pop-box order-info" >
+		<a href="javascript:;" class="btn-close js-close"><img src="img/icon-close.png" alt="" /></a>
+		<div class="pop-in">
+			<p>购买产品：<span>红牛维生素饮料</span></p>
+			<p>购买熟料： <span>4罐</span></p>
+			<p>支付金额：<span>20元</span></p>
+			<p>交易时间：2015年7月22日 21:22:22</p>
+			<p class="line"></p>
+			<p class="ewm"><img src="img/2wm.jpg" alt="" /></p>
+			<p>请凭二维码至红牛工作人员处领取饮料！</p>
+		</div>
+	</div>
+
+	<!--交易详情弹窗 end  -->
+
+	<!-- 交易完毕弹窗-->
+	<div class="pop-box order-ending" >
+		<a href="javascript:;" class="btn-close js-close"><img src="img/icon-close.png" alt="" /></a>
+		<div class="pop-in">
+			<p>购买产品：<span>红牛维生素饮料</span></p>
+			<p>购买熟料： <span>4罐</span></p>
+			<p>支付金额：<span>20元</span></p>
+			<p>交易时间：2015年7月22日 21:22:22</p>
+		</div>
+	</div>
+	<!--交易完毕弹窗 end  -->
+
+	<!-- 订单信息弹窗 、尚未付款弹窗-->
+	<div class="pop-box order-confirm">
+		<a href="javascript:;" class="btn-close js-close"><img src="img/icon-close.png" alt="" /></a>
+		<div class="pop-in">
+			<p>购买产品：<span>红牛维生素饮料</span></p>
+			<p>购买熟料： <span>4罐</span></p>
+			<p>支付金额：<span>20元</span></p>
+			<p><a href="javascript:;" class="btn-pay1 js-pay-comfirm"><img src="img/paybtn1.png" /></a></p>
+			<p class="warning">温馨提示：支付后将不可退款!</p>
+		</div>
+	</div>
+	<!--订单信息弹窗 end  -->
+	<div class="mask" ></div>
+	<div class="pay-loading" style="display:none">正在获取支付信息，请稍候...</div>
+
+
+	<script type="text/javascript">
+	
+
+		$('body').on('click', '.js-close', function(event) {
+			event.preventDefault();
+			$(this).parents('.pop-box').hide();
+			$('.mask').hide();
+		});
+
+		$('.js-ok').click(function(){
+
+			$('.order-ending').show();
+			$('.mask').show();
+		})
+
+		$('.js-unpay').click(function(){
+
+			$('.order-confirm').show();
+			$('.mask').show();
+		})
+
+		$('.js-detail').click(function(){
+
+			$('.order-info').show();
+			$('.mask').show();
+		})
+
+		// 确认支付
+
+		$('body').on('click', '.js-pay-comfirm', function(){
+
+			$('.pay-loading').show();
+			$('.order-confirm').hide();
+
+		})
+		
+	</script>
+</body>
+</html>
