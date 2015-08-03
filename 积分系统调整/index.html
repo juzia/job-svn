@@ -1,48 +1,117 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="keywords" content="">
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
-	<meta name="format-detection" content="telephone=no">
-	<meta name="format-detection" content="email=no">
-	<title>积分系统</title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css" >
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<meta charset="utf-8">
+<title>大转盘</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+<link rel="stylesheet" href="css/css.css">
+<style>
+#dzp{
+    left:31%;
+	top:25%;
+	width: 41%;
+}
+</style>
 </head>
 <body>
-	<div class="page1" >
-		<h1><a href="#" class="logo"><img src="img/logo.png"></a></h1>
-		<!--  能量签到 -->
-		<div class="section1">
-			<img src="img/bg1.jpg" />
-			<div class="btn"><a href="javascript;;" class="btn1"><img src="img/btn1.png" /></a></div>
-
-			<div class="tips">
-				<h2> <img src="img/icon1.png"> 能量小贴士</h2>		
-				<div class="bd">
-					<p>1、每日签到可增加能量值哦！</p>
-					<p>2、连续签到1周，可额外获得5能量值奖励；连续签到2周，可得10能量值奖励哦~~</p>
-
-				</div>
-
-			</div>
-
-		</div>
-
-		<!--能量签到 end  -->
-	
-
-	</div>
-
-	
-
-
-
-		<script type="text/javascript" src="js/jf.js"></script>
-
+<div class="main" style="background-color:#AE0000; display:block;">
+   <div class="logo"><a href="index.html"><img src="http://fj.sinaimg.cn/fj_2015_v2/redbull/img/logo.png" class="img"></a></div>
+    <div class="tupian"><img src="http://fj.sinaimg.cn/fj_2015_v2/redbull/img/dzp.png" class="img"></div>
+    <div class="tupian zpb oz" >
+    <img src="http://fj.sinaimg.cn/fj_2015_v2/redbull/img/zp.png" class="img">
+     <div class="dzp" id='dzp'><img src="img/zz.png"  class="img" ></div>
+    </div>
+    <div class="chance-box oz"> <span class="txt">您还有<em>x</em>次机会</span> </div>
+    <div class="tupian" style="padding-top:.5em;background-color:#ae0000; display:block;"><img src="http://fj.sinaimg.cn/fj_2015_v2/redbull/img/l1_r5_c1.png" class="img"></div>
+    <!--奖品列表-->
+    <div class="prize">
+        <ul>
+           <li><img src="http://fj.sinaimg.cn/fj_2015_v2/redbull/img/cp1_r2_c2.png" class="img"><div>洗漱包</div></li>
+            <li><img src="http://fj.sinaimg.cn/fj_2015_v2/redbull/img/cp1_r2_c4.png" class="img"><div>运动真空水壶</div></li>
+            <li><img src="http://fj.sinaimg.cn/fj_2015_v2/redbull/img/cp1_r2_c6.png" class="img"><div>靠背垫</div></li>
+            <li><img src="http://fj.sinaimg.cn/fj_2015_v2/redbull/img/cp1_r2_c8.png" class="img"><div>20元电话充值卡</div></li>
+             <li><img src="http://fj.sinaimg.cn/fj_2015_v2/redbull/img/cp1_r4_c2.png" class="img"><div>32开笔记本</div></li>
+              <li><img src="http://fj.sinaimg.cn/fj_2015_v2/redbull/img/cp1_r4_c4.png" class="img"><div>签字笔</div></li>
+ 
+        </ul>
+    </div>
+   <div class="next">&nbsp;</div>
+</div>
+<!--弹窗-->
+<div class="msg hidden">
+    <div class="lmsg">
+        <div class="lmsga"><img src="http://fj.sinaimg.cn/fj_2015_v2/redbull/img/lb.png" class="img"></div>
+        <div class="lmsgb">哎呀，有点小遗憾！<br>再抽一次！</div>
+        <div class="lmsgc"><a href=''>再来一次</a></div>
+    </div>
+</div>
 </body>
 </html>
+<script type="text/javascript" src="http://fj.sinaimg.cn/fj_2015_v2/redbull/js/jq.js"></script>
+<script type="text/javascript" src="http://fj.sinaimg.cn/fj_2015_v2/redbull/js/jQueryRotate.2.2.js"></script>
+<script type="text/javascript" src="http://fj.sinaimg.cn/fj_2015_v2/redbull/js/jquery.easing.min.js"></script>
+
+<script type="text/javascript">
+$(function(){
+        lottery();
+});
+function lottery(){
+	$(".dzp").click(function(){
+		$(".dzp").css("cursor","default");
+		$(".dzp").rotate({angle:0});//指针角度初始化 0
+		var a = 100;
+		$(".dzp").rotate({
+			duration:3000, //转动时间
+			angle: 0, //默认角度
+			animateTo:3600+a, //转动角度
+			easing: $.easing.easeOutSine,
+			callback: function(){
+				$(".dzp").css("cursor","pointer");
+				$(".msg").text(p);
+			}
+		});
+		return false;
+		$.ajax({
+			type: 'POST',
+			url: '{:U("bocake")}',
+			dataType: 'json',
+			cache: false,
+			error: function(){
+				//alert('出错了！');
+				//return false;
+			},
+			success:function(json){
+				var a = parseInt(json.angle); //角度
+				var p = json.prize;//奖项
+				var n = json.num;//剩余抽奖次数
+				if  (json.MsgCode<0){
+					$(".msg").text("您今天的抽奖次数已经用完，明天再来吧");
+					return false;
+				}
+				if(p!="" && a!=0){
+					$(".dzp").rotate({
+						duration:3000, //转动时间
+						angle: 0, //默认角度
+						animateTo:3600+a, //转动角度
+						easing: $.easing.easeOutSine,
+						callback: function(){
+							$(".dzp").css("cursor","pointer");
+							$(".msg").text(p);
+						}
+					});
+				}else{
+					alert("您已经没有抽奖次数了！");
+				}
+			}
+		})
+	})
+}
+//弹窗
+function getMsg(txt,img,htm){
+	$(".lmsga").attr("src",img);
+	$(".lmsgb").html(txt);
+	$(".lmsgc").html(htm);
+	$(".msg").removeClass("hidden");
+	$(".msg").addClass("open");
+}
+</script>
