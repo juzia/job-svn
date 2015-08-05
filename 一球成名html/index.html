@@ -13,11 +13,9 @@
 	<link rel="stylesheet" type="text/css" href="css/reset.css" >
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link type="text/css" rel="stylesheet" href="css/flexslider.css">
-	<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css">
 	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-	<script type="text/javascript" src="js/jquery.mmenu.min.all.js"></script>
 	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
-	<script type="text/javascript" src="js/o-script.js"></script>
+
 </head>
 <body>
 	<div class="page1" >
@@ -28,23 +26,23 @@
 				<section class="slider">
 					<div class="flexslider">
 						<ul class="slides">
-							<li><a href="javascript:;"><img src="img/pic1.png" alt="UU海客" />
+							<li class="pro1 " data-price="6"><a href="javascript:;"><img src="img/pic1.png" alt="UU海客" />
 								<span class="txt">维生素功能饮料 原味</span>
 							</a></li>
-							<li><a href="javascript:;"><img src="img/pic1.png" alt="UU海客" />
-								<span class="txt">维生素功能饮料 原味2</span>
+							<li class="pro2" data-price="15"><a href="javascript:;"><img src="img/pic3.png" alt="UU海客" />
+								<span class="txt">维他可可 </span>
 							</a></li>
-							<li><a href="javascript:;"><img src="img/pic1.png" alt="UU海客" />
-							<span class="txt">维生素功能饮料 原味3</span></a></li>
-							<li><a href="javascript:;"><img src="img/pic1.png" alt="UU海客" />
-							<span class="txt">维生素功能饮料 原味4</span></a></li>
+							<li class="pro3" data-price="4"><a href="javascript:;"><img src="img/pic4.png" alt="UU海客" />
+							<span class="txt">果倍爽</span></a></li>
+							
 						</ul>
 					</div>
 				</section>
 			</div>
 
-			<div class="total"><div class="count fl"><span class="s2 fl">数量 </span> <span class="s1 fl"><input type="text"/>罐</span></div>
-				<div class="money fr"><span class="s2 fl">金额 </span> <span class="s1 fl"><input type="text" readonly/>元</span> </div>
+			<div class="total"><div class="count fl"><span class="s2 fl">数量 </span> <span class="s1 fl">
+				<input type="text" class="pronum"/>罐</span></div>
+				<div class="money fr"><span class="s2 fl">金额 </span> <span class="s1 fl"><input type="text" readonly class="totalmoney"/>元</span> </div>
 			</div>
 			<div class="btn"><a href="javascript:;" class="btn-pay js-pay"><img src="img/paybtn.png" /></a></div>
 		</section>
@@ -60,9 +58,9 @@
 	<div class="pop-box order-confirm">
 		<a href="javascript:;" class="btn-close js-close"><img src="img/icon-close.png" alt="" /></a>
 		<div class="pop-in">
-			<p>购买产品：<span>红牛维生素饮料</span></p>
-			<p>购买熟料： <span>4罐</span></p>
-			<p>支付金额：<span>20元</span></p>
+			<p>购买产品：<span class="product-name"></span></p>
+			<p>购买熟料： <span><em class="order-num"></em>罐</span></p>
+			<p>支付金额：<span><em class="order-total"></em>元</span></p>
 			<p><a href="javascript:;" class="btn-pay1 js-pay-comfirm"><img src="img/paybtn1.png" /></a></p>
 			<p class="warning">温馨提示：支付后将不可退款!</p>
 		</div>
@@ -86,6 +84,7 @@
 <p>8.  用户成功兑换购买饮料后，即交易结束；</p>
 <p>9.用户购买成功后，可在活动首页【我的订单】中查寻订单详情；</p>
 <p>10.获得现金红包的用户需至微信对话框中查收。</p>
+<p class="p5">温馨提示：用微信扫一扫方式购买红牛，仅限“一球成名”泉州领SHOW活动促销现场购买领取饮料。一经售出概不退款退货。其他区域用户请谨慎操作，若不慎购买后，将无法配送或退货。敬请谅解。</p>
 		</div>
 
 		<div class="redbowimg">
@@ -144,21 +143,54 @@
 		// 立即支付
 
 		$('.js-pay').click(function() {
-			$('.order-confirm').show();
-			$('.mask').show();
+		
+
+			if( $('.pronum').val()) {
+				$('.order-confirm').show();
+				$('.mask').show();
+				$('.product-name').text(proname);
+				$('.order-num').text($('.pronum').val());
+				$('.order-total').text($('.totalmoney').val());
+
+			} else{
+
+				alert('请先选择产品');
+				return false;
+			}
 		})
 
 		// 确认支付
 
 		$('body').on('click', '.js-pay-comfirm', function(){
-
-			$('.pay-loading').show();
-			$('.order-confirm').hide();
-
+				$('.pay-loading').show();
+				$('.order-confirm').hide();
+				
+		
 		})
 
+		var  price = 6,
+		proname = '维生素功能饮料 原味', total;
+		$(window).load(function() {
+		  $('.flexslider').flexslider({
+		    animation: "slide",
+		    slideDirection: "horizontal", 
+		     after: function(){
+		      price = $('.flex-active-slide').data('price');
+		      proname = $('.flex-active-slide .txt').text();
+		      if($('.pronum').val()) {
+		      	$('.totalmoney').val(parseInt($('.pronum').val(),10) * price);
+		      }
+		    
+		    }
+		  });
+		});
 
-		
+	 $('.pronum').change(function() {
+	 	var total = parseInt($(this).val(),10) * price;
+	 	$('.totalmoney').val(total);
+	 })
+
 	</script>
+
 </body>
 </html>

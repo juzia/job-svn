@@ -3,7 +3,7 @@ body{font-size: 62.5%;font-family: 'Microsoft yahei'}
 .page1{ background: url(../img/bg.jpg) center top no-repeat;/* background-size: 100% 100%;*/background-size:cover;
 	/*background-repeat:no-repeat;background-size:cover;-moz-background-size:cover;-webkit-background-size:cover;*/
 }
-
+em{font-style: normal;}
 .logo{padding:1em 2%; display: inline-block;}
 .logo img{max-width: 70%}
 
@@ -17,7 +17,7 @@ body{font-size: 62.5%;font-family: 'Microsoft yahei'}
 .total{width: 90%; margin: 0 5%; height: 2.9em; line-height: 2.8em}
 .total .s1{ background: #fff; border-radius: 5px; height: 1.875em; display: inline-block; padding: 0 5px; width: 68%; line-height: 1.7em; font-size:1.5em ; color: #333; }
 .total .s2{font-size: 1.5em; color: #fff; padding-right: 3px;}
-.total input{ border: 0; width: 80%; color: #eb3434}
+.total input{ border: 0; width: 75%; color: #eb3434}
 .total .count, .total .money{ width: 48%;}
 
 .btn-pay{ width: 90%; margin:0.8em 5% 0.5em;   display: inline-block;}
@@ -76,20 +76,24 @@ body{font-size: 62.5%;font-family: 'Microsoft yahei'}
 .order-list li .ending{background: #b9b9b9; color: #fff;}
 
 
-.rule-box{background: url(../img/rule.jpg) no-repeat;background-size: 100% 100%; top: 10%}
+.rule-box{background: url(../img/rule.jpg) no-repeat;background-size: 100% 100%; top: 4%; position: absolute;}
 .rule-box p{font-size: 1.35em}
 .rule-box p span{ color: #ffff00}
-.rule-box .btn-close{top: -6%}
-.rule-box .pop-in{ padding-top: 70px;  padding-bottom: 60px}
+.rule-box .btn-close{top: -3%}
+.rule-box .pop-in{ padding-top: 70px;  padding-bottom: 60px;padding: 50px 3% 18px;}
+.rule-box .p5{ font-size: 0.8em; color: #ffe400}
 .redbowimg{position: absolute; bottom: -10%; right: -13%;}
-.redbowimg img{width: 55%; }
+.redbowimg img{width: 45%; }
 
 .sorry-box{background: url(../img/bg5.jpg) no-repeat; background-size: 100% 100%}
 .sorry-box .p1{ color: #fff; font-size: 3em; text-align: center;}
 .sorry-box .p2{ color: #fff; font-size: 2.25em; text-align: center;}
 
+.flexslider .slides .pro3  img{ max-width: 56%}
+.flexslider .slides .pro2  img{ max-width: 18%}
+
 @media only screen and (max-width:320px) {  
-	.pop-box p ,.product-info p{ font-size: 1.35em}
+	.pop-box p ,.product-info p{ font-size: 1.2em}
 	.order-list li img{ width: 15%;}
 	.btn-detail { margin-top: 1px}
 	.order-detail p{color: #fff; font-size: 1.5em}
@@ -106,3 +110,14 @@ body{font-size: 62.5%;font-family: 'Microsoft yahei'}
 
 
 }
+
+@media only screen and (max-height: 480px) {  
+ #section1{  margin-top: 35%}
+.bannerPane .flexslider .slides .pro3  img{ max-width: 52%}
+.bannerPane .flexslider .slides .pro2  img{ max-width: 16%}
+.bannerPane .flexslider .slides img{ max-width: 28%;}
+.btn-pay{ margin:0.5em 10% ;  max-width: 80% }
+.total input{ width: 73%}
+
+}
+
