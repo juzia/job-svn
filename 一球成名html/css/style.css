@@ -12,15 +12,16 @@ em{font-style: normal;}
 /**/
 .fl{float: left;}
 .fr{float: right;}
-#section1{ margin-top: 44%}
+#section1{ margin-top: 40%}
 .flexslider .txt{display: block; color: #fff; font-size:1.5em; font-family: 'Microsoft yahei'  }
 .total{width: 90%; margin: 0 5%; height: 2.9em; line-height: 2.8em}
-.total .s1{ background: #fff; border-radius: 5px; height: 1.875em; display: inline-block; padding: 0 5px; width: 68%; line-height: 1.7em; font-size:1.5em ; color: #333; }
-.total .s2{font-size: 1.5em; color: #fff; padding-right: 3px;}
-.total input{ border: 0; width: 75%; color: #eb3434}
+.total .s1{  position: relative; height: 1.875em;  display: inline-block; width: 68%; line-height: 1.7em; font-size:1.5em ; color: #333; }
+.total .s2{font-size: 1.45em; color: #fff; padding-right: 3px;}
+.total .s3{ position: absolute; right: 2px; top: 0; z-index: 2}
+.total input{ border: 0; width: 97%; color: #eb3434; padding-left: 2%;  top: 0; left: 0; height: 1.5em; overflow: hidden; position: absolute; border-radius: 5px;}
 .total .count, .total .money{ width: 48%;}
 
-.btn-pay{ width: 90%; margin:0.8em 5% 0.5em;   display: inline-block;}
+.btn-pay{ width: 90%; margin:0.5em 5% 0.5em;   display: inline-block;}
 
 #section2 {width: 90%; margin: 0 5%;}
 #section2 a{ display: inline-block; width: 48%;}
@@ -66,7 +67,7 @@ em{font-style: normal;}
 .orderlist-box .bd{ min-height: 350px;}
 .order-list { padding: 1em 5%;}
 .order-list li{ background: #d02424; border-top-right-radius: 22px; border-bottom-right-radius: 22px; overflow: hidden; margin-bottom: 15px;}
-.order-list li img{ width: 16%;}
+.order-list li img{ width: 18%; margin-top: 8px;}
 .order-detail p{color: #fff; font-size: 1.5em}
 .order-detail .date{ font-size: 1.25em}
 .btn-detail{margin-right: 4px; border-radius: 50%; color: #d02424; margin-top: 0.35em; font-size: 1.375em ; background: #fff; width: 3.7em; height: 3.7em; text-align: center; position: relative;}
@@ -89,8 +90,8 @@ em{font-style: normal;}
 .sorry-box .p1{ color: #fff; font-size: 3em; text-align: center;}
 .sorry-box .p2{ color: #fff; font-size: 2.25em; text-align: center;}
 
-.flexslider .slides .pro3  img{ max-width: 56%}
-.flexslider .slides .pro2  img{ max-width: 18%}
+.flexslider .slides .pro3  img{ max-width: 54%}
+.flexslider .slides .pro2  img{ max-width: 16%}
 
 @media only screen and (max-width:320px) {  
 	.pop-box p ,.product-info p{ font-size: 1.2em}
@@ -117,7 +118,5 @@ em{font-style: normal;}
 .bannerPane .flexslider .slides .pro2  img{ max-width: 16%}
 .bannerPane .flexslider .slides img{ max-width: 28%;}
 .btn-pay{ margin:0.5em 10% ;  max-width: 80% }
-.total input{ width: 73%}
 
 }
-
