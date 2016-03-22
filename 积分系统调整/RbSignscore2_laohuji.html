@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>红牛 </title>
+	<!-- <link rel="stylesheet" href="Css/style.css" type="text/css" media="screen"/> -->
+	<link href="http://fj.sinaimg.cn/fj_2015_v2/redbull/laohuji/Css/common.css" rel="stylesheet" type="text/css"/>
+	<link href="http://fj.sinaimg.cn/fj_2015_v2/redbull/laohuji/Css/fuma.css?v=3" rel="stylesheet" type="text/css"/>
+    <style>
+        input::-webkit-input-placeholder {
+            color: #f2c950;
+        }
+        .machinePrize{
+            height: 18%;
+            width: 100%;
+            position: absolute;
+            top: 29.5%;
+            z-index: 1288;
+            overflow: hidden;
+            text-align: center;
+        }
+        .num{background:url('http://fj.sinaimg.cn/fj_2015_v2/redbull/laohuji/Images/slotPhone.png') top center repeat-y; float: left;
+            height: 600%;
+            width: 22%;
+            margin-left: 7%;
+            background-size: 100% 100%;
+        }
+		.num{background:url('http://ww3.sinaimg.cn/large/62fb682bgw1et12leqvdij204u0y80uc.jpg') top center repeat-y; float: left;
+            height: 600%;
+            width: 22%;
+            margin-left: 7%;
+            background-size: 100% 100%;
+        }
+		.chance-box{ text-align: center; background: #ae0000; width: 100%;position:absolute;top:59%}
+		.chance-box .txt{ margin: 0 30%; width: 40%; display: inline-block; border:1px solid #fff;  font-weight: normal;
+		 color: #fff; font-size: 0.8em; font-family: 'microsoft yahei' ; border-radius: 20px;}
+		 .chance-box .txt em{ font-style: normal; font-weight: bold; color: #ffd200} 
+		 .oz{ overflow: hidden; *zoom:1;}
+        
+    </style>
+
+</head>
+<body>
+	<div class="bg" id="fumabg"></div>
+	<div class="shareBg" onclick="closeShareBg();" style="background-color:rgba(0,0,0,0.5)" >&nbsp;</div>
+	<!--次数用完弹窗-->
+	<div id="noTimesBox" style="position:fixed;top:0;left:0;height:100%;width:100%;z-index:1004;background-color:rgba(0,0,0,0.3);display: none;">
+        <div style="width:100%;height:auto;top:15%;position:fixed;overflow:auto;left:5%; ">
+            <img src="http://fj.sinaimg.cn/fj_2015_v2/redbull/laohuji/Images/fuAlertNone.png" style="width:90%;z-index:1005" />
+            <div onclick="backZaDan();" style="  position: absolute;top: 74%;width: 42%;height: 15%;z-index: 1007;left: 45%;transform: translateX(-50%);-webkit-transform: translateX(-50%);"></div>
+        </div>
+    </div>
+    <!--中奖信息提示弹窗-->
+    <div id="lotteryBox" style="position:fixed;top:0;left:0;height:100%;width:100%;z-index:1004;background-color:rgba(0,0,0,0.3);display: none;">
+        <div style="width:100%;height:auto;top:15%;position:fixed;overflow:auto;left:5%; ">
+            <img src="http://fj.sinaimg.cn/fj_2015_v2/redbull/laohuji/Images/fuAlertGood.png" style="width:90%;z-index:1005" />
+            <div style=" position: absolute;top: 35%;color:#f43701;width: 42%;z-index: 1007;left: 45%;transform: translateX(-50%);-webkit-transform: translateX(-50%);font-size:6vw;"><strong>恭喜你获得了</strong><strong id="getthing"></strong></div>
+            <div id="fumaAddMsgBtn" onclick="alertInfoBox();"  style="background-image: url('http://fj.sinaimg.cn/fj_2015_v2/redbull/laohuji/Images/fuAlertGoodFbtn.png');background-size:100% 100%;display:block;  position: absolute;top: 74%;width: 42%;height: 15%;z-index: 1007;left: 45%;transform: translateX(-50%);-webkit-transform: translateX(-50%);"></div>
+        </div>
+    </div>
+    <!--个人信息弹窗-->
+    <div id="infoBox" style="position:fixed;top:0;left:0;height:100%;width:100%;z-index:1004;background-color:rgba(0,0,0,0.3);display: none;">
+        <div style="width:100%;height:auto;top:15%;position:fixed;overflow:auto;left:5%; ">
+            <img src="http://fj.sinaimg.cn/fj_2015_v2/redbull/laohuji/Images/fuAlertInfo.png" style="width:90%;z-index:1005" />
+            <div class="name" style="position: absolute;top: 28%;width: 42%;height: 10%;z-index: 1007;left: 29%;">
+                <input style="line-height: 200%;width: 101%;height:100%;background-color:transparent;display:block;border:0;" type="text" id="name"/>
+            </div>
+            <div  style="position: absolute;top: 42%;width: 42%;height: 10%;z-index: 1007;left: 29%;">
+                <input style="line-height: 200%;width: 101%;height:100%;background-color:transparent;display:block;border:0;" type="text" id="phone"/>
+            </div>
+            <div class="address" style="position: absolute;top: 55%;width: 42%;height: 10%;z-index: 1007;left: 29%;">
+                <input style="line-height: 200%;width: 101%;height:100%;background-color:transparent;display:block;border:0;" type="text" id="address"/><input type='hidden' id="in_id">
+            </div>
+            <div onclick="alertSureBox();" style="  position: absolute;top: 74%;width: 42%;height: 15%;z-index: 1007;left: 45%;transform: translateX(-50%);-webkit-transform: translateX(-50%);">
+            </div>
+
+			 
+        </div>
+    </div>
+	<!--提交成功弹窗-->
+	<div id="successSubmitBox" style="position:fixed;top:0;left:0;height:100%;width:100%;z-index:1004;background-color:rgba(0,0,0,0.3);display: none;">
+        <div style="width:100%;height:auto;top:15%;position:fixed;overflow:auto;left:5%; ">
+            <img src="http://fj.sinaimg.cn/fj_2015_v2/redbull/laohuji/Images/fuAlertTellFriend.png" style="width:90%;z-index:1005" />
+            <div onclick="shareFriend();" style="  position: absolute;top: 74%;width: 42%;height: 15%;z-index: 1007;left: 45%;transform: translateX(-50%);-webkit-transform: translateX(-50%);"></div>
+        </div>
+    </div>
+    <!--正在提交的弹出框-->
+    <div id="senddingBox" style="position:fixed;top:0;left:0;height:100%;width:100%;z-index:1004;background-color:rgba(0,0,0,0.3);display: none;">
+        <div style="width:100%;height:auto;top:15%;position:fixed;overflow:auto;left:5%; ">
+            <img src="http://fj.sinaimg.cn/fj_2015_v2/redbull/laohuji/Images/fuAlertBoxS.png" style="width:90%;z-index:1005" />
+            <div style=" position: absolute;top: 35%;color:#f43701;width: 42%;z-index: 1007;left: 45%;transform: translateX(-50%);-webkit-transform: translateX(-50%);font-size:8vw;"><strong id="senddingtext">正在送。。。</strong></div>
+        </div>
+    </div>
+	<!--未中奖弹窗-->
+	<div id="loseBox" style="position:fixed;top:0;left:0;height:100%;width:100%;z-index:1004;background-color:rgba(0,0,0,0.3);display: none;">
+        <div style="width:100%;height:auto;top:15%;position:fixed;overflow:auto;left:5%; ">
+            <img src="http://fj.sinaimg.cn/fj_2015_v2/redbull/laohuji/Images/fuAlertMiss.png" style="width:90%;z-index:1005" />
+            <div onclick="backGame();" style="  position: absolute;top: 74%;width: 42%;height: 15%;z-index: 1007;left: 45%;transform: translateX(-50%);-webkit-transform: translateX(-50%);"></div>
+        </div>
+    </div>
+	<div class="main" id="maincontent">
+        <div class="machinePrize">
+            <div class="num"></div>
+            <div class="num"></div>
+            <div class="num"></div>
+        </div>
+		<div class="startToLottery" id="slotMachineButton">
+			<span style="display:none;">开始抽奖</span>
+			
+		</div>
+        <div class="chance-box oz"> <span class="txt">您还有<em>x</em>次机会</span> </div>
+		
+	</div>
+	
+	<script src="http://fj.sinaimg.cn/fj_2015_v2/redbull/laohuji/Js/jquery.min.js"></script>
+    <script type="text/javascript" src="http://fj.sinaimg.cn/fj_2015_v2/redbull/laohuji/Js/easing.js"></script>
+     
+	<script>
+        //		将背景图设置为固定高度
+        var windowWith = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+        var windowHeight=(window.innerHeight > 0) ? window.innerHeight : screen.height;
+		
+        $("#fumabg").css("width",windowWith);
+        $("#fumabg").css("height",windowHeight);
+        $("#maincontent").css("width",windowWith);
+        $("#maincontent").css("height",windowHeight);
+		//抽奖次数,默认3次
+		var times=3;
+		//填写个人信息弹窗
+        function alertInfoBox(){
+            $("#lotteryBox").css("display","none");
+            $("#infoBox").css("display","block");
+        }
+		//确认提交弹窗
+        //确认提交弹窗
+        function alertSureBox(){
+            var name=$("#name").val().trim();
+			
+			var in_id=$("#in_id").val().trim();
+            if(name=="")
+            {
+                alert("姓名不可为空!!!");
+                $("#name").focus();
+                return false;
+            }
+            var phone=$("#phone").val().trim();
+            if(phone=="")
+            {
+                alert("手机不可为空!!!");
+                $("#phone").focus();
+                return false;
+            }
+            if(!(/^\d+$/.test(phone))||phone.length!=11)
+            {
+                alert("请输入正确号码！");
+                $("#phone").focus();
+                return false;
+            }
+            var address=$("#address").val().trim();
+            if(address=="")
+            {
+                alert("地址不可为空！");
+                $("#address").focus();
+                return false;
+            }
+            $("#infoBox").css("display","none");
+            $("#senddingtext").html("正在提交。。。");
+            $("#senddingBox").css("display","block");
+            var url="./index.php?g=Wap&m=RbSignscore2&a=saveInfo";
+            $.ajax({
+                type:"POST",
+                url:url,
+                data:{name:name, tel:phone,addr:address,in_id:in_id},
+                datatype:"text",
+                success:function(data) {
+                    data=JSON.parse(data);
+                    if(data.err==0)
+                    {
+                        $("#senddingBox").hide();
+                        $("#successSubmitBox").show();
+                    }
+                    else
+                    {
+                        alert(data.errmsg);
+                    }
+                }
+            })
+        }
+		//约战好友遮盖层
+		function shareFriend(){
+            $("#successSubmitBox").css("display","none");
+			//$(".shareBg").css("display","block");
+		}
+        function shareFriendt()
+        {
+            $("#lotteryBox").hide();
+            $(".shareBg").css("display","block");
+        }
+		//关闭分享和约战好友弹窗
+		function closeShareBg(){
+			$(".shareBg").css("display","none");
+		}
+		//关闭失败弹窗，返回抽奖
+		function backGame(){
+			$("#loseBox").css("display","none");
+		}
+		//关闭次数用完弹窗
+		function backZaDan(){
+			$("#noTimesBox").css("display","none");
+		}
+		//关闭提示弹窗
+		function closeBox(){
+			$("#remindMsgBox").css("display","none");
+		}
+				$(document).ready(function(){
+//老虎机
+                    var isBegin = false;
+                    //手机屏幕分辨率
+                    //手机屏幕分辨率
+                    var mp_h=$(".machinePrize").height();
+                     $(".machinePrize").height(mp_h);
+                     $(".num").height(mp_h*7);
+                    var u = mp_h;
+                    function numRand() {
+                        var x = 999; //上限
+                        var y = 111; //下限
+                        var rand = parseInt(Math.random() * (x - y + 1) + y);
+                        return rand;
+                    }
+					$("#slotMachineButton").click(function(){
+                        if(isBegin) return false;
+                        isBegin = true;
+                        $(".num").css('backgroundPositionY',0);
+                        var result = numRand();
+						issendding=0;
+						var fjid=1;
+                        var url ='./index.php?g=Wap&m=RbSignscore2&a=laohujicj';
+                        $.ajax({
+							type:"POST",
+							url:url,
+							data:{},
+							datatype:"text",
+							success:function(data) {
+								data=JSON.parse(data);
+								if(data.err==0)
+								{
+								    var fmcjResult=data['prizeid'];//1,2,3,4,,5,6;
+									$("#in_id").val(data['in_id']);
+									var rp = Math.floor(Math.random()*7);
+									$(".num").each(function(index){
+										var _num = $(this);
+										setTimeout(function(){
+											if(fmcjResult==0){
+												//未中奖
+												rp = rp+1;
+                                                if(rp>7){
+												    rp = 1;
+												}
+												var xx = rp-1;
+												
+												_num.animate({
+													backgroundPositionY: (u*70)+xx*u
+												},{
+													duration: 6000+index*1000,
+													easing: "easeInOutCirc",
+													complete: function(){
+														if(index==2)
+														{
+															isBegin = false;
+															$("#loseBox").show();
+														}
+													}
+												});
+											}else{
+												/*中奖:
+												 1:苹果手表
+												 2:10元话费
+												 3:30元话费
+												 4:50元话费
+												 5:100元话费
+												 6:200元话费
+												 */
+												_num.animate({
+													backgroundPositionY: (u*70)+(fmcjResult-1)*u
+												},{
+													duration: 6000+index*1000,
+													easing: "easeInOutCirc",
+													complete: function(){
+														if(index==2)
+														{
+															isBegin = false;
+															
+															if(fjid==0)
+															{
+																$("#loseBox").show();
+															}
+															else
+															{
+																$("#getthing").html(data['prizename']);
+																$("#lotteryBox").show();
+															}
+														}
+													}
+												});
+											}
+										}, index * 300);
+									}); 	 
+                                     
+
+                                 //结束
+								}
+								else
+								{
+									alert(data.errmsg);
+								}
+							}
+						})
+                                
+					})
+				});
+			</script>
+            
+</body>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+
+<script src="http://fj.sinaimg.cn/fj_2015_v2/redbull/img/fx.js"></script>
+</html> 
